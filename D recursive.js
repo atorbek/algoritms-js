@@ -22,6 +22,7 @@ const rl = readline.createInterface({
   input: process.stdin
 });
 rl.on('line', (line) => {
-  genAllBracketSequence(+line, 0, 0, []);
+  const array = new Array(+line * 2);
+  genAllBracketSequence(+line, 0, 0, array);
   process.stdout.write(allBracketSequence.join('\n'));
 });
