@@ -1,4 +1,4 @@
-const readline = require('readline');
+const fs = require('fs');
 
 const qSort = (array) => {
   const lenArr = array.length;
@@ -15,25 +15,26 @@ const qSort = (array) => {
   return [...qSort(less), pivot, ...qSort(greater)];
 };
 
-const rl = readline.createInterface({
-  input: process.stdin
-});
-
-let lines = [];
-let count = 0;
-rl.on('line', (line) => {
-  count++;
-  if (count > 1) {
-    lines = [
-      ...lines,
-      ...line
-        .split(' ')
-        .slice(1)
-        .map((val) => +val)
-    ];
+fs.readFile('input.txt', 'utf8', (err, data) => {
+  if (err) {
+    throw err;
   }
-});
 
-rl.on('close', () => {
-  process.stdout.write(qSort(lines).join(' '));
+  let arr = data.split('\n');
+  arr.shift();
+
+  for (let i = 0; i < arr.length; i++) {
+    arr[i] = arr[i].slice(2);
+  }
+
+  arr = arr
+    .join(' ')
+    .split(' ')
+    .map((val) => +val);
+
+  arr = qSort(arr);
+
+  fs.writeFile('output.txt', arr.join(' '), (err) => {
+    if (err) throw err;
+  });
 });
