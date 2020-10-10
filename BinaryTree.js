@@ -51,6 +51,23 @@ class BinaryTreeNode {
   }
 
   /**
+   * Ищет ноду по переданным данным.
+   *
+   * @param {Data} data
+   * @returns {BinaryTreeNode | null}
+   */
+  search(data) {
+    console.log(data);
+    if (data > this.data) {
+      return this.left.search(data);
+    }
+    if (data < this.data) {
+      return this.right.search(data);
+    }
+    return this;
+  }
+
+  /**
    * Удаляет ноду по переданным данным.
    * Обходит всех детей, чтобы найти ноду.
    *
@@ -69,22 +86,6 @@ class BinaryTreeNode {
     this.data = aux.data;
 
     this.right = this.right.remove(aux.data);
-  }
-
-  /**
-   * Ищет ноду по переданным данным.
-   *
-   * @param {Data} data
-   * @returns {BinaryTreeNode | null}
-   */
-  search(data) {
-    if (data > this.data) {
-      return this.left.search(data);
-    }
-    if (data < this.data) {
-      return this.right.search(data);
-    }
-    return this;
   }
 
   /**
@@ -117,12 +118,12 @@ class BinaryTreeNode {
   preorder(callback) {
     callback(this.data);
 
-    if (this.right !== null) {
-      this.right.preorder(callback);
+    if (this.left !== null) {
+      this.left.preorder(callback);
     }
 
-    if (this.left !== null) {
-      this.left.inorder(callback);
+    if (this.right !== null) {
+      this.right.preorder(callback);
     }
 
     return this;
@@ -179,14 +180,10 @@ BinaryTreeNode.create(10, 5, 13, 7, 20, 12).postorder((data) => {
 
 output = output + '\n';
 
-BinaryTreeNode.create(10, 5, 13, 7, 20, 12).search((data) => {
-  output += data + '-';
-});
+BinaryTreeNode.create(10, 5, 13, 7, 20, 12).search(13);
 
 // output = output + '\n';
 //
-// BinaryTreeNode.create(10, 5, 13, 7, 20, 12).delete((data) => {
-//   output += data + '-';
-// });
+// BinaryTreeNode.create(10, 5, 13, 7, 20, 12).remove(13);
 
 console.log(output);
