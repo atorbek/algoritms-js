@@ -12,10 +12,17 @@ function isMonotone(arr) {
   return true;
 }
 
+function isMonotone2(arr) {
+  return (
+    arr.every((item, i, arr) => (i ? item >= arr[i - 1] : true)) ||
+    arr.every((item, i, arr) => (i ? item <= arr[i - 1] : true))
+  );
+}
+
 console.log(isMonotone([0, 1, 5, 9, 15]));
 console.log(isMonotone([0, 1, 1, 5, 9, 9, 15]));
 console.log(isMonotone([15, 8, 4, 2, 1]));
 console.log(isMonotone([15, 8, 4, 2, 1, 2]));
 console.log(isMonotone([15, 8, 4, 2, 2, 1, 15]));
-console.log(isMonotone([15, 20, 25, 30, 35, 40, 40, 15]));
+console.log(isMonotone([15, 15, 20, 25, 30, 35, 40, 40, 15]));
 console.log(isMonotone([0, 1, 5, 15, 4]));
