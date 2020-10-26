@@ -3,28 +3,24 @@
  * @return {number}
  */
 const lengthOfLongestSubstring = function (s) {
-  let tmp1 = '';
-  let tmp2 = '';
+  const strLen = s.length;
+  let ans = 0;
 
-  const arrS = [...s];
+  for (let first = 0; first < strLen; first++) {
+    const tmp = [];
+    for (let i = first; i < strLen; i++) {
+      let char = s[i];
 
-  for (let i = 0; i < arrS.length; i++) {
-    if (tmp2.includes(arrS[i])) {
-      if (tmp2.length > tmp1.length) {
-        tmp1 = tmp2;
+      if (tmp[char]) {
+        break;
       }
 
-      tmp2 = '';
+      tmp[s.charAt(i)] = true;
+      ans = Math.max(ans, i - first + 1);
     }
-
-    tmp2 += arrS[i];
   }
 
-  if (tmp2.length > tmp1.length) {
-    tmp1 = tmp2;
-  }
-
-  return tmp1.length;
+  return ans;
 };
 
-console.log(lengthOfLongestSubstring('dvdf'));
+console.log(lengthOfLongestSubstring('abcabcbb'));
