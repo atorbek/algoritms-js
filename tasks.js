@@ -82,10 +82,28 @@ function expand(template, data) {
 }
 
 function intervals(arr) {
+  if (!arr.length) {
+    return '';
+  }
+  let fl = 0;
   const arrSorted = arr.sort((a, b) => a - b);
-  let ans = '';
+  let res = '';
 
-  //1,3,5,6,7 => 1,3,5-7
+  for (let i = 1; i < arrSorted.length; i++) {
+    if (Math.abs(arrSorted[i] - arrSorted[i - 1]) > 1) {
+      fl = 0;
+      res += `${arrSorted[i - 1]},`;
+    } else {
+      if (fl === 0) {
+        res += `${arrSorted[i - 1]}-`;
+        fl = 1;
+      }
+    }
+  }
+
+  res += `${arrSorted[arrSorted.length - 1]}`;
+
+  return res;
 }
 
 console.log(arrayToObject(array));
@@ -99,4 +117,4 @@ console.log(
   expand('Now {time} ascascc {foo}', { time: '14:30', foo: 'hello' })
 );
 
-console.log(intervals([1, 6, 7, 5, 3]));
+console.log(intervals([3, 2, 1, 5, 6, -1, 10]));
