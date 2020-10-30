@@ -106,6 +106,39 @@ function intervals(arr) {
   return res;
 }
 
+const urls = ['url1', 'url1', 'url2', 'url3', 'url4', 'url4'];
+const limit = 5;
+
+function fetch(url) {
+  return new Promise((resolve) => resolve(url)).catch((reject) =>
+    reject(`error by ${url}`)
+  );
+}
+
+function fetchData(urls, limit, callback) {
+  const cache = new Map();
+  let result = [];
+
+  for (let i = 0; i < urls.length; i++) {
+    const url = urls[i];
+
+    if (i === limit) {
+      break;
+    }
+
+    const cacheData = cache.get(url);
+
+    if (cacheData) {
+      result.push(Promise.resolve(cacheData));
+    } else {
+      result.push(fetch(url));
+      cache.set(url, result);
+    }
+  }
+
+  return callback(result);
+}
+
 console.log(arrayToObject(array));
 console.log(arrayToObject1(array));
 console.log(filterObjectProps(object));
@@ -118,3 +151,8 @@ console.log(
 );
 
 console.log(intervals([3, 2, 1, 5, 6, -1, 10]));
+fetchData(urls, limit, (urls) =>
+  urls.map(async (url) => {
+    console.log(await url);
+  })
+);

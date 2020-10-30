@@ -46,4 +46,4 @@ function torrentClient({ chunkCount, emitter: { on } }) {
   });
 }
 
-console.log(torrentClient(objWithError));
+console.log(torrentClient(obj));
