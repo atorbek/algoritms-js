@@ -64,6 +64,7 @@ const maxElementInArray = (array, cb) => {
       while (await promisifyLess(count, len)) {
         const item = await getValue(count);
         result = await sum(result, item);
+        a;
         count = await sum(count, 1);
       }
 
