@@ -5,7 +5,6 @@ const user = {
 
 user.name = 'Pete';
 delete user.name;
-
 console.log(user);
 
 let schedule = {};
@@ -19,6 +18,8 @@ function isEmpty(obj) {
   return true;
 }
 
+/* ----------------------------------------- */
+
 let salaries = {
   John: 100,
   Ann: 160,
@@ -29,6 +30,8 @@ function sum(obj) {
 }
 
 console.log(isEmpty(schedule));
+
+/* ----------------------------------------- */
 
 let menu = {
   width: 200,
