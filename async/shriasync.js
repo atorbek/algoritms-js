@@ -58,16 +58,16 @@ const maxElementInArray = (array, cb) => {
       const sum = promisify(add);
       const promisifyLess = promisify(less);
       let len = await getLength();
-      let count = 0;
+      let index = 0;
       let result = 0;
 
-      while (await promisifyLess(count, len)) {
-        const item = await getValue(count);
+      while (await promisifyLess(index, len)) {
+        const item = await getValue(index);
 
         if (await promisifyLess(result, item)) {
           result = item;
         }
-        count = await sum(count, 1);
+        index = await sum(index, 1);
       }
 
       return result;
