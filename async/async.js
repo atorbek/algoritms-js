@@ -23,6 +23,16 @@ function baz(callback) {
   }, Math.random() * 100);
 }
 
+// function foo(str, cb) {
+//  return cb(str);
+// }
+
+// foo('hello', (str) => {
+//
+// return `${str} guys!`
+//
+// })
+
 const promisify = (f) => (...args) => {
   return new Promise((resolve) => {
     const cb = (result) => {

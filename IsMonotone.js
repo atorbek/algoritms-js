@@ -19,6 +19,8 @@ function isMonotone2(arr) {
   );
 }
 
+function isMonotone3(arr) {}
+
 console.log(isMonotone([0, 1, 5, 9, 15]));
 console.log(isMonotone([0, 1, 1, 5, 9, 9, 15]));
 console.log(isMonotone([15, 8, 4, 2, 1]));

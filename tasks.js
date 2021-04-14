@@ -21,6 +21,8 @@ function arrayToObject1(array) {
   }, {});
 }
 
+/* -------------------------------------------------------- */
+
 const object = { foo: '1', bar: '2', _baz: '3' };
 
 function filterObjectProps(object) {
@@ -33,6 +35,8 @@ function filterObjectProps(object) {
 
   return ans;
 }
+
+/* -------------------------------------------------------- */
 
 const str1 = '[sd<cdcdcw>dcv';
 const str2 = '[xsxs(sdcs)sdcs]';
@@ -50,6 +54,8 @@ function bracketValidate(str, ...brackets) {
   return counter % 2 === 0;
 }
 
+/* -------------------------------------------------------- */
+
 const foo = { a: { b: { c: 'hello!' } } };
 
 function getValueByObjectProps(obj, props) {
@@ -60,6 +66,8 @@ function getValueByObjectProps(obj, props) {
   }, obj);
 }
 
+/* -------------------------------------------------------- */
+
 const g = (n) => n + 1;
 const f = (n) => n * 2;
 
@@ -68,6 +76,8 @@ function compose(...fns) {
 }
 
 const h = compose(g, f);
+
+/* -------------------------------------------------------- */
 
 function expand(template, data) {
   let templ = template;
@@ -80,6 +90,8 @@ function expand(template, data) {
 
   return templ;
 }
+
+/* -------------------------------------------------------- */
 
 function intervals(arr) {
   if (!arr.length) {
@@ -105,6 +117,8 @@ function intervals(arr) {
 
   return res;
 }
+
+/* -------------------------------------------------------- */
 
 const urls = ['url1', 'url1', 'url2', 'url3', 'url4', 'url4'];
 const limit = 5;
@@ -156,3 +170,178 @@ fetchData(urls, limit, (urls) =>
     console.log(await url);
   })
 );
+
+/* -------------------------------------------------------- */
+
+function countRepeatChars(str) {
+  const stat = {};
+
+  for (let c of str) {
+    if (c in stat) {
+      stat[c] += 1;
+    } else {
+      stat[c] = 0;
+    }
+  }
+
+  return Object.entries(stat);
+}
+
+function countRepeatChars1(str) {
+  const stat = new Map();
+
+  for (let c of str) {
+    if (stat.has(c)) {
+      stat.set(c, stat.get(c) + 1);
+    } else {
+      stat.set(c, 0);
+    }
+  }
+
+  return [...stat];
+}
+
+console.log(countRepeatChars('abcbaccdba'));
+console.log(countRepeatChars1('abcbaccdba'));
+
+/* -------------------------------------------------------- */
+
+const arr = [10, 12, 15, 21];
+
+for (var i = 0; i < arr.length; i++) {
+  setTimeout(function () {
+    console.log('Index: ' + i + ', element: ' + arr[i]);
+  }, 3000);
+}
+
+// work variant 1
+for (var i = 0; i < arr.length; i++) {
+  setTimeout(
+    (function (i) {
+      return function () {
+        console.log('Index: ' + i + ', element: ' + arr[i]);
+      };
+    })(i),
+    3000
+  );
+}
+
+// work variant 2
+for (let i = 0; i < arr.length; i++) {
+  setTimeout(function () {
+    console.log('Index: ' + i + ', element: ' + arr[i]);
+  }, 3000);
+}
+
+/* -------------------------------------------------------- */
+
+console.log('1');
+
+setTimeout(function () {
+  console.log('2');
+}, 0);
+
+Promise.resolve().then(() => console.log('3'));
+
+console.log('4');
+
+function makeDroids() {
+  var droids = [];
+
+  /* test */
+  for (var i = 0; i < 10; i++) {
+    var droid = function () {
+      console.log('R2D' + i);
+    };
+    droids.push(droid);
+  }
+  /* test */
+
+  return droids;
+}
+
+for (let d of makeDroids()) {
+  d();
+}
+
+// work variant 1
+console.log('1');
+
+setTimeout(function () {
+  console.log('2');
+}, 0);
+
+Promise.resolve().then(() => console.log('3'));
+
+console.log('4');
+
+function makeDroids() {
+  var droids = [];
+
+  /* test */
+  for (var i = 0; i < 10; i++) {
+    var droid = (function (i) {
+      return function () {
+        console.log('R2D' + i);
+      };
+    })(i);
+    droids.push(droid);
+  }
+  /* test */
+
+  return droids;
+}
+
+for (let d of makeDroids()) {
+  d();
+}
+
+// work variant 2
+console.log('1');
+
+setTimeout(function () {
+  console.log('2');
+}, 0);
+
+Promise.resolve().then(() => console.log('3'));
+
+console.log('4');
+
+function makeDroids() {
+  var droids = [];
+
+  /* test */
+  for (let i = 0; i < 10; i++) {
+    var droid = function () {
+      console.log('R2D' + i);
+    };
+    droids.push(droid);
+  }
+  /* test */
+
+  return droids;
+}
+
+for (let d of makeDroids()) {
+  d();
+}
+
+/* ------------------------------------------------------ */
+
+var a = 5;
+setTimeout(function timeout() {
+  console.log('setTimeout' + a);
+  a = 10;
+}, 0);
+
+var p = new Promise(function (resolve, reject) {
+  console.log('Promise' + a);
+  a = 25;
+  resolve();
+});
+
+p.then(function () {
+  // some code
+});
+
+console.log('final' + a);
