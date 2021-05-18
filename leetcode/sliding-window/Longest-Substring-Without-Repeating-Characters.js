@@ -22,8 +22,33 @@
  * Input: s = ""
  * Output: 0
  */
-function lengthOfLongestSubstring(str, k) {}
+function lengthOfLongestSubstring(str) {
+  let f = 0;
+  let l = f;
+  let count = 0;
+
+  while (str.length >= l) {
+    const subStr = new Set([...str.substring(f, l)]);
+
+    if (subStr.size < l - f) {
+      if (count < subStr.size) {
+        count = subStr.size;
+      }
+      f++;
+      l++;
+    } else {
+      if (count < subStr.size) {
+        count = subStr.size;
+      }
+
+      l++;
+    }
+  }
+
+  return count;
+}
 
 let b = new Date().getMilliseconds();
-console.log(lengthOfLongestSubstring('havefunonleetcode', 5)); // O(n^2)
+console.log(lengthOfLongestSubstring('a')); // O(n^2)
 let e = new Date().getMilliseconds();
+console.log(e - b + 'ms');
