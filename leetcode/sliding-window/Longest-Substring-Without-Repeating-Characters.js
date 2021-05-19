@@ -49,6 +49,6 @@ function lengthOfLongestSubstring(str) {
 }
 
 let b = new Date().getMilliseconds();
-console.log(lengthOfLongestSubstring('a')); // O(n^2)
+console.log(lengthOfLongestSubstring('a')); // O(n)
 let e = new Date().getMilliseconds();
 console.log(e - b + 'ms');
