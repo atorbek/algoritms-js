@@ -1,4 +1,5 @@
 /**
+ * Description:
  * Given a binary array data, return the minimum number of swaps
  * required to group all 1’s present in the array together in any place in the array.
  *
@@ -27,9 +28,24 @@
  * Explanation:
  * One possible solution that uses 3 swaps is [0,0,0,0,0,1,1,1,1,1,1].
  */
-function minSwaps(str) {}
+function minSwaps(arr) {
+  const totalNumberOne = arr.reduce((acc, cur) => acc + cur, 0);
+  let result = 0;
+  let count = 0;
+  let left = 0;
+
+  for (let i = 0; i < arr.length; ++i) {
+    count += arr[i];
+    if (i - left + 1 > totalNumberOne) {
+      count -= arr[left];
+      ++left;
+    }
+    result = Math.max(result, count);
+  }
+  return totalNumberOne - result;
+}
 
 let b = new Date().getMilliseconds();
-console.log(minSwaps('a')); // O(n)
+console.log(minSwaps([1, 0, 1, 0, 1, 0, 0])); // O(n)
 let e = new Date().getMilliseconds();
 console.log(e - b + 'ms');
