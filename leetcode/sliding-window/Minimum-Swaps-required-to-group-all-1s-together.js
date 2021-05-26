@@ -28,21 +28,21 @@
  * Explanation:
  * One possible solution that uses 3 swaps is [0,0,0,0,0,1,1,1,1,1,1].
  */
-function minSwaps(arr) {
-  const totalNumberOne = arr.reduce((acc, cur) => acc + cur, 0);
-  let result = 0;
-  let count = 0;
+function minSwaps(binaryArray) {
+  const totalNumberOne = binaryArray.reduce((acc, cur) => acc + cur, 0);
+  let minSwaps = 0;
+  let sum = 0;
   let left = 0;
 
-  for (let i = 0; i < arr.length; ++i) {
-    count += arr[i];
+  for (let i = 0; i < binaryArray.length; ++i) {
+    sum += binaryArray[i];
     if (i - left + 1 > totalNumberOne) {
-      count -= arr[left];
+      sum -= binaryArray[left];
       ++left;
     }
-    result = Math.max(result, count);
+    minSwaps = Math.max(minSwaps, sum);
   }
-  return totalNumberOne - result;
+  return totalNumberOne - minSwaps;
 }
 
 let b = new Date().getMilliseconds();

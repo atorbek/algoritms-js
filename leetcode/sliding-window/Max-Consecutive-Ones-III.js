@@ -17,9 +17,32 @@
  * Explanation: [0,0,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1,1]
  * Bolded numbers were flipped from 0 to 1. The longest subarray is underlined.
  */
-function longestOnes(nums, k) {}
+function longestOnes(nums, k) {
+  let zeros = 0;
+  let res = 0;
+  let windowStart = 0;
+
+  for (let windowEnd = 0; windowEnd < nums.length; windowEnd++) {
+    if (nums[windowEnd] === 0) {
+      zeros++;
+    }
+
+    while (zeros > k) {
+      if (nums[windowStart] === 0) {
+        zeros--;
+      }
+      windowStart++;
+    }
+
+    res = Math.max(res, windowEnd - windowStart + 1);
+  }
+
+  return res;
+}
 
 let b = new Date().getMilliseconds();
-console.log(longestOnes([1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0], 2)); // O(n)
+console.log(
+  longestOnes([0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 1], 3)
+); // O(n)
 let e = new Date().getMilliseconds();
 console.log(e - b + 'ms');
