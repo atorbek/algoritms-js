@@ -33,6 +33,51 @@ function findEqualElements(arr1, arr2) {
   return res;
 }
 
+function ListNode(val, next) {
+  this.val = val === undefined ? 0 : val;
+  this.next = next === undefined ? null : next;
+}
+
+/**
+ * @param {ListNode} l1
+ * @param {ListNode} l2
+ * @return {ListNode}
+ */
+var mergeTwoLists = function (l1, l2) {
+  let res = new ListNode();
+  let resCopy = res;
+
+  while (l1.next !== null && l2.next !== null) {
+    if (l1.val > l2.val) {
+      resCopy.val = l2.val;
+      l2.val = l2.next.val;
+      l2.next = l2.next.next;
+    } else if (l1.val < l2.val) {
+      resCopy.val = l1.val;
+      l1.val = l1.next.val;
+      l1.next = l1.next.next;
+    } else {
+      resCopy.val = l2.val;
+      l2.val = l2.next.val;
+      l2.next = l2.next.next;
+
+      resCopy.next = new ListNode();
+      resCopy = resCopy.next;
+
+      resCopy.val = l1.val;
+      l1.val = l1.next.val;
+      l1.next = l1.next.next;
+    }
+
+    resCopy.next = new ListNode();
+    resCopy = resCopy.next;
+  }
+
+  return res;
+};
+
+console.log(mergeTwoLists([1, 2, 4], [1, 3, 4])); // => [2]
+
 // Примеры
 console.log(findEqualElements([1, 2, 3], [2])); // => [2]
 console.log(findEqualElements([2], [1, 2, 3])); // => [2]

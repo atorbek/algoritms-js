@@ -19,23 +19,28 @@
  * Explanation: Replace the one 'A' in the middle with 'B' and form "AABBBBA".
  * The substring "BBBB" has the longest repeating letters, which is 4.
  */
-
 function characterReplacement(s = '', k) {
-  const map = {};
-  let max = 0;
-  let left = 0;
-  let maxCount = 0;
-  for (let right = 0; right < s.length; right++) {
-    const c = s[right];
-    map[c] = (map[c] || 0) + 1;
-    maxCount = Math.max(maxCount, map[c]);
-    while (right - left + 1 - maxCount > k) {
-      map[s[left]] -= 1;
-      left += 1;
+  const dictionary = {};
+  let maxLength = 0;
+  let startWindow = 0;
+  let maxRepeatLetterCount = 0;
+
+  for (let endWindow = 0; endWindow < s.length; endWindow++) {
+    const rightChar = s[endWindow];
+    dictionary[rightChar] = (dictionary[rightChar] || 0) + 1;
+
+    maxRepeatLetterCount = Math.max(
+      maxRepeatLetterCount,
+      dictionary[rightChar]
+    );
+
+    while (endWindow - startWindow + 1 - maxRepeatLetterCount > k) {
+      dictionary[s[startWindow]] -= 1;
+      startWindow += 1;
     }
-    max = Math.max(max, right - left + 1);
+    maxLength = Math.max(maxLength, endWindow - startWindow + 1);
   }
-  return max;
+  return maxLength;
 }
 
 // AABABBCCA
