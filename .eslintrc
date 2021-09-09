@@ -4,7 +4,6 @@
         "es6": true,
         "node": true
     },
-
     "parserOptions": {
         "ecmaVersion": 6,
         "sourceType": "module",
@@ -14,15 +13,24 @@
             "objectLiteralDuplicateProperties": false
         }
     },
-
     "globals": {
         "$": false
     },
-
-    "extends": ["plugin:prettier/recommended"],
+    "extends": [
+        "plugin:prettier/recommended"
+    ],
     "rules": {
-        "indent": [2, 2],
-        "quotes": [2, "single"],
-        "semi": [2, "always"]
+        "indent": [
+            2,
+            2
+        ],
+        "quotes": [
+            2,
+            "single"
+        ],
+        "semi": [
+            2,
+            "always"
+        ]
     }
 }
