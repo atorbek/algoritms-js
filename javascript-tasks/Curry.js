@@ -1,4 +1,8 @@
-function curry(func) {
+const join = (a, b, c) => {
+  return `${a}_${b}_${c}`;
+};
+
+function transformArr(func) {
   return function curried(...args) {
     if (args.length >= func.length) {
       return func.apply(this, args);
@@ -10,10 +14,6 @@ function curry(func) {
   };
 }
 
-function sum(a, b, c) {
-  return a + b + c;
-}
-
-let curriedSum = curry(sum);
-
-curriedSum(1)(2)(3);
+console.time('time');
+console.log(transformArr(join)(1)(2)(3)); // x * 2 * 3;
+console.timeEnd('time');
