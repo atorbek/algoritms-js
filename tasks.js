@@ -68,17 +68,6 @@ function getValueByObjectProps(obj, props) {
 
 /* -------------------------------------------------------- */
 
-const g = (n) => n + 1;
-const f = (n) => n * 2;
-
-function compose(...fns) {
-  return (x) => fns.reduceRight((acc, cur) => cur(acc), x);
-}
-
-const h = compose(g, f);
-
-/* -------------------------------------------------------- */
-
 function expand(template, data) {
   let templ = template;
 
@@ -89,33 +78,6 @@ function expand(template, data) {
   }
 
   return templ;
-}
-
-/* -------------------------------------------------------- */
-
-function intervals(arr) {
-  if (!arr.length) {
-    return '';
-  }
-  let fl = 0;
-  const arrSorted = arr.sort((a, b) => a - b);
-  let res = '';
-
-  for (let i = 1; i < arrSorted.length; i++) {
-    if (Math.abs(arrSorted[i] - arrSorted[i - 1]) > 1) {
-      fl = 0;
-      res += `${arrSorted[i - 1]},`;
-    } else {
-      if (fl === 0) {
-        res += `${arrSorted[i - 1]}-`;
-        fl = 1;
-      }
-    }
-  }
-
-  res += `${arrSorted[arrSorted.length - 1]}`;
-
-  return res;
 }
 
 /* -------------------------------------------------------- */
@@ -153,6 +115,12 @@ function fetchData(urls, limit, callback) {
   return callback(result);
 }
 
+fetchData(urls, limit, (urls) =>
+  urls.map(async (url) => {
+    console.log(await url);
+  })
+);
+
 console.log(arrayToObject(array));
 console.log(arrayToObject1(array));
 console.log(filterObjectProps(object));
@@ -162,13 +130,6 @@ console.log(getValueByObjectProps(foo, 'a.b.c'));
 console.log(h(20));
 console.log(
   expand('Now {time} ascascc {foo}', { time: '14:30', foo: 'hello' })
-);
-
-console.log(intervals([3, 2, 1, 5, 6, -1, 10]));
-fetchData(urls, limit, (urls) =>
-  urls.map(async (url) => {
-    console.log(await url);
-  })
 );
 
 /* -------------------------------------------------------- */

@@ -1,4 +1,4 @@
-function compressArr(arr) {
+function transformArray(arr) {
   let l = 0;
   let r = 0;
 
@@ -31,7 +31,7 @@ function compressArr(arr) {
 
 const arr = [3, 2, 1, 5, 6, -1, 10];
 console.time('time');
-console.log(compressArr(arr));
+console.log(transformArray(arr));
 console.timeEnd('time');
 
 // -1 1 2 3 5 6 10
