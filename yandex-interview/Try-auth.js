@@ -21,9 +21,9 @@ function tryAuth1(n = 5) {
   auth()
     .then(result => result)
     .catch(error => {
-      console.log(n, error)
+      console.log(n, error);
       if (n > 1) {
-        return tryAuth1(n--)
+        return tryAuth1(n - 1)
       }
 
       throw error;
@@ -37,5 +37,5 @@ function auth() {
 }
 
 console.time('time');
-tryAuth1().then((res) => console.log(res));
+tryAuth();
 console.timeEnd('time');

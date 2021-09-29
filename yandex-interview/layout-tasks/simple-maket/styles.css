@@ -1,0 +1,27 @@
+body {
+  font-family: sans-serif;
+}
+
+.main {
+  display: flex;
+}
+
+.main-left {
+  width: 150px;
+  background-color: #b5d7e3;
+}
+
+.main-right {
+  width: 70%;
+  margin: 0 auto;
+  background-color: #a6eb9a;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background-color: #fad749;
+}
