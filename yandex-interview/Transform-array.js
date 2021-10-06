@@ -1,4 +1,4 @@
-function transformArray(arr) {
+function maxProfit(arr) {
   let l = 0;
   let r = 0;
 
@@ -18,22 +18,26 @@ function transformArray(arr) {
     }
 
     if (l == r) {
-      res += `${arr[l]},`;
+      res += `${arr[l]}`;
       l++;
     } else {
-      res += `${arr[l]}-${arr[r]},`;
+      res += `${arr[l]}-${arr[r]}`;
       l = r + 1;
+    }
+
+    if (l < len) {
+      res += ',';
     }
   }
 
-  return res.slice(0, -1);
+  return res;
 }
 
 const arr = [3, 2, 1, 5, 6, -1, 10];
 console.time('time');
-console.log(transformArray(arr));
+console.log(maxProfit(arr));
 console.timeEnd('time');
 
-// -1 1 2 3 5 6 10
-//l         ^
-//r           ^
+//  -1 1 2 3 5 6 10
+//l          ^
+//r          ^

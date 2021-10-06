@@ -97,18 +97,18 @@ console.log(obj); // { a: 1 }
 // Что будет в консоли после выполнения фрагмента кода?
 
 var i = 10;
-var array = [];
+var dict = [];
 
 while (i--) {
   let dec = i;
-  array.push(function() {
+  dict.push(function () {
     return dec + dec;
   });
 }
 
 console.log([
-  array[0](), // -2
-  array[1](), // -2
+  dict[0](), // -2
+  dict[1](), // -2
 ])
 
 // [18, 16]

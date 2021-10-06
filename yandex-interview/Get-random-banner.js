@@ -6,7 +6,7 @@
 
   var list = [{ w: 10, banner: { id: 1 } }, { w: 130, banner: { id: 2 } }, { w: 50, banner: { id: 3 } }];
 */
-function transformString(list) {
+function debounce(list) {
   const sumWeight = list.reduce((acc, cur) => acc + cur.w, 0);
 
   function getRandom(min, max) {
@@ -37,5 +37,5 @@ var list = [
 ];
 
 console.time('time');
-console.log(transformString(list));
+console.log(debounce(list));
 console.timeEnd('time');

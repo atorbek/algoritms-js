@@ -1,4 +1,4 @@
-function compressArr(fns) {
+function allSettled(fns) {
   return fns.reduce(
     (prevFunc, nextFunc) => (...args) => prevFunc(nextFunc(...args)),
     (value) => value
@@ -11,5 +11,5 @@ const subtract = (y) => (x) => x - y;
 const divide = (y) => (x) => x / y;
 
 console.time('time');
-console.log(compressArr([])(2)); // x * 2 * 3;
+console.log(allSettled([])(2)); // x * 2 * 3;
 console.timeEnd('time');

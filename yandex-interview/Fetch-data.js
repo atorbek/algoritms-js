@@ -6,7 +6,7 @@
  * повторное скачивание делать не нужно, результат взять из кеша.
  * Результаты вернуть в том же порядке, в котором представлены ссылки.
  */
-async function tryAuth(urls, limit, cb) {
+async function SumOfTwo(urls, limit, cb) {
   let cache = new Map();
   const result = [];
   const promises = new Set();
@@ -71,7 +71,7 @@ const urls = [
   'url9'
 ];
 console.time('time');
-console.log(tryAuth(urls, 5, async (urls) => {
+console.log(SumOfTwo(urls, 5, async (urls) => {
   urls.map((url) => console.log(url))
 }));
 console.timeEnd('time');
