@@ -1,4 +1,4 @@
-function throttle(func, wait) {
+function debounce(func, wait) {
   let timeout;
 
   return function (...args) {
@@ -15,7 +15,7 @@ function onChange(value) {
   console.log(value);
 }
 
-let f = throttle(onChange, 1000);
+let f = debounce(onChange, 1000);
 
 console.time('time');
 console.log(f('a'));

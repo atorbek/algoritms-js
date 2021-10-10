@@ -1,5 +1,5 @@
 
-function MoveX(arr, target) {
+function sumOfTwo(arr, target) {
 
   const dict = {};
 
@@ -23,7 +23,7 @@ function MoveX(arr, target) {
 
 
 console.time('time');
-console.log(MoveX([3, 2, 4], 6));
+console.log(sumOfTwo([3, 2, 4], 6));
 console.timeEnd('time');
 
 // 3 2 4 => 6
