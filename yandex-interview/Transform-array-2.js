@@ -1,4 +1,4 @@
-function maxProfit(arr) {
+function TransformArray2(arr) {
 
   arr = arr.sort((a, b) => a - b);
 
@@ -41,7 +41,7 @@ function maxProfit(arr) {
 
 const arr = [-5, -4, -1, 1, 2, 3, 4, 5, 8, 10];
 console.time('time');
-console.log(maxProfit(arr));
+console.log(TransformArray2(arr));
 console.timeEnd('time');
 
 //  3 2 1 5 6 -1 10

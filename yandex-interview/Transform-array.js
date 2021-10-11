@@ -39,5 +39,5 @@ console.log(maxProfit(arr));
 console.timeEnd('time');
 
 //  -1 1 2 3 5 6 10
-//l          ^
-//r          ^
+//l    ^
+//r        ^
