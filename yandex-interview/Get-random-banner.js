@@ -4,16 +4,20 @@
   Задача реализовать функцию выбора баннера для случайного пользователя.
   Пример для js:
 
-  var list = [{ w: 10, banner: { id: 1 } }, { w: 130, banner: { id: 2 } }, { w: 50, banner: { id: 3 } }];
+  var list = [
+    { w: 10, banner: { id: 1 } },
+    { w: 130, banner: { id: 2 } },
+    { w: 50, banner: { id: 3 } }
+  ];
 */
-function debounce(list) {
+function getRandomBanner(list) {
   const sumWeight = list.reduce((acc, cur) => acc + cur.w, 0);
 
   function getRandom(min, max) {
     return Math.random() * (max - min) + min;
   }
 
-  const randomNumber = getRandom(0, sumWeight);
+  const randomNumber = getRandom(0, sumWeight); // 190
   let sum = 0;
 
   console.log('randomNumber', randomNumber);
@@ -32,10 +36,10 @@ function debounce(list) {
 
 var list = [
   { w: 10, banner: { id: 1 } },
-  { w: 100, banner: { id: 2 } },
+  { w: 130, banner: { id: 2 } },
   { w: 50, banner: { id: 3 } }
 ];
 
 console.time('time');
-console.log(debounce(list));
+console.log(getRandomBanner(list));
 console.timeEnd('time');

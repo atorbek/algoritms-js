@@ -1,31 +1,32 @@
-function throttle(func, ms) {
+function throttle(func, wait) {
 
   let isThrottled = false;
   let savedArgs;
   let savedThis;
 
+
   function wrapper(...args) {
 
-    if (isThrottled) {
+    if(isThrottled) {
       savedArgs = args;
       savedThis = this;
       return;
     }
 
     func.apply(this, args);
+
     isThrottled = true;
 
-    setTimeout(function () {
-
+    setTimeout(() => {
+      isThrottled = false;
       if (savedArgs) {
         wrapper.apply(savedThis, savedArgs);
         savedArgs = null;
         savedThis = null;
       }
 
-      isThrottled = false
 
-    }, ms);
+    }, wait);
 
   }
 

@@ -100,8 +100,10 @@ var i = 10;
 var dict = [];
 
 while (i--) {
-  let dec = i;
+  var dec = i;
+  console.log('i', i, 'dec',dec);
   dict.push(function () {
+    console.log('dec', dec, 'dec+dec', dec+dec);
     return dec + dec;
   });
 }

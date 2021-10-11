@@ -41,7 +41,7 @@
  */
 function peakIndexInMountainArray(arr) {
   let start = 0;
-  let end = arr.length - 1;
+  let    = arr.length - 1;
 
   while (start < end) {
     const mid = Math.floor((start + end) / 2);
