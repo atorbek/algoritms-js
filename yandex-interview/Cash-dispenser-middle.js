@@ -18,21 +18,10 @@ function cashDispenser(ammountRequired, limits) {
     const notesNeeded = Math.floor(ammount / currentNominal); // узнаем сколько нужно купюр текущего номинала
     const numberOfNotes = Math.min(availableNotes, notesNeeded); // узнаем сколько можем получить купюр текущего номинала
 
-    console.group('Count');
-    console.log('amount', ammount);
-    console.log('nominals', nominals);
-    console.log('currentNominal', currentNominal);
-    console.log('availableNotes', availableNotes);
-    console.log('notesNeeded', notesNeeded);
-    console.log('numberOfNotes', numberOfNotes);
-    console.groupEnd();
-
     for (let i = numberOfNotes; i >= 0; i--) {
-      console.log('Start i', i, 'numberOfNotes', numberOfNotes, 'currentNominal', currentNominal);
       let result = collect(ammount - i * currentNominal, nominals.slice(1));
 
       if (result) {
-        console.log('i', i, 'numberOfNotes', numberOfNotes, 'currentNominal', currentNominal, 'result', result);
         return i ? { [currentNominal]: i, ...result } : result;
       }
     }

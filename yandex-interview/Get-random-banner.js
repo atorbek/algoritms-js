@@ -10,7 +10,7 @@
     { w: 50, banner: { id: 3 } }
   ];
 */
-function getRandomBanner(list) {
+function oddSort(list) {
   const sumWeight = list.reduce((acc, cur) => acc + cur.w, 0);
 
   function getRandom(min, max) {
@@ -41,5 +41,5 @@ var list = [
 ];
 
 console.time('time');
-console.log(getRandomBanner(list));
+console.log(oddSort(list));
 console.timeEnd('time');
