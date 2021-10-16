@@ -6,47 +6,43 @@
  * повторное скачивание делать не нужно, результат взять из кеша.
  * Результаты вернуть в том же порядке, в котором представлены ссылки.
  */
-async function SumOfTwo(urls, limit, cb) {
-  let cache = new Map();
+async function fetchData(urls, limit, cb) {
+  const cache = new Map();
   const result = [];
-  const promises = new Set();
-  let i = 0;
+  const parallelPromise = new Set();
+  let count = 0;
 
-  try {
-    while (i < urls.length) {
-      while (promises.size < limit) {
-        const url = urls[i];
-        let fetchedData;
-        const self = i;
+  while(count < urls.length) {
 
-        if (cache.has(url)) {
-          fetchedData = cache.get(url);
-        } else {
+    while(parallelPromise.size < limit) {
+      let data;
+      const url = urls[count];
+      const i = count;
 
-          fetchedData = fetch(url);
-          cache.set(url, fetchedData);
-          promises.add(fetchedData);
-        }
-
-        fetchedData.then(() => {
-          // console.log('delete ' + self);
-          promises.delete(fetchedData);
+      if(cache.has(url)) {
+        data = cache.get(url);
+        data.then(res => {
+          result[i] = res;
         });
+      } else {
+        data = fetch(url);
+        data.then(res => {
+          result[i] = res;
+          parallelPromise.delete(data);
 
-        result[i] = fetchedData;
-        // console.log('Iteration ' + i);
-
-        i += 1;
+          return res;
+        });
+        cache.set(url, data);
+        parallelPromise.add(data);
       }
 
-      await Promise.race(promises);
+      count+=1;
     }
 
-    await Promise.allSettled(promises);
-
-  } catch (error) {
-    console.log(error);
+    await Promise.race(parallelPromise);
   }
+
+  await Promise.allSettled(parallelPromise);
 
   return cb(result);
 }
@@ -71,7 +67,7 @@ const urls = [
   'url9'
 ];
 console.time('time');
-console.log(SumOfTwo(urls, 5, async (urls) => {
-  urls.map((url) => console.log(url))
-}));
+fetchData(urls, 5, (urls) => {
+  console.log(urls);
+});
 console.timeEnd('time');
