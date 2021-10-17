@@ -29,46 +29,41 @@
 function singleNumber(nums) {
   const dict = {};
 
-  for(let i = 0; i < nums.length; i++) {
+  for (let i = 0; i < nums.length; i++) {
     const current = nums[i];
     dict[current] = dict[current] ? dict[current] + 1 : 1;
   }
 
-  for(let i = 0; i < nums.length; i++) {
+  for (let i = 0; i < nums.length; i++) {
     const current = nums[i];
-    if(dict[current] === 1) {
+    if (dict[current] === 1) {
       return current;
     }
   }
-
 }
 
 function singleNumber2(nums) {
-
-  nums.sort((a,b) => a - b);
+  nums.sort((a, b) => a - b);
 
   let i = 0;
-  while(i < nums.length) {
-    if(nums[i] !== nums[i+1]) {
+  while (i < nums.length) {
+    if (nums[i] !== nums[i + 1]) {
       return nums[i];
     }
 
     i += 2;
-
   }
 }
 
 function singleNumber3(nums) {
   // x ^ x = 0
   // 0 ^ x = x
-  return nums.reduce((a,b)=>a ^ b);
+  return nums.reduce((a, b) => a ^ b);
 }
 
-const arr = [4,1,2,1,2];
+const arr = [4, 1, 2, 1, 2];
 console.time('time');
 console.log(singleNumber3(arr));
 console.timeEnd('time');
-
-
 
 // 0 2   5 10

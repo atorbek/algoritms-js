@@ -22,7 +22,6 @@
  * @return {number[]}
  */
 function intersection(nums1, nums2) {
-
   const result = [];
 
   const map = nums1.reduce((acc, num) => {
@@ -40,7 +39,6 @@ function intersection(nums1, nums2) {
       map[current] -= 1;
     }
   }
-
 
   return result;
 }

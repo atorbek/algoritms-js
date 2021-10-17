@@ -38,7 +38,6 @@ function intersection(nums1, nums2) {
     return acc;
   }, {});
 
-
   for (let i = 0; i < nums2.length; i++) {
     const current = nums2[i];
     const count = map[current];
@@ -48,7 +47,6 @@ function intersection(nums1, nums2) {
       map[current] -= 1;
     }
   }
-
 
   return result;
 }

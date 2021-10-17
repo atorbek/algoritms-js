@@ -41,31 +41,24 @@
  */
 function peakIndexInMountainArray(arr) {
   let start = 0;
-  let    = arr.length - 1;
+  let end = arr.length - 1;
 
   while (start < end) {
     const mid = Math.floor((start + end) / 2);
 
     if (arr[mid] < arr[mid + 1]) {
-        start = mid + 1;
-      } else {
-        end = mid;
-      }
+      start = mid + 1;
+    } else {
+      end = mid;
+    }
   }
 
   return start;
 }
 
-
-
-
-
-
 const arr = [3, 4, 5, 1];
 console.time('time');
 console.log(peakIndexInMountainArray(arr));
 console.timeEnd('time');
-
-
 
 // 0 2   5 10

@@ -50,9 +50,9 @@ function buildDictionary(str) {
 }
 
 console.time('time');
-console.log(MoveX('hello', 'ehlol'));
-console.log(MoveX('hello', 'bye'));
-console.log(MoveX('hello', 'hello'));
-console.log(MoveX('hello', 'oleh'));
-console.log(MoveX('hello', 'helo'));
+console.log(isAnagram('hell,o', 'ehlol'));
+console.log(isAnagram('hello', 'bye'));
+console.log(isAnagram('hello', 'hello'));
+console.log(isAnagram('hello', 'oleh'));
+console.log(isAnagram('hello', 'helo'));
 console.timeEnd('time');

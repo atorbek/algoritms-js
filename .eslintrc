@@ -1,11 +1,11 @@
 {
     "env": {
         "browser": true,
-        "es5": true,
+        "es6": true,
         "node": true
     },
     "parserOptions": {
-        "ecmaVersion": 7,
+        "ecmaVersion": 2019,
         "sourceType": "module",
         "ecmaFeatures": {
             "jsx": true,

@@ -16,14 +16,13 @@ async function tryAuth(n = 5) {
   throw error;
 }
 
-
 function tryAuth1(n = 5) {
   auth()
-    .then(result => result)
-    .catch(error => {
+    .then((result) => result)
+    .catch((error) => {
       console.log(n, error);
       if (n > 1) {
-        return tryAuth1(n - 1)
+        return tryAuth1(n - 1);
       }
 
       throw error;

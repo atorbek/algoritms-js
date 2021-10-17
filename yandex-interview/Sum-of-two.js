@@ -1,6 +1,4 @@
-
 function sumOfTwo(arr, target) {
-
   const dict = {};
 
   arr.forEach((elem, i) => {
@@ -8,19 +6,14 @@ function sumOfTwo(arr, target) {
   });
 
   for (let i = 0; i < arr.length; i++) {
-
     diff = target - arr[i];
 
     if (dict[diff] && dict[diff] !== i) {
       return [i, dict[diff]];
     }
-
   }
   return [];
-
 }
-
-
 
 console.time('time');
 console.log(sumOfTwo([3, 2, 4], 6));

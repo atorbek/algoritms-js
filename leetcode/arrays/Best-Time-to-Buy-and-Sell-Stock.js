@@ -38,7 +38,6 @@ function maxProfit(prices) {
     if (current - minPrice > maxProfit) {
       maxProfit = current - minPrice;
     }
-
   }
 
   return maxProfit;
@@ -48,7 +47,6 @@ prices = [3, 2, 6, 5, 0, 3];
 console.time('time');
 console.log(maxProfit(prices));
 console.timeEnd('time');
-
 
 // 3 2 6 5 0 3
 // ^         ^

@@ -12,21 +12,20 @@ async function fetchData(urls, limit, cb) {
   const parallelPromise = new Set();
   let count = 0;
 
-  while(count < urls.length) {
-
-    while(parallelPromise.size < limit) {
+  while (count < urls.length) {
+    while (parallelPromise.size < limit) {
       let data;
       const url = urls[count];
       const i = count;
 
-      if(cache.has(url)) {
+      if (cache.has(url)) {
         data = cache.get(url);
-        data.then(res => {
+        data.then((res) => {
           result[i] = res;
         });
       } else {
         data = fetch(url);
-        data.then(res => {
+        data.then((res) => {
           result[i] = res;
           parallelPromise.delete(data);
 
@@ -36,7 +35,7 @@ async function fetchData(urls, limit, cb) {
         parallelPromise.add(data);
       }
 
-      count+=1;
+      count += 1;
     }
 
     await Promise.race(parallelPromise);
