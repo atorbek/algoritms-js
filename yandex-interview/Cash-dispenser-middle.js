@@ -34,9 +34,14 @@ function cashDispenser(ammountRequired, limits) {
   return collect(ammountRequired, nominals);
 }
 
-const ammountRequired = 120;
 const limits = { 1000: 5, 500: 2, 100: 5, 50: 100, 30: 6 };
 
 console.time('time');
-console.log(cashDispenser(ammountRequired, limits));
+
+console.log(cashDispenser(1000, limits)); // {1000: 1}
+console.log(cashDispenser(230, limits)); // {30: 1, 100: 2}
+console.log(cashDispenser(200, limits)); // {100: 2}
+console.log(cashDispenser(150, limits)); // {50: 1, 100: 1}
+console.log(cashDispenser(120, limits)); // {30: 4}
+console.log(cashDispenser(275, limits));
 console.timeEnd('time');

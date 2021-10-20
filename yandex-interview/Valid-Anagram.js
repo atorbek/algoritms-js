@@ -36,6 +36,8 @@ function isPalindrome(s, t) {
   return true;
 }
 
+// /[^/w]/g
+
 function buildDictionary(str) {
   dict = {};
 
