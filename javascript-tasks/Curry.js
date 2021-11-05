@@ -14,6 +14,8 @@ function curry(func) {
   };
 }
 
+const curried = curry(join);
+
 console.time('time');
-console.log(curry(join)(1)(2)(3)); // x * 2 * 3;
+console.log(curried(1)(2)(3)); // x * 2 * 3;
 console.timeEnd('time');

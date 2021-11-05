@@ -7,9 +7,8 @@ function debounce(func, wait) {
     clearTimeout(timeout);
 
     timeout = setTimeout(funcCall, wait);
-  }
+  };
 }
-
 
 function onChange(value) {
   console.log(value);

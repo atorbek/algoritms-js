@@ -19,7 +19,7 @@
  * Follow up: What if the inputs contain Unicode characters? How would you adapt your solution to such a case?
  *
  */
-function isPalindrome(s, t) {
+function isAnagram(s, t) {
   const dict1 = buildDictionary(s);
   const dict2 = buildDictionary(t);
 
@@ -52,9 +52,9 @@ function buildDictionary(str) {
 }
 
 console.time('time');
-console.log(isPalindrome('hello', 'ehlol'));
-console.log(isPalindrome('hello', 'bye'));
-console.log(isPalindrome('hello', 'hello'));
-console.log(isPalindrome('hello', 'oleh'));
-console.log(isPalindrome('hello', 'helo'));
+console.log(isAnagram('hello', 'ehlol'));
+console.log(isAnagram('hello', 'bye'));
+console.log(isAnagram('hello', 'hello'));
+console.log(isAnagram('hello', 'oleh'));
+console.log(isAnagram('hello', 'helo'));
 console.timeEnd('time');

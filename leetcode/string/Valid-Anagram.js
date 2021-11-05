@@ -20,11 +20,11 @@
  *
  */
 function isAnagram(s, t) {
-
   const dict1 = buildDictionary(s); // O(n)
   const dict2 = buildDictionary(t); // O(n)
 
-  if (Object.keys(dict1).length !== Object.keys(dict2).length) {   // O(n)
+  if (Object.keys(dict1).length !== Object.keys(dict2).length) {
+    // O(n)
     return false;
   }
 
@@ -35,16 +35,15 @@ function isAnagram(s, t) {
   }
 
   return true;
-
 }
 
 function buildDictionary(str) {
   const dictionary = {};
 
-  str = str.toLowerCase().replace(/[^\w]/g)
+  str = str.toLowerCase().replace(/[^\w]/g);
   for (const c of str) {
     dictionary[c] = dictionary[c] + 1 || 1;
-  };
+  }
 
   return dictionary;
 }
