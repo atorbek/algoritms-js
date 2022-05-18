@@ -136,7 +136,7 @@ function threeSumBruteForce(nums) {
 
 // [[-1,-1,2],[-1,0,1]
 //    0  4 3
-const label = 'run function';
+const label = 'time';
 console.time(label);
 // console.log(threeSumBruteForce([-1, 0, 1, 2, -1, -4]));
 console.log(threeSum([-1, 0, 1, 2, -1, -4]));

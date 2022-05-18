@@ -60,7 +60,7 @@ function threeSumClosest(nums, target = 0) {
 
 //-3 0 1 2
 
-const label = 'run function';
+const label = 'time';
 console.time(label);
 console.log(threeSumClosest([0, 2, 1, -3], 1));
 let e = new Date().getMilliseconds();

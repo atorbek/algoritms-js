@@ -26,7 +26,7 @@
  * Challenge
  * Could you solve it in O(n2) runtime?
  **/
-function threeSumSmaller(nums, target = 0) {
+function numSubarrayProductLessThanK(nums, target = 0) {
   let sumSmaller = 0;
 
   nums.sort((a, b) => a - b);
@@ -55,8 +55,8 @@ function threeSumSmaller(nums, target = 0) {
   return sumSmaller;
 }
 
-const label = 'run function';
+const label = 'time';
 console.time(label);
-console.log(threeSumSmaller([-2, 0, -1, 3], 2));
+console.log(numSubarrayProductLessThanK([-2, 0, -1, 3], 2));
 let e = new Date().getMilliseconds();
 console.timeEnd(label);
