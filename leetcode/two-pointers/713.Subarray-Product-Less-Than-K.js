@@ -22,7 +22,7 @@
  * 1 <= nums[i] <= 1000
  * 0 <= k <= 106
  **/
-function numSubarrayProductLessThanK(nums, k) {
+function maxProduct(nums, k) {
   if (k <= 1) return 0;
 
   let prod = 1;
@@ -51,6 +51,6 @@ function numSubarrayProductLessThanK(nums, k) {
 
 const label = 'time';
 console.time(label);
-console.log(numSubarrayProductLessThanK([10, 5, 2, 6], 100));
+console.log(maxProduct([10, 5, 2, 6], 100));
 let e = new Date().getMilliseconds();
 console.timeEnd(label);

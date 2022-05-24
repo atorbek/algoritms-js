@@ -40,8 +40,6 @@ function buildArray(nums) {
     nums[i] += n * (nums[nums[i]] % n);
   }
 
-  console.log('after', nums);
-
   for (let i = 0; i < n; ++i) {
     nums[i] = Number.parseInt(nums[i] / n, 10);
   }

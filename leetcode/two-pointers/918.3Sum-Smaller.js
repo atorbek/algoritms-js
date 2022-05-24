@@ -38,8 +38,6 @@ function numSubarrayProductLessThanK(nums, target = 0) {
     while (j < k) {
       let sum = nums[i] + nums[j] + nums[k];
 
-      console.log([nums[i], nums[j], nums[k]], sum);
-
       if (sum < target) {
         sumSmaller += k - j;
       }
