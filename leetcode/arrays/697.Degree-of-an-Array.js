@@ -31,11 +31,6 @@
  */
 function findShortestSubArray(nums) {}
 
-// 1. Находим максимальную частоту повторения;
-// 2.
-
-//{1:2, 2:2, 3:1}
-
 console.time('time');
 console.log(findShortestSubArray([1, 2, 2, 3, 1]));
 console.log(findShortestSubArray([1, 2, 2, 3, 1, 4, 2]));
