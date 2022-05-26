@@ -1,3 +1,13 @@
+const { difficulty } = require('../constants');
+
+module.exports.leetcode = {
+  id: 290,
+  name: 'Word Pattern',
+  url: 'https://leetcode.com/problems/word-pattern/',
+  difficulty: difficulty.easy,
+  premium: false
+};
+
 /**
  * https://leetcode.com/problems/word-pattern/
  *

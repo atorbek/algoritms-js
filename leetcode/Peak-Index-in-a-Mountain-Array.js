@@ -1,3 +1,13 @@
+const { difficulty } = require('../constants');
+
+module.exports.leetcode = {
+  id: 852,
+  name: 'Peak Index in a Mountain Array',
+  url: 'https://leetcode.com/problems/peak-index-in-a-mountain-array/',
+  difficulty: difficulty.easy,
+  premium: false
+};
+
 /**
  * Let's call an array arr a mountain if the following properties hold:
  *

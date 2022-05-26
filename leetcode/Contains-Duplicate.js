@@ -1,3 +1,13 @@
+const { difficulty } = require('../constants');
+
+module.exports.leetcode = {
+  id: 217,
+  name: 'Contains Duplicate',
+  url: 'https://leetcode.com/problems/contains-duplicate/',
+  difficulty: difficulty.easy,
+  premium: false
+};
+
 /**
  * Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
  *

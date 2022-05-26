@@ -1,3 +1,13 @@
+const { difficulty } = require('../constants');
+
+module.exports.leetcode = {
+  id: 70,
+  name: 'Climbing Stairs',
+  url: 'https://leetcode.com/problems/climbing-stairs/',
+  difficulty: difficulty.easy,
+  premium: false
+};
+
 /**
  * https://leetcode.com/problems/climbing-stairs/
  *

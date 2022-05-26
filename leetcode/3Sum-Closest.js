@@ -1,6 +1,6 @@
 const { difficulty } = require('../constants');
 
-const leetcode = {
+module.exports.leetcode = {
   id: 16,
   name: ' 3Sum Closest',
   url: 'https://leetcode.com/problems/3sum-closest/',

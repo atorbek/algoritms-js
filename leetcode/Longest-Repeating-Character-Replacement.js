@@ -1,3 +1,13 @@
+const { difficulty } = require('../constants');
+
+module.exports.leetcode = {
+  id: 424,
+  name: 'Longest Repeating Character Replacement',
+  url: 'https://leetcode.com/problems/longest-repeating-character-replacement/',
+  difficulty: difficulty.medium,
+  premium: false
+};
+
 /**
  * You are given a string s and an integer k. You can choose any character of the string and change
  * it to any other uppercase English character. You can perform this operation at most k times.

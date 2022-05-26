@@ -1,3 +1,13 @@
+const { difficulty } = require('../constants');
+
+module.exports.leetcode = {
+  id: 5,
+  name: 'Longest Palindromic Substring',
+  url: 'https://leetcode.com/problems/longest-palindromic-substring/',
+  difficulty: difficulty.medium,
+  premium: false
+};
+
 /**
  * https://leetcode.com/problems/longest-palindromic-substring/
  *

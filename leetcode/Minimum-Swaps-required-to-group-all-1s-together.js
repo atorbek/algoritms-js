@@ -1,3 +1,13 @@
+const { difficulty } = require('../constants');
+
+module.exports.leetcode = {
+  id: 1016,
+  name: 'Minimum Swaps To Make Sequences Increasing',
+  url: 'https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together/',
+  difficulty: difficulty.medium,
+  premium: true
+};
+
 /**
  * Description:
  * Given a binary array data, return the minimum number of swaps

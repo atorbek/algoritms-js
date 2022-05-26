@@ -1,3 +1,13 @@
+const { difficulty } = require('../constants');
+
+module.exports.leetcode = {
+  id: 203,
+  name: 'Remove Linked List Elements',
+  url: 'https://leetcode.com/problems/remove-linked-list-elements/',
+  difficulty: difficulty.easy,
+  premium: false
+};
+
 /**
  * Given the head of a linked list and an integer val,
  * remove all the nodes of the linked list that has Node.val == val, and return the new head.

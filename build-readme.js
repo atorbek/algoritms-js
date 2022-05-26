@@ -36,8 +36,7 @@ output.push(preprocess('<p>'));
 output.push(os.EOL);
 output.push(preprocess(TABLE_HEADER));
 output.push(preprocess(TABLE_SEPARATOR));
-
-output.push(buildTaskLines(modules, difficulty.undefined));
+output.push(...buildTaskLines(modules, difficulty.undefined));
 output.push(os.EOL);
 output.push(preprocess('</p>'));
 output.push(preprocess('</details>'));
@@ -57,7 +56,7 @@ difficultyValues.map((difficulty) => {
   output.push(os.EOL);
   output.push(preprocess(TABLE_HEADER));
   output.push(preprocess(TABLE_SEPARATOR));
-  output.push(preprocess(buildTaskLines(modules, difficulty, true)));
+  output.push(...buildTaskLines(modules, difficulty, true));
   output.push(os.EOL);
   output.push(preprocess('</p>'));
   output.push(preprocess('</details>'));
@@ -72,9 +71,7 @@ output.push(preprocess('<p>'));
 output.push(os.EOL);
 output.push(preprocess(TABLE_HEADER));
 output.push(preprocess(TABLE_SEPARATOR));
-output.push(
-  preprocess(buildTaskLines(modules, difficulty.undefined, false, true))
-);
+output.push(...buildTaskLines(modules, difficulty.undefined, false, true));
 output.push(preprocess('</p>'));
 output.push(os.EOL);
 output.push(preprocess('</details>'));
@@ -128,5 +125,3 @@ try {
 } catch (err) {
   console.error(err);
 }
-
-console.log(buildTaskLines(modules, difficulty.undefined, false, true));

@@ -1,3 +1,13 @@
+const { difficulty } = require('../constants');
+
+module.exports.leetcode = {
+  id: 746,
+  name: 'Min Cost Climbing Stairs',
+  url: 'https://leetcode.com/problems/min-cost-climbing-stairs/',
+  difficulty: difficulty.easy,
+  premium: false
+};
+
 /**
  * https://leetcode.com/problems/min-cost-climbing-stairs/
  *

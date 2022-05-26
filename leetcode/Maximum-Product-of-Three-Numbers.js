@@ -1,3 +1,13 @@
+const { difficulty } = require('../constants');
+
+module.exports.leetcode = {
+  id: 628,
+  name: 'Maximum Product of Three Numbers',
+  url: 'https://leetcode.com/problems/maximum-product-of-three-numbers/',
+  difficulty: difficulty.easy,
+  premium: false
+};
+
 /**
  * Given an integer array nums, find three numbers whose product is maximum and return the maximum product.
  *

@@ -1,3 +1,14 @@
+const { difficulty } = require('../constants');
+
+module.exports.leetcode = {
+  id: 928,
+  name: 'Longest Substring with At Most Two Distinct Characters',
+  url:
+    'https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/',
+  difficulty: difficulty.medium,
+  premium: true
+};
+
 /**
  * Description:
  * Given a string s , find the length of the longest substring t  that contains at most 2 distinct characters.

@@ -1,3 +1,13 @@
+const { difficulty } = require('../constants');
+
+module.exports.leetcode = {
+  id: 920,
+  name: 'Meeting Rooms',
+  url: 'https://leetcode.com/problems/meeting-rooms/',
+  difficulty: difficulty.easy,
+  premium: false
+};
+
 /**
  * 252. Meeting Rooms
  * Given an array of meeting time intervals consisting of start and

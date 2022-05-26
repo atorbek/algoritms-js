@@ -1,3 +1,14 @@
+const { difficulty } = require('../constants');
+
+module.exports.leetcode = {
+  id: 1456,
+  name: 'Maximum Number of Vowels in a Substring of Given Length',
+  url:
+    'https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/',
+  difficulty: difficulty.medium,
+  premium: false
+};
+
 /**
  * Given a string s and an integer k.
  *

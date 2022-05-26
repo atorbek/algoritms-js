@@ -1,3 +1,13 @@
+const { difficulty } = require('../constants');
+
+module.exports.leetcode = {
+  id: 205,
+  name: 'Isomorphic Strings',
+  url: 'https://leetcode.com/problems/isomorphic-strings/',
+  difficulty: difficulty.easy,
+  premium: false
+};
+
 /**
  * https://leetcode.com/problems/isomorphic-strings/
  *

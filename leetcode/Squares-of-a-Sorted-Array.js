@@ -1,3 +1,13 @@
+const { difficulty } = require('../constants');
+
+module.exports.leetcode = {
+  id: 977,
+  name: 'Squares of a Sorted Array',
+  url: 'https://leetcode.com/problems/squares-of-a-sorted-array/',
+  difficulty: difficulty.easy,
+  premium: false
+};
+
 /**
  * Given an integer array nums sorted in non-decreasing order, return an array of the squares of each number sorted in non-decreasing order.
  *

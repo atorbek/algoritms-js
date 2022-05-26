@@ -1,3 +1,13 @@
+const { difficulty } = require('../constants');
+
+module.exports.leetcode = {
+  id: 349,
+  name: 'Intersection of Two Arrays',
+  url: 'https://leetcode.com/problems/intersection-of-two-arrays/',
+  difficulty: difficulty.easy,
+  premium: false
+};
+
 /**
  * Given two integer arrays nums1 and nums2, return an array of their intersection.
  * Each element in the result must be unique and you may return the result in any order.

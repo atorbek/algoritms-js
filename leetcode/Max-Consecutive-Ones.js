@@ -1,3 +1,13 @@
+const { difficulty } = require('../constants');
+
+module.exports.leetcode = {
+  id: 485,
+  name: 'Max Consecutive Ones',
+  url: 'https://leetcode.com/problems/max-consecutive-ones/',
+  difficulty: difficulty.easy,
+  premium: false
+};
+
 /**
  * Given a binary array nums, return the maximum number of consecutive 1's in the array.
  *

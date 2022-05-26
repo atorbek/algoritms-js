@@ -1,3 +1,13 @@
+const { difficulty } = require('../constants');
+
+module.exports.leetcode = {
+  id: 713,
+  name: 'Subarray Product Less Than K',
+  url: 'https://leetcode.com/problems/subarray-product-less-than-k/',
+  difficulty: difficulty.medium,
+  premium: false
+};
+
 /**
  * Given an array of integers nums and an integer k, return the number of contiguous
  *  subarrays where the product of all the elements in the subarray is strictly less than k.

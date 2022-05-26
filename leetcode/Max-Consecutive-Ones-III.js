@@ -1,3 +1,13 @@
+const { difficulty } = require('../constants');
+
+module.exports.leetcode = {
+  id: 1004,
+  name: 'Max Consecutive Ones III',
+  url: 'https://leetcode.com/problems/max-consecutive-ones-iii/',
+  difficulty: difficulty.medium,
+  premium: false
+};
+
 /**
  * Given a binary array nums and an integer k, return the maximum number of consecutive 1's in the array if you can flip at most k 0's.
  *

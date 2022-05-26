@@ -1,6 +1,6 @@
 ![Logo](./leetcode.png)
 ### This file was created automatically by [build-readme.js](./build-readme.js)
-Count of solved tasks: 1
+Count of solved tasks: 60
 
 <details>
 <summary>Table of all solved non-premium tasks</summary>
@@ -8,7 +8,61 @@ Count of solved tasks: 1
 
 | LeetCode ID | Difficulty  | Name           | Solution       |
 |:-----------:|:-----------:|:--------------:|:--------------:|
+|3|medium|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[Longest-Substring-Without-Repeating-Characters.js](./leetcode/Longest-Substring-Without-Repeating-Characters.js)|
+|5|medium|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[Longest-Palindromic-Substring.js](./leetcode/Longest-Palindromic-Substring.js)|
+|15|medium|[3Sum](https://leetcode.com/problems/3sum/)|[3Sum.js](./leetcode/3Sum.js)|
+|16|medium|[ 3Sum Closest](https://leetcode.com/problems/3sum-closest/)|[3Sum-Closest.js](./leetcode/3Sum-Closest.js)|
+|19|medium|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Remove-Nth-Node-From-End-of-List.js](./leetcode/Remove-Nth-Node-From-End-of-List.js)|
+|20|easy|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[Valid-Parentheses.js](./leetcode/Valid-Parentheses.js)|
+|21|easy|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[Merge-Two-Sorted-Lists.js](./leetcode/Merge-Two-Sorted-Lists.js)|
 |53|easy|[ Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Maximum-Subarray.js](./leetcode/Maximum-Subarray.js)|
+|56|medium|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|[Merge-Intervals.js](./leetcode/Merge-Intervals.js)|
+|70|easy|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[Climbing-Stairs.js](./leetcode/Climbing-Stairs.js)|
+|83|easy|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[Remove-Duplicates-from-Sorted-List.js](./leetcode/Remove-Duplicates-from-Sorted-List.js)|
+|125|easy|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[Valid-Palindrome.js](./leetcode/Valid-Palindrome.js)|
+|136|easy|[Single Number](https://leetcode.com/problems/single-number/)|[Single-Number.js](./leetcode/Single-Number.js)|
+|141|easy|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[Linked-List-Cycle.js](./leetcode/Linked-List-Cycle.js)|
+|142|medium|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)|[Linked-List-Cycle-II.js](./leetcode/Linked-List-Cycle-II.js)|
+|143|medium|[Reorder List](https://leetcode.com/problems/reorder-list/)|[Reorder-List.js](./leetcode/Reorder-List.js)|
+|148|medium|[Sort List](https://leetcode.com/problems/sort-list/)|[Sort-List.js](./leetcode/Sort-List.js)|
+|152|medium|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)|[Maximum-Product-Subarray.js](./leetcode/Maximum-Product-Subarray.js)|
+|203|easy|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)|[Remove-Linked-List-Elements.js](./leetcode/Remove-Linked-List-Elements.js)|
+|205|easy|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|[Isomorphic-Strings.js](./leetcode/Isomorphic-Strings.js)|
+|209|medium|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)|[Minimum-Size-Subarray-Sum.js](./leetcode/Minimum-Size-Subarray-Sum.js)|
+|217|easy|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[Contains-Duplicate.js](./leetcode/Contains-Duplicate.js)|
+|234|easy|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|[Palindrome-Linked-List.js](./leetcode/Palindrome-Linked-List.js)|
+|242|easy|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[Valid-Anagram.js](./leetcode/Valid-Anagram.js)|
+|268|easy|[Missing Number](https://leetcode.com/problems/missing-number/)|[Missing-Number.js](./leetcode/Missing-Number.js)|
+|290|easy|[Word Pattern](https://leetcode.com/problems/word-pattern/)|[Word-Pattern.js](./leetcode/Word-Pattern.js)|
+|349|easy|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)|[Intersection-of-Two-Arrays.js](./leetcode/Intersection-of-Two-Arrays.js)|
+|350|easy|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|[Intersection-of-Two-Arrays-II.js](./leetcode/Intersection-of-Two-Arrays-II.js)|
+|387|easy|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)|[First-Unique-Character-in-a-String.js](./leetcode/First-Unique-Character-in-a-String.js)|
+|395|medium|[Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters)|[Longest-Substring-with-At-Least-K-Repeating-Characters.js](./leetcode/Longest-Substring-with-At-Least-K-Repeating-Characters.js)|
+|424|medium|[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)|[Longest-Repeating-Character-Replacement.js](./leetcode/Longest-Repeating-Character-Replacement.js)|
+|448|easy|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|[Find-All-Numbers-Disappeared-in-an-Array.js](./leetcode/Find-All-Numbers-Disappeared-in-an-Array.js)|
+|485|easy|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|[Max-Consecutive-Ones.js](./leetcode/Max-Consecutive-Ones.js)|
+|509|easy|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[Fibonacci-Number.js](./leetcode/Fibonacci-Number.js)|
+|560|medium|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|[Subarray-Sum-Equals-K.js](./leetcode/Subarray-Sum-Equals-K.js)|
+|628|easy|[Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/)|[Maximum-Product-of-Three-Numbers.js](./leetcode/Maximum-Product-of-Three-Numbers.js)|
+|697|easy|[Degree of an Array](https://leetcode.com/problems/degree-of-an-array/)|[Degree-of-an-Array.js](./leetcode/Degree-of-an-Array.js)|
+|704|easy|[Binary Search](https://leetcode.com/problems/binary-search/)|[Binary-Search.js](./leetcode/Binary-Search.js)|
+|713|medium|[Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/)|[Subarray-Product-Less-Than-K.js](./leetcode/Subarray-Product-Less-Than-K.js)|
+|746|easy|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)|[Min-Cost-Climbing-Stairs.js](./leetcode/Min-Cost-Climbing-Stairs.js)|
+|763|medium|[Partition Labels](https://leetcode.com/problems/partition-labels/)|[Partition-Labels.js](./leetcode/Partition-Labels.js)|
+|844|easy|[Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)|[Backspace-String-Compare.js](./leetcode/Backspace-String-Compare.js)|
+|852|easy|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|[Peak-Index-in-a-Mountain-Array.js](./leetcode/Peak-Index-in-a-Mountain-Array.js)|
+|876|easy|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[Middle-of-the-Linked-List.js](./leetcode/Middle-of-the-Linked-List.js)|
+|920|easy|[Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)|[Metting-rooms.js](./leetcode/Metting-rooms.js)|
+|977|easy|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|[Squares-of-a-Sorted-Array.js](./leetcode/Squares-of-a-Sorted-Array.js)|
+|1004|medium|[Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)|[Max-Consecutive-Ones-III.js](./leetcode/Max-Consecutive-Ones-III.js)|
+|1040|medium|[Moving Stones Until Consecutive II](https://leetcode.com/problems/moving-stones-until-consecutive-ii/)|[Moving-Stones-Until-Consecutive-II.js](./leetcode/Moving-Stones-Until-Consecutive-II.js)|
+|1052|medium|[Grumpy Bookstore Owner](https://leetcode.com/problems/grumpy-bookstore-owner/)|[Grumpy-Bookstore-Owner.js](./leetcode/Grumpy-Bookstore-Owner.js)|
+|1456|medium|[Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/)|[Maximum-Number-of-Vowels-in-a-Substring-of-Given-Length.js](./leetcode/Maximum-Number-of-Vowels-in-a-Substring-of-Given-Length.js)|
+|1480|easy|[Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)|[Running-Sum-of-1d-Array.js](./leetcode/Running-Sum-of-1d-Array.js)|
+|1658|medium|[Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/)|[Minimum-Operations-to-Reduce-X-to-Zero.js](./leetcode/Minimum-Operations-to-Reduce-X-to-Zero.js)|
+|1920|easy|[Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/)|[Build-Array-from-Permutation.js](./leetcode/Build-Array-from-Permutation.js)|
+|1929|easy|[Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)|[Concatenation-of-Array.js](./leetcode/Concatenation-of-Array.js)|
+|2011|easy|[Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/)|[Final-Value-of-Variable-After-Performing-Operations.js](./leetcode/Final-Value-of-Variable-After-Performing-Operations.js)|
 
 </p>
 </details>
@@ -18,8 +72,40 @@ Count of solved tasks: 1
 
 | LeetCode ID | Difficulty  | Name           | Solution       |
 |:-----------:|:-----------:|:--------------:|:--------------:|
+|20|easy|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[Valid-Parentheses.js](./leetcode/Valid-Parentheses.js)|
+|21|easy|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[Merge-Two-Sorted-Lists.js](./leetcode/Merge-Two-Sorted-Lists.js)|
 |53|easy|[ Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Maximum-Subarray.js](./leetcode/Maximum-Subarray.js)|
-
+|70|easy|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[Climbing-Stairs.js](./leetcode/Climbing-Stairs.js)|
+|83|easy|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[Remove-Duplicates-from-Sorted-List.js](./leetcode/Remove-Duplicates-from-Sorted-List.js)|
+|125|easy|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[Valid-Palindrome.js](./leetcode/Valid-Palindrome.js)|
+|136|easy|[Single Number](https://leetcode.com/problems/single-number/)|[Single-Number.js](./leetcode/Single-Number.js)|
+|141|easy|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[Linked-List-Cycle.js](./leetcode/Linked-List-Cycle.js)|
+|203|easy|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)|[Remove-Linked-List-Elements.js](./leetcode/Remove-Linked-List-Elements.js)|
+|205|easy|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|[Isomorphic-Strings.js](./leetcode/Isomorphic-Strings.js)|
+|217|easy|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[Contains-Duplicate.js](./leetcode/Contains-Duplicate.js)|
+|234|easy|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|[Palindrome-Linked-List.js](./leetcode/Palindrome-Linked-List.js)|
+|242|easy|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[Valid-Anagram.js](./leetcode/Valid-Anagram.js)|
+|268|easy|[Missing Number](https://leetcode.com/problems/missing-number/)|[Missing-Number.js](./leetcode/Missing-Number.js)|
+|290|easy|[Word Pattern](https://leetcode.com/problems/word-pattern/)|[Word-Pattern.js](./leetcode/Word-Pattern.js)|
+|349|easy|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)|[Intersection-of-Two-Arrays.js](./leetcode/Intersection-of-Two-Arrays.js)|
+|350|easy|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|[Intersection-of-Two-Arrays-II.js](./leetcode/Intersection-of-Two-Arrays-II.js)|
+|387|easy|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)|[First-Unique-Character-in-a-String.js](./leetcode/First-Unique-Character-in-a-String.js)|
+|448|easy|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|[Find-All-Numbers-Disappeared-in-an-Array.js](./leetcode/Find-All-Numbers-Disappeared-in-an-Array.js)|
+|485|easy|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|[Max-Consecutive-Ones.js](./leetcode/Max-Consecutive-Ones.js)|
+|509|easy|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[Fibonacci-Number.js](./leetcode/Fibonacci-Number.js)|
+|628|easy|[Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/)|[Maximum-Product-of-Three-Numbers.js](./leetcode/Maximum-Product-of-Three-Numbers.js)|
+|697|easy|[Degree of an Array](https://leetcode.com/problems/degree-of-an-array/)|[Degree-of-an-Array.js](./leetcode/Degree-of-an-Array.js)|
+|704|easy|[Binary Search](https://leetcode.com/problems/binary-search/)|[Binary-Search.js](./leetcode/Binary-Search.js)|
+|746|easy|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)|[Min-Cost-Climbing-Stairs.js](./leetcode/Min-Cost-Climbing-Stairs.js)|
+|844|easy|[Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)|[Backspace-String-Compare.js](./leetcode/Backspace-String-Compare.js)|
+|852|easy|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|[Peak-Index-in-a-Mountain-Array.js](./leetcode/Peak-Index-in-a-Mountain-Array.js)|
+|876|easy|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[Middle-of-the-Linked-List.js](./leetcode/Middle-of-the-Linked-List.js)|
+|920|easy|[Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)|[Metting-rooms.js](./leetcode/Metting-rooms.js)|
+|977|easy|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|[Squares-of-a-Sorted-Array.js](./leetcode/Squares-of-a-Sorted-Array.js)|
+|1480|easy|[Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)|[Running-Sum-of-1d-Array.js](./leetcode/Running-Sum-of-1d-Array.js)|
+|1920|easy|[Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/)|[Build-Array-from-Permutation.js](./leetcode/Build-Array-from-Permutation.js)|
+|1929|easy|[Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)|[Concatenation-of-Array.js](./leetcode/Concatenation-of-Array.js)|
+|2011|easy|[Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/)|[Final-Value-of-Variable-After-Performing-Operations.js](./leetcode/Final-Value-of-Variable-After-Performing-Operations.js)|
 
 </p>
 </details>
@@ -29,7 +115,27 @@ Count of solved tasks: 1
 
 | LeetCode ID | Difficulty  | Name           | Solution       |
 |:-----------:|:-----------:|:--------------:|:--------------:|
-
+|3|medium|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[Longest-Substring-Without-Repeating-Characters.js](./leetcode/Longest-Substring-Without-Repeating-Characters.js)|
+|5|medium|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[Longest-Palindromic-Substring.js](./leetcode/Longest-Palindromic-Substring.js)|
+|15|medium|[3Sum](https://leetcode.com/problems/3sum/)|[3Sum.js](./leetcode/3Sum.js)|
+|16|medium|[ 3Sum Closest](https://leetcode.com/problems/3sum-closest/)|[3Sum-Closest.js](./leetcode/3Sum-Closest.js)|
+|19|medium|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Remove-Nth-Node-From-End-of-List.js](./leetcode/Remove-Nth-Node-From-End-of-List.js)|
+|56|medium|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|[Merge-Intervals.js](./leetcode/Merge-Intervals.js)|
+|142|medium|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)|[Linked-List-Cycle-II.js](./leetcode/Linked-List-Cycle-II.js)|
+|143|medium|[Reorder List](https://leetcode.com/problems/reorder-list/)|[Reorder-List.js](./leetcode/Reorder-List.js)|
+|148|medium|[Sort List](https://leetcode.com/problems/sort-list/)|[Sort-List.js](./leetcode/Sort-List.js)|
+|152|medium|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)|[Maximum-Product-Subarray.js](./leetcode/Maximum-Product-Subarray.js)|
+|209|medium|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)|[Minimum-Size-Subarray-Sum.js](./leetcode/Minimum-Size-Subarray-Sum.js)|
+|395|medium|[Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters)|[Longest-Substring-with-At-Least-K-Repeating-Characters.js](./leetcode/Longest-Substring-with-At-Least-K-Repeating-Characters.js)|
+|424|medium|[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)|[Longest-Repeating-Character-Replacement.js](./leetcode/Longest-Repeating-Character-Replacement.js)|
+|560|medium|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|[Subarray-Sum-Equals-K.js](./leetcode/Subarray-Sum-Equals-K.js)|
+|713|medium|[Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/)|[Subarray-Product-Less-Than-K.js](./leetcode/Subarray-Product-Less-Than-K.js)|
+|763|medium|[Partition Labels](https://leetcode.com/problems/partition-labels/)|[Partition-Labels.js](./leetcode/Partition-Labels.js)|
+|1004|medium|[Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)|[Max-Consecutive-Ones-III.js](./leetcode/Max-Consecutive-Ones-III.js)|
+|1040|medium|[Moving Stones Until Consecutive II](https://leetcode.com/problems/moving-stones-until-consecutive-ii/)|[Moving-Stones-Until-Consecutive-II.js](./leetcode/Moving-Stones-Until-Consecutive-II.js)|
+|1052|medium|[Grumpy Bookstore Owner](https://leetcode.com/problems/grumpy-bookstore-owner/)|[Grumpy-Bookstore-Owner.js](./leetcode/Grumpy-Bookstore-Owner.js)|
+|1456|medium|[Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/)|[Maximum-Number-of-Vowels-in-a-Substring-of-Given-Length.js](./leetcode/Maximum-Number-of-Vowels-in-a-Substring-of-Given-Length.js)|
+|1658|medium|[Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/)|[Minimum-Operations-to-Reduce-X-to-Zero.js](./leetcode/Minimum-Operations-to-Reduce-X-to-Zero.js)|
 
 </p>
 </details>
@@ -40,7 +146,6 @@ Count of solved tasks: 1
 | LeetCode ID | Difficulty  | Name           | Solution       |
 |:-----------:|:-----------:|:--------------:|:--------------:|
 
-
 </p>
 </details>
 <details>
@@ -49,7 +154,11 @@ Count of solved tasks: 1
 
 | LeetCode ID | Difficulty  | Name           | Solution       |
 |:-----------:|:-----------:|:--------------:|:--------------:|
-
+|386|medium|[Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/)|[Longest-Substring-with-At-Most-K-Distinct-Characters.js](./leetcode/Longest-Substring-with-At-Most-K-Distinct-Characters.js)|
+|918|medium|[3Sum Smaller](https://leetcode.com/problems/3sum-smaller/)|[3Sum-Smaller.js](./leetcode/3Sum-Smaller.js)|
+|928|medium|[Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/)|[Longest-Substring-with-At-Most-Two-Distinct-Characters.js](./leetcode/Longest-Substring-with-At-Most-Two-Distinct-Characters.js)|
+|1016|medium|[Minimum Swaps To Make Sequences Increasing](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together/)|[Minimum-Swaps-required-to-group-all-1s-together.js](./leetcode/Minimum-Swaps-required-to-group-all-1s-together.js)|
+|1100|medium|[Find K Length Substrings With No Repeated Characters](https://leetcode.com/problems/find-k-length-substrings-with-no-repeated-characters/)|[Find-K-Length-Substrings-With-No-Repeated-Characters.js](./leetcode/Find-K-Length-Substrings-With-No-Repeated-Characters.js)|
 </p>
 
 </details>

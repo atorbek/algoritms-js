@@ -1,3 +1,13 @@
+const { difficulty } = require('../constants');
+
+module.exports.leetcode = {
+  id: 136,
+  name: 'Single Number',
+  url: 'https://leetcode.com/problems/single-number/',
+  difficulty: difficulty.easy,
+  premium: false
+};
+
 /**
  * Given a non-empty array of integers nums, every element appears twice except for one.
  * Find that single one.

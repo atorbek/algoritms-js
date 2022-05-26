@@ -1,3 +1,13 @@
+const { difficulty } = require('../constants');
+
+module.exports.leetcode = {
+  id: 844,
+  name: 'Backspace String Compare',
+  url: 'https://leetcode.com/problems/backspace-string-compare/',
+  difficulty: difficulty.easy,
+  premium: false
+};
+
 /**
  * Given two strings s and t, return true if they are equal when both are typed into empty text editors.
  * '#' means a backspace character.

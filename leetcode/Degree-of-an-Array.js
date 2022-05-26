@@ -1,3 +1,13 @@
+const { difficulty } = require('../constants');
+
+module.exports.leetcode = {
+  id: 697,
+  name: 'Degree of an Array',
+  url: 'https://leetcode.com/problems/degree-of-an-array/',
+  difficulty: difficulty.easy,
+  premium: false
+};
+
 /**
  * https://leetcode.com/problems/degree-of-an-array/
  *

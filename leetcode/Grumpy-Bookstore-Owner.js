@@ -1,3 +1,13 @@
+const { difficulty } = require('../constants');
+
+module.exports.leetcode = {
+  id: 1052,
+  name: 'Grumpy Bookstore Owner',
+  url: 'https://leetcode.com/problems/grumpy-bookstore-owner/',
+  difficulty: difficulty.medium,
+  premium: false
+};
+
 /**
  * Today, the bookstore owner has a store open for customers.length minutes.
  * Every minute, some number of customers (customers[i]) enter the store, and all those customers

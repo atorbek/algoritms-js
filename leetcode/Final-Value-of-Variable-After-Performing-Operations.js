@@ -1,3 +1,14 @@
+const { difficulty } = require('../constants');
+
+module.exports.leetcode = {
+  id: 2011,
+  name: 'Final Value of Variable After Performing Operations',
+  url:
+    'https://leetcode.com/problems/final-value-of-variable-after-performing-operations/',
+  difficulty: difficulty.easy,
+  premium: false
+};
+
 /**
  * There is a programming language with only four operations and one variable X:
  *

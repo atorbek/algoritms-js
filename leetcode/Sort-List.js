@@ -1,3 +1,13 @@
+const { difficulty } = require('../constants');
+
+module.exports.leetcode = {
+  id: 148,
+  name: 'Sort List',
+  url: 'https://leetcode.com/problems/sort-list/',
+  difficulty: difficulty.medium,
+  premium: false
+};
+
 /**
  * Given the head of a linked list, return the list after sorting it in ascending order.
  *
@@ -56,7 +66,7 @@ function getMid(head) {
   return slow;
 }
 
-function merge(head1, head2) {
+function merge1(head1, head2) {
   const dummyHead = new ListNode();
   let curr = dummyHead;
 
@@ -92,6 +102,6 @@ function ListNode(val, next) {
 const head = new ListNode(4, new ListNode(2, new ListNode(1, new ListNode(3))));
 
 let b = new Date().getMilliseconds();
-// console.log(merge(head));
+console.log(merge(head));
 let e = new Date().getMilliseconds();
 console.log(e - b + 'ms');

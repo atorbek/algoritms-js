@@ -1,3 +1,13 @@
+const { difficulty } = require('../constants');
+
+module.exports.leetcode = {
+  id: 560,
+  name: 'Subarray Sum Equals K',
+  url: 'https://leetcode.com/problems/subarray-sum-equals-k/',
+  difficulty: difficulty.medium,
+  premium: false
+};
+
 /**
  * Given an array of integers nums and an integer k, return the total number of continuous subarrays whose sum equals to k.
  *

@@ -1,3 +1,13 @@
+const { difficulty } = require('../constants');
+
+module.exports.leetcode = {
+  id: 83,
+  name: 'Remove Duplicates from Sorted List',
+  url: 'https://leetcode.com/problems/remove-duplicates-from-sorted-list/',
+  difficulty: difficulty.easy,
+  premium: false
+};
+
 /**
  * Given the head of a sorted linked list,
  * delete all duplicates such that each element appears only once.

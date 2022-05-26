@@ -1,3 +1,13 @@
+const { difficulty } = require('../constants');
+
+module.exports.leetcode = {
+  id: 152,
+  name: 'Maximum Product Subarray',
+  url: 'https://leetcode.com/problems/maximum-product-subarray/',
+  difficulty: difficulty.medium,
+  premium: false
+};
+
 /**
  * Given an integer array nums, find a contiguous non-empty subarray within the array that has the largest product, and return the product.
  *

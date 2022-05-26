@@ -1,5 +1,15 @@
+const { difficulty } = require('../constants');
+
+module.exports.leetcode = {
+  id: 509,
+  name: 'Fibonacci Number',
+  url: 'https://leetcode.com/problems/fibonacci-number/',
+  difficulty: difficulty.easy,
+  premium: false
+};
+
 /**
- * https://leetcode.com/problems/climbing-stairs/
+ * https://leetcode.com/problems/fibonacci-number/
  *
  * The Fibonacci numbers, commonly denoted F(n) form a sequence,
  * called the Fibonacci sequence, such that each number is the sum of the two preceding ones,

@@ -1,3 +1,14 @@
+const { difficulty } = require('../constants');
+
+module.exports.leetcode = {
+  id: 3,
+  name: 'Longest Substring Without Repeating Characters',
+  url:
+    'https://leetcode.com/problems/longest-substring-without-repeating-characters/',
+  difficulty: difficulty.medium,
+  premium: false
+};
+
 /**
  * Description:
  * Given a string s, find the length of the longest substring without repeating characters.

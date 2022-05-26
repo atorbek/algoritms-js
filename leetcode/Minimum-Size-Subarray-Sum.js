@@ -1,3 +1,13 @@
+const { difficulty } = require('../constants');
+
+module.exports.leetcode = {
+  id: 209,
+  name: 'Minimum Size Subarray Sum',
+  url: 'https://leetcode.com/problems/minimum-size-subarray-sum/',
+  difficulty: difficulty.medium,
+  premium: false
+};
+
 /**
  * Given an array of positive integers nums and a positive integer target,
  * return the minimal length of a contiguous subarray [numsl, numsl+1, ..., numsr-1, numsr]

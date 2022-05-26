@@ -1,3 +1,13 @@
+const { difficulty } = require('../constants');
+
+module.exports.leetcode = {
+  id: 143,
+  name: 'Reorder List',
+  url: 'https://leetcode.com/problems/reorder-list/',
+  difficulty: difficulty.medium,
+  premium: false
+};
+
 /**
  * You are given the head of a singly linked-list. The list can be represented as:
  *

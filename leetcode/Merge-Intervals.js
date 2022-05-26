@@ -1,3 +1,13 @@
+const { difficulty } = require('../constants');
+
+module.exports.leetcode = {
+  id: 56,
+  name: 'Merge Intervals',
+  url: 'https://leetcode.com/problems/merge-intervals/',
+  difficulty: difficulty.medium,
+  premium: false
+};
+
 /**
  * Given an array of intervals where intervals[i] = [starti, endi], merge all overlapping intervals,
  * and return an array of the non-overlapping intervals that cover all the intervals in the input.

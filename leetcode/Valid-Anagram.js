@@ -1,3 +1,13 @@
+const { difficulty } = require('../constants');
+
+module.exports.leetcode = {
+  id: 242,
+  name: 'Valid Anagram',
+  url: 'https://leetcode.com/problems/valid-anagram/',
+  difficulty: difficulty.easy,
+  premium: false
+};
+
 /**
  * Given two strings s and t, return true if t is an anagram of s, and false otherwise.
  *

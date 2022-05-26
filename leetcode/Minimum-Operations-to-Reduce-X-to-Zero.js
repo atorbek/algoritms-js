@@ -1,3 +1,13 @@
+const { difficulty } = require('../constants');
+
+module.exports.leetcode = {
+  id: 1658,
+  name: 'Minimum Operations to Reduce X to Zero',
+  url: 'https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/',
+  difficulty: difficulty.medium,
+  premium: false
+};
+
 /**
  * You are given an integer array nums and an integer x.
  * In one operation, you can either remove the leftmost or the rightmost element from the array nums

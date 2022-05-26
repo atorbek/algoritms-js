@@ -1,3 +1,13 @@
+const { difficulty } = require('../constants');
+
+module.exports.leetcode = {
+  id: 20,
+  name: 'Valid Parentheses',
+  url: 'https://leetcode.com/problems/valid-parentheses/',
+  difficulty: difficulty.easy,
+  premium: false
+};
+
 /**
  * Given a string s containing just the characters '(', ')', '{', '}', '[' and ']',
  * determine if the input string is valid.
@@ -43,7 +53,7 @@ function isValid(s) {
     ')': '(',
     '}': '{',
     ']': '['
-  }
+  };
 
   for (let i = 0; i < s.length; i++) {
     const current = s[i];
@@ -55,19 +65,17 @@ function isValid(s) {
     } else {
       stack.push(current);
     }
-
   }
   return stack.length === 0;
-
 }
 
 function isClosedBrackets(c) {
   return [')', ']', '}'].includes(c);
 }
 
-const s1 = "([)]";
-const s2 = "()[]{}";
-const s3 = "(]";
+const s1 = '([)]';
+const s2 = '()[]{}';
+const s3 = '(]';
 console.time('time');
 console.log(s1, isValid(s1));
 console.log(s2, isValid(s2));

@@ -1,5 +1,12 @@
+const { difficulty } = require('../constants');
 
-
+module.exports.leetcode = {
+  id: 387,
+  name: 'First Unique Character in a String',
+  url: 'https://leetcode.com/problems/first-unique-character-in-a-string/',
+  difficulty: difficulty.easy,
+  premium: false
+};
 
 /**
  * Given a string s, find the first non-repeating character in it and return its index.
@@ -44,13 +51,12 @@ function firstUniqChar(s) {
     if (characters.get(ch) === 1) {
       return i;
     }
-
   }
 
   return -1;
 }
 
-const s = "   ";
+const s = '   ';
 console.time('time');
 console.log(firstUniqChar(s));
 console.timeEnd('time');

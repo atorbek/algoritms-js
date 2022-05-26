@@ -1,3 +1,13 @@
+const { difficulty } = require('../constants');
+
+module.exports.leetcode = {
+  id: 1480,
+  name: 'Running Sum of 1d Array',
+  url: 'https://leetcode.com/problems/running-sum-of-1d-array/',
+  difficulty: difficulty.easy,
+  premium: false
+};
+
 /**
  * Given an array nums. We define a running sum of an array as runningSum[i] = sum(nums[0]…nums[i]).
  *

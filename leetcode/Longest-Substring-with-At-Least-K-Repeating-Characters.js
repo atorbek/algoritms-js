@@ -1,3 +1,14 @@
+const { difficulty } = require('../constants');
+
+module.exports.leetcode = {
+  id: 395,
+  name: 'Longest Substring with At Least K Repeating Characters',
+  url:
+    'https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters',
+  difficulty: difficulty.medium,
+  premium: false
+};
+
 /**
  * Description:
  * Given a string s , find the length of the longest substring t  that contains at most 2 distinct characters.

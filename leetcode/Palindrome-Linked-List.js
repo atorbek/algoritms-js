@@ -1,3 +1,13 @@
+const { difficulty } = require('../constants');
+
+module.exports.leetcode = {
+  id: 234,
+  name: 'Palindrome Linked List',
+  url: 'https://leetcode.com/problems/palindrome-linked-list/',
+  difficulty: difficulty.easy,
+  premium: false
+};
+
 /**
  * Given the head of a singly linked list, return true if it is a palindrome.
  *

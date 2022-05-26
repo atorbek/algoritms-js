@@ -1,3 +1,13 @@
+const { difficulty } = require('../constants');
+
+module.exports.leetcode = {
+  id: 125,
+  name: 'Valid Palindrome',
+  url: 'https://leetcode.com/problems/valid-palindrome/',
+  difficulty: difficulty.easy,
+  premium: false
+};
+
 /**
 *   Given a string s, determine if it is a palindrome, considering only alphanumeric characters and ignoring cases.
 *

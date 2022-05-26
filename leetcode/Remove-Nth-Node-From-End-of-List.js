@@ -1,3 +1,13 @@
+const { difficulty } = require('../constants');
+
+module.exports.leetcode = {
+  id: 19,
+  name: 'Remove Nth Node From End of List',
+  url: 'https://leetcode.com/problems/remove-nth-node-from-end-of-list/',
+  difficulty: difficulty.medium,
+  premium: false
+};
+
 /**
  * Given the head of a linked list, remove the nth node from the end of the list and return its head.
  *
