@@ -71,5 +71,4 @@ function threeSumClosest(nums, target = 0) {
 const label = 'time';
 console.time(label);
 console.log(threeSumClosest([0, 2, 1, -3], 1));
-let e = new Date().getMilliseconds();
 console.timeEnd(label);

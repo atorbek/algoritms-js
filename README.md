@@ -1,6 +1,6 @@
 ![Logo](./leetcode.png)
 ### This file was created automatically by [build-readme.js](./build-readme.js)
-Count of solved tasks: 60
+Count of solved tasks: 61
 
 <details>
 <summary>Table of all solved non-premium tasks</summary>
@@ -47,6 +47,7 @@ Count of solved tasks: 60
 |697|easy|[Degree of an Array](https://leetcode.com/problems/degree-of-an-array/)|[Degree-of-an-Array.js](./leetcode/Degree-of-an-Array.js)|
 |704|easy|[Binary Search](https://leetcode.com/problems/binary-search/)|[Binary-Search.js](./leetcode/Binary-Search.js)|
 |713|medium|[Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/)|[Subarray-Product-Less-Than-K.js](./leetcode/Subarray-Product-Less-Than-K.js)|
+|724|easy|[ Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|[Find-Pivot-Index.js](./leetcode/Find-Pivot-Index.js)|
 |746|easy|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)|[Min-Cost-Climbing-Stairs.js](./leetcode/Min-Cost-Climbing-Stairs.js)|
 |763|medium|[Partition Labels](https://leetcode.com/problems/partition-labels/)|[Partition-Labels.js](./leetcode/Partition-Labels.js)|
 |844|easy|[Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)|[Backspace-String-Compare.js](./leetcode/Backspace-String-Compare.js)|
@@ -96,6 +97,7 @@ Count of solved tasks: 60
 |628|easy|[Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/)|[Maximum-Product-of-Three-Numbers.js](./leetcode/Maximum-Product-of-Three-Numbers.js)|
 |697|easy|[Degree of an Array](https://leetcode.com/problems/degree-of-an-array/)|[Degree-of-an-Array.js](./leetcode/Degree-of-an-Array.js)|
 |704|easy|[Binary Search](https://leetcode.com/problems/binary-search/)|[Binary-Search.js](./leetcode/Binary-Search.js)|
+|724|easy|[ Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|[Find-Pivot-Index.js](./leetcode/Find-Pivot-Index.js)|
 |746|easy|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)|[Min-Cost-Climbing-Stairs.js](./leetcode/Min-Cost-Climbing-Stairs.js)|
 |844|easy|[Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)|[Backspace-String-Compare.js](./leetcode/Backspace-String-Compare.js)|
 |852|easy|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|[Peak-Index-in-a-Mountain-Array.js](./leetcode/Peak-Index-in-a-Mountain-Array.js)|
