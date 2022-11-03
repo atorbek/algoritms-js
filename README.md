@@ -1,6 +1,6 @@
 ![Logo](./leetcode.png)
 ### This file was created automatically by [build-readme.js](./build-readme.js)
-Count of solved tasks: 61
+Count of solved tasks: 62
 
 <details>
 <summary>Table of all solved non-premium tasks</summary>
@@ -157,6 +157,7 @@ Count of solved tasks: 61
 | LeetCode ID | Difficulty  | Name           | Solution       |
 |:-----------:|:-----------:|:--------------:|:--------------:|
 |386|medium|[Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/)|[Longest-Substring-with-At-Most-K-Distinct-Characters.js](./leetcode/Longest-Substring-with-At-Most-K-Distinct-Characters.js)|
+|392|easy|[392. Is Subsequence](https://leetcode.com/problems/is-subsequence/)|[Is-Subsequence.js](./leetcode/Is-Subsequence.js)|
 |918|medium|[3Sum Smaller](https://leetcode.com/problems/3sum-smaller/)|[3Sum-Smaller.js](./leetcode/3Sum-Smaller.js)|
 |928|medium|[Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/)|[Longest-Substring-with-At-Most-Two-Distinct-Characters.js](./leetcode/Longest-Substring-with-At-Most-Two-Distinct-Characters.js)|
 |1016|medium|[Minimum Swaps To Make Sequences Increasing](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together/)|[Minimum-Swaps-required-to-group-all-1s-together.js](./leetcode/Minimum-Swaps-required-to-group-all-1s-together.js)|
