@@ -122,6 +122,7 @@ function buildTaskLines(
 
 try {
   fs.writeFileSync('./README.md', output.join(''), { flag: 'w+' });
+  console.log('Readme.md generated or updated!');
 } catch (err) {
   console.error(err);
 }
