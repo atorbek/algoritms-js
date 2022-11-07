@@ -14,23 +14,20 @@ module.exports.leetcode = {
  * @return {boolean}
  */
 var isSubsequence = function (s, t) {
-  let l = 0,
-    r = 0;
+  let i = 0,
+    j = 0;
 
-  let count = 0;
-
-  while (r < t.length) {
-    if (s[l] === t[r]) {
-      count++;
-      l++;
-      r++;
-    } else {
-      r++;
+  while (j < t.length) {
+    if (s[i] === t[j]) {
+      i++;
     }
+
+    j++;
   }
 
-  return count === s.length;
+  return i === s.length;
 };
+
 const label = 'time';
 console.time(label);
 console.log(isSubsequence('abc', 'ahbgdc'));
