@@ -28,7 +28,7 @@ Count of solved tasks: 63
 |152|medium|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)|[Maximum-Product-Subarray.js](./leetcode/Maximum-Product-Subarray.js)|
 |203|easy|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)|[Remove-Linked-List-Elements.js](./leetcode/Remove-Linked-List-Elements.js)|
 |205|easy|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|[Isomorphic-Strings.js](./leetcode/Isomorphic-Strings.js)|
-|206|easy|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[Reverse Linked List.js](./leetcode/Reverse Linked List.js)|
+|206|easy|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[Reverse Linked-List.js](./leetcode/Reverse Linked-List.js)|
 |209|medium|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)|[Minimum-Size-Subarray-Sum.js](./leetcode/Minimum-Size-Subarray-Sum.js)|
 |217|easy|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[Contains-Duplicate.js](./leetcode/Contains-Duplicate.js)|
 |234|easy|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|[Palindrome-Linked-List.js](./leetcode/Palindrome-Linked-List.js)|
@@ -84,7 +84,7 @@ Count of solved tasks: 63
 |141|easy|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[Linked-List-Cycle.js](./leetcode/Linked-List-Cycle.js)|
 |203|easy|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)|[Remove-Linked-List-Elements.js](./leetcode/Remove-Linked-List-Elements.js)|
 |205|easy|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|[Isomorphic-Strings.js](./leetcode/Isomorphic-Strings.js)|
-|206|easy|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[Reverse Linked List.js](./leetcode/Reverse Linked List.js)|
+|206|easy|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[Reverse Linked-List.js](./leetcode/Reverse Linked-List.js)|
 |217|easy|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[Contains-Duplicate.js](./leetcode/Contains-Duplicate.js)|
 |234|easy|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|[Palindrome-Linked-List.js](./leetcode/Palindrome-Linked-List.js)|
 |242|easy|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[Valid-Anagram.js](./leetcode/Valid-Anagram.js)|
