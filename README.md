@@ -1,6 +1,6 @@
 ![Logo](./leetcode.png)
 ### This file was created automatically by [build-readme.js](./build-readme.js)
-Count of solved tasks: 65
+Count of solved tasks: 66
 
 <details>
 <summary>Table of all solved non-premium tasks</summary>
@@ -47,6 +47,7 @@ Count of solved tasks: 65
 |509|easy|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[Fibonacci-Number.js](./leetcode/Fibonacci-Number.js)|
 |560|medium|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|[Subarray-Sum-Equals-K.js](./leetcode/Subarray-Sum-Equals-K.js)|
 |589|easy|[N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|[N-ary-Tree-Preorder-Traversal.js](./leetcode/N-ary-Tree-Preorder-Traversal.js)|
+|590|easy|[N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|[N-ary-Tree-Postorder-Traversal.js](./leetcode/N-ary-Tree-Postorder-Traversal.js)|
 |628|easy|[Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/)|[Maximum-Product-of-Three-Numbers.js](./leetcode/Maximum-Product-of-Three-Numbers.js)|
 |697|easy|[Degree of an Array](https://leetcode.com/problems/degree-of-an-array/)|[Degree-of-an-Array.js](./leetcode/Degree-of-an-Array.js)|
 |704|easy|[Binary Search](https://leetcode.com/problems/binary-search/)|[Binary-Search.js](./leetcode/Binary-Search.js)|
@@ -102,6 +103,7 @@ Count of solved tasks: 65
 |485|easy|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|[Max-Consecutive-Ones.js](./leetcode/Max-Consecutive-Ones.js)|
 |509|easy|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[Fibonacci-Number.js](./leetcode/Fibonacci-Number.js)|
 |589|easy|[N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|[N-ary-Tree-Preorder-Traversal.js](./leetcode/N-ary-Tree-Preorder-Traversal.js)|
+|590|easy|[N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|[N-ary-Tree-Postorder-Traversal.js](./leetcode/N-ary-Tree-Postorder-Traversal.js)|
 |628|easy|[Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/)|[Maximum-Product-of-Three-Numbers.js](./leetcode/Maximum-Product-of-Three-Numbers.js)|
 |697|easy|[Degree of an Array](https://leetcode.com/problems/degree-of-an-array/)|[Degree-of-an-Array.js](./leetcode/Degree-of-an-Array.js)|
 |704|easy|[Binary Search](https://leetcode.com/problems/binary-search/)|[Binary-Search.js](./leetcode/Binary-Search.js)|
