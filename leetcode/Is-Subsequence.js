@@ -2,10 +2,10 @@ const { difficulty } = require('../constants');
 
 module.exports.leetcode = {
   id: 392,
-  name: '392. Is Subsequence',
+  name: 'Is Subsequence',
   url: 'https://leetcode.com/problems/is-subsequence/',
   difficulty: difficulty.easy,
-  premium: true
+  premium: false
 };
 
 /**
