@@ -1,6 +1,6 @@
 ![Logo](./leetcode.png)
 ### This file was created automatically by [build-readme.js](./build-readme.js)
-Count of solved tasks: 66
+Count of solved tasks: 67
 
 <details>
 <summary>Table of all solved non-premium tasks</summary>
@@ -19,6 +19,7 @@ Count of solved tasks: 66
 |56|medium|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|[Merge-Intervals.js](./leetcode/Merge-Intervals.js)|
 |70|easy|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[Climbing-Stairs.js](./leetcode/Climbing-Stairs.js)|
 |83|easy|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[Remove-Duplicates-from-Sorted-List.js](./leetcode/Remove-Duplicates-from-Sorted-List.js)|
+|102|medium|[Binary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|[Binary-Tree-Level-Order-Traversal.js](./leetcode/Binary-Tree-Level-Order-Traversal.js)|
 |125|easy|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[Valid-Palindrome.js](./leetcode/Valid-Palindrome.js)|
 |136|easy|[Single Number](https://leetcode.com/problems/single-number/)|[Single-Number.js](./leetcode/Single-Number.js)|
 |141|easy|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[Linked-List-Cycle.js](./leetcode/Linked-List-Cycle.js)|
@@ -133,6 +134,7 @@ Count of solved tasks: 66
 |16|medium|[ 3Sum Closest](https://leetcode.com/problems/3sum-closest/)|[3Sum-Closest.js](./leetcode/3Sum-Closest.js)|
 |19|medium|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Remove-Nth-Node-From-End-of-List.js](./leetcode/Remove-Nth-Node-From-End-of-List.js)|
 |56|medium|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|[Merge-Intervals.js](./leetcode/Merge-Intervals.js)|
+|102|medium|[Binary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|[Binary-Tree-Level-Order-Traversal.js](./leetcode/Binary-Tree-Level-Order-Traversal.js)|
 |142|medium|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)|[Linked-List-Cycle-II.js](./leetcode/Linked-List-Cycle-II.js)|
 |143|medium|[Reorder List](https://leetcode.com/problems/reorder-list/)|[Reorder-List.js](./leetcode/Reorder-List.js)|
 |148|medium|[Sort List](https://leetcode.com/problems/sort-list/)|[Sort-List.js](./leetcode/Sort-List.js)|
