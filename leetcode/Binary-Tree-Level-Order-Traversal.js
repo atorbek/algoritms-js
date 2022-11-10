@@ -21,37 +21,26 @@ module.exports.leetcode = {
  * @return {number[][]}
  */
 var levelOrder = function (root) {
-  const stack = []; // [3]
-  const res = []; // [3]
+  const stack = [];
+  const res = [];
 
-  if (!root) {
-    return [];
-  }
-
-  stack.push([root]);
-  res.push([root.val]);
+  stack.push(root);
 
   while (stack.length) {
-    const nodes = stack.shift();
+    const stackLen = stack.length;
 
-    const stackNodes = [];
-    const resNodes = [];
+    const level = [];
+    for (let i = 0; i < stackLen; i++) {
+      const node = stack.shift();
 
-    for (let i = 0; i < nodes.length; i++) {
-      if (nodes[i].left !== null) {
-        stackNodes.push(nodes[i].left);
-        resNodes.push(nodes[i].left.val);
-      }
-
-      if (nodes[i].right !== null) {
-        stackNodes.push(nodes[i].right);
-        resNodes.push(nodes[i].right.val);
+      if (node) {
+        level.push(node.val);
+        stack.push(node.left, node.right);
       }
     }
 
-    if (stackNodes.length) {
-      stack.push(stackNodes);
-      res.push(resNodes);
+    if (level.length) {
+      res.push(level);
     }
   }
 
