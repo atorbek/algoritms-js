@@ -1,6 +1,6 @@
 ![Logo](./leetcode.png)
 ### This file was created automatically by [build-readme.js](./build-readme.js)
-Count of solved tasks: 68
+Count of solved tasks: 70
 
 <details>
 <summary>Table of all solved non-premium tasks</summary>
@@ -34,8 +34,10 @@ Count of solved tasks: 68
 |209|medium|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)|[Minimum-Size-Subarray-Sum.js](./leetcode/Minimum-Size-Subarray-Sum.js)|
 |217|easy|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[Contains-Duplicate.js](./leetcode/Contains-Duplicate.js)|
 |234|easy|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|[Palindrome-Linked-List.js](./leetcode/Palindrome-Linked-List.js)|
+|235|medium|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|[Lowest-Common-Ancestor-of-a-Binary-Search-Tree.js](./leetcode/Lowest-Common-Ancestor-of-a-Binary-Search-Tree.js)|
 |242|easy|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[Valid-Anagram.js](./leetcode/Valid-Anagram.js)|
 |268|easy|[Missing Number](https://leetcode.com/problems/missing-number/)|[Missing-Number.js](./leetcode/Missing-Number.js)|
+|278|easy|[First Bad Point](https://leetcode.com/problems/first-bad-version/)|[First-Bad-Point.js](./leetcode/First-Bad-Point.js)|
 |290|easy|[Word Pattern](https://leetcode.com/problems/word-pattern/)|[Word-Pattern.js](./leetcode/Word-Pattern.js)|
 |349|easy|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)|[Intersection-of-Two-Arrays.js](./leetcode/Intersection-of-Two-Arrays.js)|
 |350|easy|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|[Intersection-of-Two-Arrays-II.js](./leetcode/Intersection-of-Two-Arrays-II.js)|
@@ -95,6 +97,7 @@ Count of solved tasks: 68
 |234|easy|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|[Palindrome-Linked-List.js](./leetcode/Palindrome-Linked-List.js)|
 |242|easy|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[Valid-Anagram.js](./leetcode/Valid-Anagram.js)|
 |268|easy|[Missing Number](https://leetcode.com/problems/missing-number/)|[Missing-Number.js](./leetcode/Missing-Number.js)|
+|278|easy|[First Bad Point](https://leetcode.com/problems/first-bad-version/)|[First-Bad-Point.js](./leetcode/First-Bad-Point.js)|
 |290|easy|[Word Pattern](https://leetcode.com/problems/word-pattern/)|[Word-Pattern.js](./leetcode/Word-Pattern.js)|
 |349|easy|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)|[Intersection-of-Two-Arrays.js](./leetcode/Intersection-of-Two-Arrays.js)|
 |350|easy|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|[Intersection-of-Two-Arrays-II.js](./leetcode/Intersection-of-Two-Arrays-II.js)|
@@ -142,6 +145,7 @@ Count of solved tasks: 68
 |148|medium|[Sort List](https://leetcode.com/problems/sort-list/)|[Sort-List.js](./leetcode/Sort-List.js)|
 |152|medium|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)|[Maximum-Product-Subarray.js](./leetcode/Maximum-Product-Subarray.js)|
 |209|medium|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)|[Minimum-Size-Subarray-Sum.js](./leetcode/Minimum-Size-Subarray-Sum.js)|
+|235|medium|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|[Lowest-Common-Ancestor-of-a-Binary-Search-Tree.js](./leetcode/Lowest-Common-Ancestor-of-a-Binary-Search-Tree.js)|
 |395|medium|[Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters)|[Longest-Substring-with-At-Least-K-Repeating-Characters.js](./leetcode/Longest-Substring-with-At-Least-K-Repeating-Characters.js)|
 |424|medium|[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)|[Longest-Repeating-Character-Replacement.js](./leetcode/Longest-Repeating-Character-Replacement.js)|
 |560|medium|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|[Subarray-Sum-Equals-K.js](./leetcode/Subarray-Sum-Equals-K.js)|
