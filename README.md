@@ -1,6 +1,6 @@
 ![Logo](./leetcode.png)
 ### This file was created automatically by [build-readme.js](./build-readme.js)
-Count of solved tasks: 71
+Count of solved tasks: 72
 
 <details>
 <summary>Table of all solved non-premium tasks</summary>
@@ -28,6 +28,7 @@ Count of solved tasks: 71
 |143|medium|[Reorder List](https://leetcode.com/problems/reorder-list/)|[Reorder-List.js](./leetcode/Reorder-List.js)|
 |148|medium|[Sort List](https://leetcode.com/problems/sort-list/)|[Sort-List.js](./leetcode/Sort-List.js)|
 |152|medium|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)|[Maximum-Product-Subarray.js](./leetcode/Maximum-Product-Subarray.js)|
+|200|undefined|[Number of Islands](https://leetcode.com/problems/number-of-islands/)|[Number-of-Islands.js](./leetcode/Number-of-Islands.js)|
 |203|easy|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)|[Remove-Linked-List-Elements.js](./leetcode/Remove-Linked-List-Elements.js)|
 |205|easy|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|[Isomorphic-Strings.js](./leetcode/Isomorphic-Strings.js)|
 |206|easy|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[Reverse-Linked-List.js](./leetcode/Reverse-Linked-List.js)|
