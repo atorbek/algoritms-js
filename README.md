@@ -17,7 +17,7 @@ Count of solved tasks: 73
 |21|easy|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[Merge-Two-Sorted-Lists.js](./leetcode/Merge-Two-Sorted-Lists.js)|
 |53|easy|[ Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Maximum-Subarray.js](./leetcode/Maximum-Subarray.js)|
 |56|medium|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|[Merge-Intervals.js](./leetcode/Merge-Intervals.js)|
-|70|easy|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[Climbing -Stairs.js](./leetcode/Climbing -Stairs.js)|
+|62|undefined|[Unique Paths](https://leetcode.com/problems/unique-paths/)|[Unique-Paths.js](./leetcode/Unique-Paths.js)|
 |70|easy|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[Climbing-Stairs.js](./leetcode/Climbing-Stairs.js)|
 |83|easy|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[Remove-Duplicates-from-Sorted-List.js](./leetcode/Remove-Duplicates-from-Sorted-List.js)|
 |98|medium|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)|[Validate-Binary-Search-Tree.js](./leetcode/Validate-Binary-Search-Tree.js)|
@@ -88,7 +88,6 @@ Count of solved tasks: 73
 |20|easy|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[Valid-Parentheses.js](./leetcode/Valid-Parentheses.js)|
 |21|easy|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[Merge-Two-Sorted-Lists.js](./leetcode/Merge-Two-Sorted-Lists.js)|
 |53|easy|[ Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Maximum-Subarray.js](./leetcode/Maximum-Subarray.js)|
-|70|easy|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[Climbing -Stairs.js](./leetcode/Climbing -Stairs.js)|
 |70|easy|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[Climbing-Stairs.js](./leetcode/Climbing-Stairs.js)|
 |83|easy|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[Remove-Duplicates-from-Sorted-List.js](./leetcode/Remove-Duplicates-from-Sorted-List.js)|
 |125|easy|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[Valid-Palindrome.js](./leetcode/Valid-Palindrome.js)|
