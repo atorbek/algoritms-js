@@ -14,58 +14,52 @@ module.exports.leetcode = {
  * @return {number[]}
  */
 var findAnagrams = function (s, p) {
-  const dict1 = buildDictionary(p);
+  const result = [];
+  const charCounts = [];
 
-  let startWindow = 0;
-  let endWindow = p.length - 1;
-
-  let result = [];
-
-  if (s.length < p.length) {
-    return [];
+  if (s.length === 0 || s === null) {
+    return result;
   }
 
-  if (s === p) {
-    return [0];
+  for (const c of p) {
+    charCounts[c.charCodeAt(0) - 'a'.charCodeAt(0)] =
+      charCounts[c.charCodeAt(0) - 'a'.charCodeAt(0)] + 1 || 1;
   }
 
-  const dict2 = {};
+  console.log(charCounts);
 
-  while (endWindow < s.length) {
-    for (let i = startWindow; i <= endWindow; i++) {
-      dict2[s[i]] = dict2[s[i]] + 1 || 1;
+  let left = 0;
+  let right = 0;
+
+  let count = p.length;
+
+  //count = 1
+
+  //cbaebabcd
+  //^
+  //   ^
+
+  while (right < s.length) {
+    if (charCounts[s.charCodeAt(right++) - 'a'.charCodeAt(0)]-- >= 1) {
+      count--;
     }
 
-    let isAnagram = true;
+    console.log(count, left, right);
 
-    for (let c in dict1) {
-      if (dict1[c] !== dict2[c]) {
-        isAnagram = false;
-        break;
-      }
+    if (count === 0) {
+      result.push(left);
     }
 
-    if (isAnagram) {
-      result.push(startWindow);
+    if (
+      right - left === p.length &&
+      charCounts[s.charCodeAt(left++) - 'a'.charCodeAt(0)]++ >= 0
+    ) {
+      count++;
     }
-
-    startWindow++;
-    endWindow++;
   }
 
   return result;
 };
-
-function buildDictionary(str) {
-  const dictionary = {};
-
-  str = str.toLowerCase().replace(/[^\w]/g);
-  for (const c of str) {
-    dictionary[c] = dictionary[c] + 1 || 1;
-  }
-
-  return dictionary;
-}
 
 console.time('time');
 console.log(findAnagrams('cbaebabacd', 'abc'));
