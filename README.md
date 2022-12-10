@@ -1,6 +1,6 @@
 ![Logo](./leetcode.png)
 ### This file was created automatically by [build-readme.js](./build-readme.js)
-Count of solved tasks: 75
+Count of solved tasks: 76
 
 <details>
 <summary>Table of all solved non-premium tasks</summary>
@@ -46,6 +46,7 @@ Count of solved tasks: 75
 |350|easy|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|[Intersection-of-Two-Arrays-II.js](./leetcode/Intersection-of-Two-Arrays-II.js)|
 |387|easy|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)|[First-Unique-Character-in-a-String.js](./leetcode/First-Unique-Character-in-a-String.js)|
 |392|easy|[Is Subsequence](https://leetcode.com/problems/is-subsequence/)|[Is-Subsequence.js](./leetcode/Is-Subsequence.js)|
+|394|medium|[Decode String](https://leetcode.com/problems/decode-string/description/)|[Decode-String.js](./leetcode/Decode-String.js)|
 |395|medium|[Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters)|[Longest-Substring-with-At-Least-K-Repeating-Characters.js](./leetcode/Longest-Substring-with-At-Least-K-Repeating-Characters.js)|
 |409|easy|[Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)|[Longest-Palindrome.js](./leetcode/Longest-Palindrome.js)|
 |424|medium|[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)|[Longest-Repeating-Character-Replacement.js](./leetcode/Longest-Repeating-Character-Replacement.js)|
@@ -152,6 +153,7 @@ Count of solved tasks: 75
 |152|medium|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)|[Maximum-Product-Subarray.js](./leetcode/Maximum-Product-Subarray.js)|
 |209|medium|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)|[Minimum-Size-Subarray-Sum.js](./leetcode/Minimum-Size-Subarray-Sum.js)|
 |235|medium|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|[Lowest-Common-Ancestor-of-a-Binary-Search-Tree.js](./leetcode/Lowest-Common-Ancestor-of-a-Binary-Search-Tree.js)|
+|394|medium|[Decode String](https://leetcode.com/problems/decode-string/description/)|[Decode-String.js](./leetcode/Decode-String.js)|
 |395|medium|[Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters)|[Longest-Substring-with-At-Least-K-Repeating-Characters.js](./leetcode/Longest-Substring-with-At-Least-K-Repeating-Characters.js)|
 |424|medium|[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)|[Longest-Repeating-Character-Replacement.js](./leetcode/Longest-Repeating-Character-Replacement.js)|
 |560|medium|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|[Subarray-Sum-Equals-K.js](./leetcode/Subarray-Sum-Equals-K.js)|
