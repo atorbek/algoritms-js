@@ -1,6 +1,6 @@
 ![Logo](./leetcode.png)
 ### This file was created automatically by [build-readme.js](./build-readme.js)
-Count of solved tasks: 76
+Count of solved tasks: 77
 
 <details>
 <summary>Table of all solved non-premium tasks</summary>
@@ -72,6 +72,7 @@ Count of solved tasks: 76
 |977|easy|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|[Squares-of-a-Sorted-Array.js](./leetcode/Squares-of-a-Sorted-Array.js)|
 |1004|medium|[Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)|[Max-Consecutive-Ones-III.js](./leetcode/Max-Consecutive-Ones-III.js)|
 |1040|medium|[Moving Stones Until Consecutive II](https://leetcode.com/problems/moving-stones-until-consecutive-ii/)|[Moving-Stones-Until-Consecutive-II.js](./leetcode/Moving-Stones-Until-Consecutive-II.js)|
+|1046|easy|[Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)|[Last-Stone-Weight.js](./leetcode/Last-Stone-Weight.js)|
 |1052|medium|[Grumpy Bookstore Owner](https://leetcode.com/problems/grumpy-bookstore-owner/)|[Grumpy-Bookstore-Owner.js](./leetcode/Grumpy-Bookstore-Owner.js)|
 |1456|medium|[Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/)|[Maximum-Number-of-Vowels-in-a-Substring-of-Given-Length.js](./leetcode/Maximum-Number-of-Vowels-in-a-Substring-of-Given-Length.js)|
 |1480|easy|[Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)|[Running-Sum-of-1d-Array.js](./leetcode/Running-Sum-of-1d-Array.js)|
@@ -126,6 +127,7 @@ Count of solved tasks: 76
 |876|easy|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[Middle-of-the-Linked-List.js](./leetcode/Middle-of-the-Linked-List.js)|
 |920|easy|[Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)|[Metting-rooms.js](./leetcode/Metting-rooms.js)|
 |977|easy|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|[Squares-of-a-Sorted-Array.js](./leetcode/Squares-of-a-Sorted-Array.js)|
+|1046|easy|[Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)|[Last-Stone-Weight.js](./leetcode/Last-Stone-Weight.js)|
 |1480|easy|[Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)|[Running-Sum-of-1d-Array.js](./leetcode/Running-Sum-of-1d-Array.js)|
 |1920|easy|[Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/)|[Build-Array-from-Permutation.js](./leetcode/Build-Array-from-Permutation.js)|
 |1929|easy|[Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)|[Concatenation-of-Array.js](./leetcode/Concatenation-of-Array.js)|
