@@ -1,6 +1,6 @@
 ![Logo](./leetcode.png)
 ### This file was created automatically by [build-readme.js](./build-readme.js)
-Count of solved tasks: 76
+Count of solved tasks: 77
 
 <details>
 <summary>Table of all solved non-premium tasks</summary>
@@ -58,6 +58,7 @@ Count of solved tasks: 76
 |589|easy|[N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|[N-ary-Tree-Preorder-Traversal.js](./leetcode/N-ary-Tree-Preorder-Traversal.js)|
 |590|easy|[N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|[N-ary-Tree-Postorder-Traversal.js](./leetcode/N-ary-Tree-Postorder-Traversal.js)|
 |628|easy|[Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/)|[Maximum-Product-of-Three-Numbers.js](./leetcode/Maximum-Product-of-Three-Numbers.js)|
+|692|undefined|[Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)|[Top-K-Frequent-Words.js](./leetcode/Top-K-Frequent-Words.js)|
 |697|easy|[Degree of an Array](https://leetcode.com/problems/degree-of-an-array/)|[Degree-of-an-Array.js](./leetcode/Degree-of-an-Array.js)|
 |704|easy|[Binary Search](https://leetcode.com/problems/binary-search/)|[Binary-Search.js](./leetcode/Binary-Search.js)|
 |713|medium|[Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/)|[Subarray-Product-Less-Than-K.js](./leetcode/Subarray-Product-Less-Than-K.js)|
