@@ -2,7 +2,7 @@ const { difficulty } = require('../constants');
 
 module.exports.leetcode = {
   id: 724,
-  name: ' Find Pivot Index',
+  name: 'Find Pivot Index',
   url: 'https://leetcode.com/problems/find-pivot-index/',
   difficulty: difficulty.easy,
   premium: false
