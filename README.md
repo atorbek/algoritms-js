@@ -1,6 +1,6 @@
 ![Logo](./leetcode.png)
 ### This file was created automatically by [build-readme.js](./build-readme.js)
-Count of solved tasks: 78
+Count of solved tasks: 79
 
 <details>
 <summary>Table of all solved non-premium tasks</summary>
@@ -62,7 +62,7 @@ Count of solved tasks: 78
 |697|easy|[Degree of an Array](https://leetcode.com/problems/degree-of-an-array/)|[Degree-of-an-Array.js](./leetcode/Degree-of-an-Array.js)|
 |704|easy|[Binary Search](https://leetcode.com/problems/binary-search/)|[Binary-Search.js](./leetcode/Binary-Search.js)|
 |713|medium|[Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/)|[Subarray-Product-Less-Than-K.js](./leetcode/Subarray-Product-Less-Than-K.js)|
-|724|easy|[ Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|[Find-Pivot-Index.js](./leetcode/Find-Pivot-Index.js)|
+|724|easy|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|[Find-Pivot-Index.js](./leetcode/Find-Pivot-Index.js)|
 |733|easy|[Backspace String Compare](https://leetcode.com/problems/flood-fill/)|[Flood-fill.js](./leetcode/Flood-fill.js)|
 |746|easy|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)|[Min-Cost-Climbing-Stairs.js](./leetcode/Min-Cost-Climbing-Stairs.js)|
 |763|medium|[Partition Labels](https://leetcode.com/problems/partition-labels/)|[Partition-Labels.js](./leetcode/Partition-Labels.js)|
@@ -80,6 +80,7 @@ Count of solved tasks: 78
 |1658|medium|[Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/)|[Minimum-Operations-to-Reduce-X-to-Zero.js](./leetcode/Minimum-Operations-to-Reduce-X-to-Zero.js)|
 |1920|easy|[Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/)|[Build-Array-from-Permutation.js](./leetcode/Build-Array-from-Permutation.js)|
 |1929|easy|[Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)|[Concatenation-of-Array.js](./leetcode/Concatenation-of-Array.js)|
+|1991|easy|[Find the Middle Index in Array](https://leetcode.com/problems/find-the-middle-index-in-array/description/)|[Find-the-Middle-Index-in-Array.js](./leetcode/Find-the-Middle-Index-in-Array.js)|
 |2011|easy|[Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/)|[Final-Value-of-Variable-After-Performing-Operations.js](./leetcode/Final-Value-of-Variable-After-Performing-Operations.js)|
 
 </p>
@@ -120,7 +121,7 @@ Count of solved tasks: 78
 |628|easy|[Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/)|[Maximum-Product-of-Three-Numbers.js](./leetcode/Maximum-Product-of-Three-Numbers.js)|
 |697|easy|[Degree of an Array](https://leetcode.com/problems/degree-of-an-array/)|[Degree-of-an-Array.js](./leetcode/Degree-of-an-Array.js)|
 |704|easy|[Binary Search](https://leetcode.com/problems/binary-search/)|[Binary-Search.js](./leetcode/Binary-Search.js)|
-|724|easy|[ Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|[Find-Pivot-Index.js](./leetcode/Find-Pivot-Index.js)|
+|724|easy|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|[Find-Pivot-Index.js](./leetcode/Find-Pivot-Index.js)|
 |733|easy|[Backspace String Compare](https://leetcode.com/problems/flood-fill/)|[Flood-fill.js](./leetcode/Flood-fill.js)|
 |746|easy|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)|[Min-Cost-Climbing-Stairs.js](./leetcode/Min-Cost-Climbing-Stairs.js)|
 |844|easy|[Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)|[Backspace-String-Compare.js](./leetcode/Backspace-String-Compare.js)|
@@ -132,6 +133,7 @@ Count of solved tasks: 78
 |1480|easy|[Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)|[Running-Sum-of-1d-Array.js](./leetcode/Running-Sum-of-1d-Array.js)|
 |1920|easy|[Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/)|[Build-Array-from-Permutation.js](./leetcode/Build-Array-from-Permutation.js)|
 |1929|easy|[Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)|[Concatenation-of-Array.js](./leetcode/Concatenation-of-Array.js)|
+|1991|easy|[Find the Middle Index in Array](https://leetcode.com/problems/find-the-middle-index-in-array/description/)|[Find-the-Middle-Index-in-Array.js](./leetcode/Find-the-Middle-Index-in-Array.js)|
 |2011|easy|[Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/)|[Final-Value-of-Variable-After-Performing-Operations.js](./leetcode/Final-Value-of-Variable-After-Performing-Operations.js)|
 
 </p>
