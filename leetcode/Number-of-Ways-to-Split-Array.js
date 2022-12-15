@@ -16,18 +16,14 @@ var waysToSplitArray = function (nums) {
   const prefixSum = [0];
   let counter = 0;
 
-  for (let i = 1; i <= nums.length; i++) {
-    prefixSum.push(prefixSum[i - 1] + nums[i - 1]);
+  for (let i = 0; i < nums.length; i++) {
+    prefixSum.push(prefixSum[i] + nums[i]);
   }
 
-  for (let i = 0; i < prefixSum.length; i++) {
-    if (i + 1 === prefixSum.length - 1) {
-      break;
-    }
+  for (let i = 1; i <= prefixSum.length - 2; i++) {
+    const diff = prefixSum[prefixSum.length - 1] - prefixSum[i];
 
-    const diff = prefixSum[prefixSum.length - 1] - prefixSum[i + 1];
-
-    if (prefixSum[i + 1] >= diff) {
+    if (prefixSum[i] >= diff) {
       counter += 1;
     }
   }
