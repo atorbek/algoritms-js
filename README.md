@@ -1,6 +1,6 @@
 ![Logo](./leetcode.png)
 ### This file was created automatically by [build-readme.js](./build-readme.js)
-Count of solved tasks: 82
+Count of solved tasks: 83
 
 <details>
 <summary>Table of all solved non-premium tasks</summary>
@@ -18,6 +18,7 @@ Count of solved tasks: 82
 |53|easy|[ Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Maximum-Subarray.js](./leetcode/Maximum-Subarray.js)|
 |54|medium|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)|[Spiral-Matrix.js](./leetcode/Spiral-Matrix.js)|
 |56|medium|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|[Merge-Intervals.js](./leetcode/Merge-Intervals.js)|
+|59|medium|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii)|[Spiral-Matrix-II.js](./leetcode/Spiral-Matrix-II.js)|
 |62|undefined|[Unique Paths](https://leetcode.com/problems/unique-paths/)|[Unique-Paths.js](./leetcode/Unique-Paths.js)|
 |70|easy|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[Climbing-Stairs.js](./leetcode/Climbing-Stairs.js)|
 |83|easy|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[Remove-Duplicates-from-Sorted-List.js](./leetcode/Remove-Duplicates-from-Sorted-List.js)|
@@ -155,6 +156,7 @@ Count of solved tasks: 82
 |19|medium|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Remove-Nth-Node-From-End-of-List.js](./leetcode/Remove-Nth-Node-From-End-of-List.js)|
 |54|medium|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)|[Spiral-Matrix.js](./leetcode/Spiral-Matrix.js)|
 |56|medium|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|[Merge-Intervals.js](./leetcode/Merge-Intervals.js)|
+|59|medium|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii)|[Spiral-Matrix-II.js](./leetcode/Spiral-Matrix-II.js)|
 |98|medium|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)|[Validate-Binary-Search-Tree.js](./leetcode/Validate-Binary-Search-Tree.js)|
 |102|medium|[Binary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|[Binary-Tree-Level-Order-Traversal.js](./leetcode/Binary-Tree-Level-Order-Traversal.js)|
 |142|medium|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)|[Linked-List-Cycle-II.js](./leetcode/Linked-List-Cycle-II.js)|
