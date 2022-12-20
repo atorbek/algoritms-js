@@ -4,7 +4,7 @@ module.exports.leetcode = {
   id: 62,
   name: 'Unique Paths',
   url: 'https://leetcode.com/problems/unique-paths/',
-  difficulty: difficulty.middle,
+  difficulty: difficulty.medium,
   premium: false
 };
 

@@ -4,7 +4,7 @@ module.exports.leetcode = {
   id: 2270,
   name: 'Number of Ways to Split Array',
   url: 'https://leetcode.com/problems/number-of-ways-to-split-array/',
-  difficulty: difficulty.middle,
+  difficulty: difficulty.medium,
   premium: false
 };
 

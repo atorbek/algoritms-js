@@ -4,7 +4,7 @@ module.exports.leetcode = {
   id: 438,
   name: 'Find All Anagrams in a String',
   url: 'https://leetcode.com/problems/find-all-anagrams-in-a-string/',
-  difficulty: difficulty.middle,
+  difficulty: difficulty.medium,
   premium: false
 };
 
