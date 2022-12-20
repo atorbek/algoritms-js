@@ -4,7 +4,7 @@ module.exports.leetcode = {
   id: 299,
   name: 'Bulls and Cows',
   url: 'https://leetcode.com/problems/bulls-and-cows/',
-  difficulty: difficulty.middle,
+  difficulty: difficulty.medium,
   premium: false
 };
 

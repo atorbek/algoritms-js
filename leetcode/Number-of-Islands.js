@@ -4,7 +4,7 @@ module.exports.leetcode = {
   id: 200,
   name: 'Number of Islands',
   url: 'https://leetcode.com/problems/number-of-islands/',
-  difficulty: difficulty.middle,
+  difficulty: difficulty.medium,
   premium: false
 };
 

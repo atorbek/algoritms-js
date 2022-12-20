@@ -4,7 +4,7 @@ module.exports.leetcode = {
   id: 692,
   name: 'Top K Frequent Words',
   url: 'https://leetcode.com/problems/top-k-frequent-words/',
-  difficulty: difficulty.middle,
+  difficulty: difficulty.medium,
   premium: false
 };
 

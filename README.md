@@ -19,7 +19,7 @@ Count of solved tasks: 83
 |54|medium|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)|[Spiral-Matrix.js](./leetcode/Spiral-Matrix.js)|
 |56|medium|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|[Merge-Intervals.js](./leetcode/Merge-Intervals.js)|
 |59|medium|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii)|[Spiral-Matrix-II.js](./leetcode/Spiral-Matrix-II.js)|
-|62|undefined|[Unique Paths](https://leetcode.com/problems/unique-paths/)|[Unique-Paths.js](./leetcode/Unique-Paths.js)|
+|62|medium|[Unique Paths](https://leetcode.com/problems/unique-paths/)|[Unique-Paths.js](./leetcode/Unique-Paths.js)|
 |70|easy|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[Climbing-Stairs.js](./leetcode/Climbing-Stairs.js)|
 |83|easy|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[Remove-Duplicates-from-Sorted-List.js](./leetcode/Remove-Duplicates-from-Sorted-List.js)|
 |98|medium|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)|[Validate-Binary-Search-Tree.js](./leetcode/Validate-Binary-Search-Tree.js)|
@@ -31,7 +31,7 @@ Count of solved tasks: 83
 |143|medium|[Reorder List](https://leetcode.com/problems/reorder-list/)|[Reorder-List.js](./leetcode/Reorder-List.js)|
 |148|medium|[Sort List](https://leetcode.com/problems/sort-list/)|[Sort-List.js](./leetcode/Sort-List.js)|
 |152|medium|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)|[Maximum-Product-Subarray.js](./leetcode/Maximum-Product-Subarray.js)|
-|200|undefined|[Number of Islands](https://leetcode.com/problems/number-of-islands/)|[Number-of-Islands.js](./leetcode/Number-of-Islands.js)|
+|200|medium|[Number of Islands](https://leetcode.com/problems/number-of-islands/)|[Number-of-Islands.js](./leetcode/Number-of-Islands.js)|
 |202|easy|[Happy Number](https://leetcode.com/problems/happy-number/)|[Happy-Number.js](./leetcode/Happy-Number.js)|
 |203|easy|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)|[Remove-Linked-List-Elements.js](./leetcode/Remove-Linked-List-Elements.js)|
 |205|easy|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|[Isomorphic-Strings.js](./leetcode/Isomorphic-Strings.js)|
@@ -44,7 +44,7 @@ Count of solved tasks: 83
 |268|easy|[Missing Number](https://leetcode.com/problems/missing-number/)|[Missing-Number.js](./leetcode/Missing-Number.js)|
 |278|easy|[First Bad Point](https://leetcode.com/problems/first-bad-version/)|[First-Bad-Point.js](./leetcode/First-Bad-Point.js)|
 |290|easy|[Word Pattern](https://leetcode.com/problems/word-pattern/)|[Word-Pattern.js](./leetcode/Word-Pattern.js)|
-|299|undefined|[Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/)|[Bulls-and-Cows.js](./leetcode/Bulls-and-Cows.js)|
+|299|medium|[Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/)|[Bulls-and-Cows.js](./leetcode/Bulls-and-Cows.js)|
 |349|easy|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)|[Intersection-of-Two-Arrays.js](./leetcode/Intersection-of-Two-Arrays.js)|
 |350|easy|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|[Intersection-of-Two-Arrays-II.js](./leetcode/Intersection-of-Two-Arrays-II.js)|
 |387|easy|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)|[First-Unique-Character-in-a-String.js](./leetcode/First-Unique-Character-in-a-String.js)|
@@ -53,7 +53,7 @@ Count of solved tasks: 83
 |395|medium|[Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters)|[Longest-Substring-with-At-Least-K-Repeating-Characters.js](./leetcode/Longest-Substring-with-At-Least-K-Repeating-Characters.js)|
 |409|easy|[Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)|[Longest-Palindrome.js](./leetcode/Longest-Palindrome.js)|
 |424|medium|[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)|[Longest-Repeating-Character-Replacement.js](./leetcode/Longest-Repeating-Character-Replacement.js)|
-|438|undefined|[Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)|[Find-all-anagrams-in-a-string.js](./leetcode/Find-all-anagrams-in-a-string.js)|
+|438|medium|[Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)|[Find-all-anagrams-in-a-string.js](./leetcode/Find-all-anagrams-in-a-string.js)|
 |448|easy|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|[Find-All-Numbers-Disappeared-in-an-Array.js](./leetcode/Find-All-Numbers-Disappeared-in-an-Array.js)|
 |485|easy|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|[Max-Consecutive-Ones.js](./leetcode/Max-Consecutive-Ones.js)|
 |509|easy|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[Fibonacci-Number.js](./leetcode/Fibonacci-Number.js)|
@@ -61,7 +61,7 @@ Count of solved tasks: 83
 |589|easy|[N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|[N-ary-Tree-Preorder-Traversal.js](./leetcode/N-ary-Tree-Preorder-Traversal.js)|
 |590|easy|[N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|[N-ary-Tree-Postorder-Traversal.js](./leetcode/N-ary-Tree-Postorder-Traversal.js)|
 |628|easy|[Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/)|[Maximum-Product-of-Three-Numbers.js](./leetcode/Maximum-Product-of-Three-Numbers.js)|
-|692|undefined|[Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)|[Top-K-Frequent-Words.js](./leetcode/Top-K-Frequent-Words.js)|
+|692|medium|[Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)|[Top-K-Frequent-Words.js](./leetcode/Top-K-Frequent-Words.js)|
 |697|easy|[Degree of an Array](https://leetcode.com/problems/degree-of-an-array/)|[Degree-of-an-Array.js](./leetcode/Degree-of-an-Array.js)|
 |704|easy|[Binary Search](https://leetcode.com/problems/binary-search/)|[Binary-Search.js](./leetcode/Binary-Search.js)|
 |713|medium|[Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/)|[Subarray-Product-Less-Than-K.js](./leetcode/Subarray-Product-Less-Than-K.js)|
@@ -85,7 +85,7 @@ Count of solved tasks: 83
 |1929|easy|[Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)|[Concatenation-of-Array.js](./leetcode/Concatenation-of-Array.js)|
 |1991|easy|[Find the Middle Index in Array](https://leetcode.com/problems/find-the-middle-index-in-array/description/)|[Find-the-Middle-Index-in-Array.js](./leetcode/Find-the-Middle-Index-in-Array.js)|
 |2011|easy|[Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/)|[Final-Value-of-Variable-After-Performing-Operations.js](./leetcode/Final-Value-of-Variable-After-Performing-Operations.js)|
-|2270|undefined|[Number of Ways to Split Array](https://leetcode.com/problems/number-of-ways-to-split-array/)|[Number-of-Ways-to-Split-Array.js](./leetcode/Number-of-Ways-to-Split-Array.js)|
+|2270|medium|[Number of Ways to Split Array](https://leetcode.com/problems/number-of-ways-to-split-array/)|[Number-of-Ways-to-Split-Array.js](./leetcode/Number-of-Ways-to-Split-Array.js)|
 
 </p>
 </details>
@@ -157,18 +157,23 @@ Count of solved tasks: 83
 |54|medium|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)|[Spiral-Matrix.js](./leetcode/Spiral-Matrix.js)|
 |56|medium|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|[Merge-Intervals.js](./leetcode/Merge-Intervals.js)|
 |59|medium|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii)|[Spiral-Matrix-II.js](./leetcode/Spiral-Matrix-II.js)|
+|62|medium|[Unique Paths](https://leetcode.com/problems/unique-paths/)|[Unique-Paths.js](./leetcode/Unique-Paths.js)|
 |98|medium|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)|[Validate-Binary-Search-Tree.js](./leetcode/Validate-Binary-Search-Tree.js)|
 |102|medium|[Binary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|[Binary-Tree-Level-Order-Traversal.js](./leetcode/Binary-Tree-Level-Order-Traversal.js)|
 |142|medium|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)|[Linked-List-Cycle-II.js](./leetcode/Linked-List-Cycle-II.js)|
 |143|medium|[Reorder List](https://leetcode.com/problems/reorder-list/)|[Reorder-List.js](./leetcode/Reorder-List.js)|
 |148|medium|[Sort List](https://leetcode.com/problems/sort-list/)|[Sort-List.js](./leetcode/Sort-List.js)|
 |152|medium|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)|[Maximum-Product-Subarray.js](./leetcode/Maximum-Product-Subarray.js)|
+|200|medium|[Number of Islands](https://leetcode.com/problems/number-of-islands/)|[Number-of-Islands.js](./leetcode/Number-of-Islands.js)|
 |209|medium|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)|[Minimum-Size-Subarray-Sum.js](./leetcode/Minimum-Size-Subarray-Sum.js)|
 |235|medium|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|[Lowest-Common-Ancestor-of-a-Binary-Search-Tree.js](./leetcode/Lowest-Common-Ancestor-of-a-Binary-Search-Tree.js)|
+|299|medium|[Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/)|[Bulls-and-Cows.js](./leetcode/Bulls-and-Cows.js)|
 |394|medium|[Decode String](https://leetcode.com/problems/decode-string/description/)|[Decode-String.js](./leetcode/Decode-String.js)|
 |395|medium|[Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters)|[Longest-Substring-with-At-Least-K-Repeating-Characters.js](./leetcode/Longest-Substring-with-At-Least-K-Repeating-Characters.js)|
 |424|medium|[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)|[Longest-Repeating-Character-Replacement.js](./leetcode/Longest-Repeating-Character-Replacement.js)|
+|438|medium|[Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)|[Find-all-anagrams-in-a-string.js](./leetcode/Find-all-anagrams-in-a-string.js)|
 |560|medium|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|[Subarray-Sum-Equals-K.js](./leetcode/Subarray-Sum-Equals-K.js)|
+|692|medium|[Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)|[Top-K-Frequent-Words.js](./leetcode/Top-K-Frequent-Words.js)|
 |713|medium|[Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/)|[Subarray-Product-Less-Than-K.js](./leetcode/Subarray-Product-Less-Than-K.js)|
 |763|medium|[Partition Labels](https://leetcode.com/problems/partition-labels/)|[Partition-Labels.js](./leetcode/Partition-Labels.js)|
 |1004|medium|[Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)|[Max-Consecutive-Ones-III.js](./leetcode/Max-Consecutive-Ones-III.js)|
@@ -176,6 +181,7 @@ Count of solved tasks: 83
 |1052|medium|[Grumpy Bookstore Owner](https://leetcode.com/problems/grumpy-bookstore-owner/)|[Grumpy-Bookstore-Owner.js](./leetcode/Grumpy-Bookstore-Owner.js)|
 |1456|medium|[Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/)|[Maximum-Number-of-Vowels-in-a-Substring-of-Given-Length.js](./leetcode/Maximum-Number-of-Vowels-in-a-Substring-of-Given-Length.js)|
 |1658|medium|[Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/)|[Minimum-Operations-to-Reduce-X-to-Zero.js](./leetcode/Minimum-Operations-to-Reduce-X-to-Zero.js)|
+|2270|medium|[Number of Ways to Split Array](https://leetcode.com/problems/number-of-ways-to-split-array/)|[Number-of-Ways-to-Split-Array.js](./leetcode/Number-of-Ways-to-Split-Array.js)|
 
 </p>
 </details>
