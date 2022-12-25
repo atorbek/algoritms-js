@@ -1,6 +1,6 @@
 ![Logo](./leetcode.png)
 ### This file was created automatically by [build-readme.js](./build-readme.js)
-Count of solved tasks: 83
+Count of solved tasks: 84
 
 <details>
 <summary>Table of all solved non-premium tasks</summary>
@@ -10,6 +10,7 @@ Count of solved tasks: 83
 |:-----------:|:-----------:|:--------------:|:--------------:|
 |3|medium|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[Longest-Substring-Without-Repeating-Characters.js](./leetcode/Longest-Substring-Without-Repeating-Characters.js)|
 |5|medium|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[Longest-Palindromic-Substring.js](./leetcode/Longest-Palindromic-Substring.js)|
+|14|easy|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix)|[Longest-Common-Prefix.js](./leetcode/Longest-Common-Prefix.js)|
 |15|medium|[3Sum](https://leetcode.com/problems/3sum/)|[3Sum.js](./leetcode/3Sum.js)|
 |16|medium|[ 3Sum Closest](https://leetcode.com/problems/3sum-closest/)|[3Sum-Closest.js](./leetcode/3Sum-Closest.js)|
 |19|medium|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Remove-Nth-Node-From-End-of-List.js](./leetcode/Remove-Nth-Node-From-End-of-List.js)|
@@ -95,6 +96,7 @@ Count of solved tasks: 83
 
 | LeetCode ID | Difficulty  | Name           | Solution       |
 |:-----------:|:-----------:|:--------------:|:--------------:|
+|14|easy|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix)|[Longest-Common-Prefix.js](./leetcode/Longest-Common-Prefix.js)|
 |20|easy|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[Valid-Parentheses.js](./leetcode/Valid-Parentheses.js)|
 |21|easy|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[Merge-Two-Sorted-Lists.js](./leetcode/Merge-Two-Sorted-Lists.js)|
 |53|easy|[ Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Maximum-Subarray.js](./leetcode/Maximum-Subarray.js)|
