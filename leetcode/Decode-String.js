@@ -3,7 +3,7 @@ const { difficulty } = require('../constants');
 module.exports.leetcode = {
   id: 394,
   name: 'Decode String',
-  url: 'https://leetcode.com/problems/decode-string/description/',
+  url: 'https://leetcode.com/problems/decode-string/',
   difficulty: difficulty.medium,
   premium: false
 };

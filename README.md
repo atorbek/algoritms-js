@@ -1,6 +1,6 @@
 ![Logo](./leetcode.png)
 ### This file was created automatically by [build-readme.js](./build-readme.js)
-Count of solved tasks: 84
+Count of solved tasks: 85
 
 <details>
 <summary>Table of all solved non-premium tasks</summary>
@@ -39,6 +39,7 @@ Count of solved tasks: 84
 |206|easy|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[Reverse-Linked-List.js](./leetcode/Reverse-Linked-List.js)|
 |209|medium|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)|[Minimum-Size-Subarray-Sum.js](./leetcode/Minimum-Size-Subarray-Sum.js)|
 |217|easy|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[Contains-Duplicate.js](./leetcode/Contains-Duplicate.js)|
+|226|easy|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|[Invert-Binary-Tree.js](./leetcode/Invert-Binary-Tree.js)|
 |234|easy|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|[Palindrome-Linked-List.js](./leetcode/Palindrome-Linked-List.js)|
 |235|medium|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|[Lowest-Common-Ancestor-of-a-Binary-Search-Tree.js](./leetcode/Lowest-Common-Ancestor-of-a-Binary-Search-Tree.js)|
 |242|easy|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[Valid-Anagram.js](./leetcode/Valid-Anagram.js)|
@@ -50,7 +51,7 @@ Count of solved tasks: 84
 |350|easy|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|[Intersection-of-Two-Arrays-II.js](./leetcode/Intersection-of-Two-Arrays-II.js)|
 |387|easy|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)|[First-Unique-Character-in-a-String.js](./leetcode/First-Unique-Character-in-a-String.js)|
 |392|easy|[Is Subsequence](https://leetcode.com/problems/is-subsequence/)|[Is-Subsequence.js](./leetcode/Is-Subsequence.js)|
-|394|medium|[Decode String](https://leetcode.com/problems/decode-string/description/)|[Decode-String.js](./leetcode/Decode-String.js)|
+|394|medium|[Decode String](https://leetcode.com/problems/decode-string/)|[Decode-String.js](./leetcode/Decode-String.js)|
 |395|medium|[Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters)|[Longest-Substring-with-At-Least-K-Repeating-Characters.js](./leetcode/Longest-Substring-with-At-Least-K-Repeating-Characters.js)|
 |409|easy|[Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)|[Longest-Palindrome.js](./leetcode/Longest-Palindrome.js)|
 |424|medium|[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)|[Longest-Repeating-Character-Replacement.js](./leetcode/Longest-Repeating-Character-Replacement.js)|
@@ -84,7 +85,7 @@ Count of solved tasks: 84
 |1658|medium|[Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/)|[Minimum-Operations-to-Reduce-X-to-Zero.js](./leetcode/Minimum-Operations-to-Reduce-X-to-Zero.js)|
 |1920|easy|[Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/)|[Build-Array-from-Permutation.js](./leetcode/Build-Array-from-Permutation.js)|
 |1929|easy|[Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)|[Concatenation-of-Array.js](./leetcode/Concatenation-of-Array.js)|
-|1991|easy|[Find the Middle Index in Array](https://leetcode.com/problems/find-the-middle-index-in-array/description/)|[Find-the-Middle-Index-in-Array.js](./leetcode/Find-the-Middle-Index-in-Array.js)|
+|1991|easy|[Find the Middle Index in Array](https://leetcode.com/problems/find-the-middle-index-in-array/)|[Find-the-Middle-Index-in-Array.js](./leetcode/Find-the-Middle-Index-in-Array.js)|
 |2011|easy|[Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/)|[Final-Value-of-Variable-After-Performing-Operations.js](./leetcode/Final-Value-of-Variable-After-Performing-Operations.js)|
 |2270|medium|[Number of Ways to Split Array](https://leetcode.com/problems/number-of-ways-to-split-array/)|[Number-of-Ways-to-Split-Array.js](./leetcode/Number-of-Ways-to-Split-Array.js)|
 
@@ -110,6 +111,7 @@ Count of solved tasks: 84
 |205|easy|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|[Isomorphic-Strings.js](./leetcode/Isomorphic-Strings.js)|
 |206|easy|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[Reverse-Linked-List.js](./leetcode/Reverse-Linked-List.js)|
 |217|easy|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[Contains-Duplicate.js](./leetcode/Contains-Duplicate.js)|
+|226|easy|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|[Invert-Binary-Tree.js](./leetcode/Invert-Binary-Tree.js)|
 |234|easy|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|[Palindrome-Linked-List.js](./leetcode/Palindrome-Linked-List.js)|
 |242|easy|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[Valid-Anagram.js](./leetcode/Valid-Anagram.js)|
 |268|easy|[Missing Number](https://leetcode.com/problems/missing-number/)|[Missing-Number.js](./leetcode/Missing-Number.js)|
@@ -140,7 +142,7 @@ Count of solved tasks: 84
 |1480|easy|[Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)|[Running-Sum-of-1d-Array.js](./leetcode/Running-Sum-of-1d-Array.js)|
 |1920|easy|[Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/)|[Build-Array-from-Permutation.js](./leetcode/Build-Array-from-Permutation.js)|
 |1929|easy|[Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)|[Concatenation-of-Array.js](./leetcode/Concatenation-of-Array.js)|
-|1991|easy|[Find the Middle Index in Array](https://leetcode.com/problems/find-the-middle-index-in-array/description/)|[Find-the-Middle-Index-in-Array.js](./leetcode/Find-the-Middle-Index-in-Array.js)|
+|1991|easy|[Find the Middle Index in Array](https://leetcode.com/problems/find-the-middle-index-in-array/)|[Find-the-Middle-Index-in-Array.js](./leetcode/Find-the-Middle-Index-in-Array.js)|
 |2011|easy|[Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/)|[Final-Value-of-Variable-After-Performing-Operations.js](./leetcode/Final-Value-of-Variable-After-Performing-Operations.js)|
 
 </p>
@@ -170,7 +172,7 @@ Count of solved tasks: 84
 |209|medium|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)|[Minimum-Size-Subarray-Sum.js](./leetcode/Minimum-Size-Subarray-Sum.js)|
 |235|medium|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|[Lowest-Common-Ancestor-of-a-Binary-Search-Tree.js](./leetcode/Lowest-Common-Ancestor-of-a-Binary-Search-Tree.js)|
 |299|medium|[Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/)|[Bulls-and-Cows.js](./leetcode/Bulls-and-Cows.js)|
-|394|medium|[Decode String](https://leetcode.com/problems/decode-string/description/)|[Decode-String.js](./leetcode/Decode-String.js)|
+|394|medium|[Decode String](https://leetcode.com/problems/decode-string/)|[Decode-String.js](./leetcode/Decode-String.js)|
 |395|medium|[Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters)|[Longest-Substring-with-At-Least-K-Repeating-Characters.js](./leetcode/Longest-Substring-with-At-Least-K-Repeating-Characters.js)|
 |424|medium|[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)|[Longest-Repeating-Character-Replacement.js](./leetcode/Longest-Repeating-Character-Replacement.js)|
 |438|medium|[Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)|[Find-all-anagrams-in-a-string.js](./leetcode/Find-all-anagrams-in-a-string.js)|
