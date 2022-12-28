@@ -1,6 +1,6 @@
 ![Logo](./leetcode.png)
 ### This file was created automatically by [build-readme.js](./build-readme.js)
-Count of solved tasks: 85
+Count of solved tasks: 86
 
 <details>
 <summary>Table of all solved non-premium tasks</summary>
@@ -25,6 +25,7 @@ Count of solved tasks: 85
 |83|easy|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[Remove-Duplicates-from-Sorted-List.js](./leetcode/Remove-Duplicates-from-Sorted-List.js)|
 |98|medium|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)|[Validate-Binary-Search-Tree.js](./leetcode/Validate-Binary-Search-Tree.js)|
 |102|medium|[Binary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|[Binary-Tree-Level-Order-Traversal.js](./leetcode/Binary-Tree-Level-Order-Traversal.js)|
+|110|easy|[Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)|[Balanced-Binary-Tree.js](./leetcode/Balanced-Binary-Tree.js)|
 |125|easy|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[Valid-Palindrome.js](./leetcode/Valid-Palindrome.js)|
 |136|easy|[Single Number](https://leetcode.com/problems/single-number/)|[Single-Number.js](./leetcode/Single-Number.js)|
 |141|easy|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[Linked-List-Cycle.js](./leetcode/Linked-List-Cycle.js)|
@@ -103,6 +104,7 @@ Count of solved tasks: 85
 |53|easy|[ Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Maximum-Subarray.js](./leetcode/Maximum-Subarray.js)|
 |70|easy|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[Climbing-Stairs.js](./leetcode/Climbing-Stairs.js)|
 |83|easy|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[Remove-Duplicates-from-Sorted-List.js](./leetcode/Remove-Duplicates-from-Sorted-List.js)|
+|110|easy|[Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)|[Balanced-Binary-Tree.js](./leetcode/Balanced-Binary-Tree.js)|
 |125|easy|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[Valid-Palindrome.js](./leetcode/Valid-Palindrome.js)|
 |136|easy|[Single Number](https://leetcode.com/problems/single-number/)|[Single-Number.js](./leetcode/Single-Number.js)|
 |141|easy|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[Linked-List-Cycle.js](./leetcode/Linked-List-Cycle.js)|
