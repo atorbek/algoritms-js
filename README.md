@@ -1,6 +1,6 @@
 ![Logo](./leetcode.png)
 ### This file was created automatically by [build-readme.js](./build-readme.js)
-Count of solved tasks: 88
+Count of solved tasks: 89
 
 <details>
 <summary>Table of all solved non-premium tasks</summary>
@@ -10,6 +10,7 @@ Count of solved tasks: 88
 |:-----------:|:-----------:|:--------------:|:--------------:|
 |3|medium|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[Longest-Substring-Without-Repeating-Characters.js](./leetcode/Longest-Substring-Without-Repeating-Characters.js)|
 |5|medium|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[Longest-Palindromic-Substring.js](./leetcode/Longest-Palindromic-Substring.js)|
+|9|easy|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)|[Palindrome-Number.js](./leetcode/Palindrome-Number.js)|
 |14|easy|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix)|[Longest-Common-Prefix.js](./leetcode/Longest-Common-Prefix.js)|
 |15|medium|[3Sum](https://leetcode.com/problems/3sum/)|[3Sum.js](./leetcode/3Sum.js)|
 |16|medium|[ 3Sum Closest](https://leetcode.com/problems/3sum-closest/)|[3Sum-Closest.js](./leetcode/3Sum-Closest.js)|
@@ -100,6 +101,7 @@ Count of solved tasks: 88
 
 | LeetCode ID | Difficulty  | Name           | Solution       |
 |:-----------:|:-----------:|:--------------:|:--------------:|
+|9|easy|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)|[Palindrome-Number.js](./leetcode/Palindrome-Number.js)|
 |14|easy|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix)|[Longest-Common-Prefix.js](./leetcode/Longest-Common-Prefix.js)|
 |20|easy|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[Valid-Parentheses.js](./leetcode/Valid-Parentheses.js)|
 |21|easy|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[Merge-Two-Sorted-Lists.js](./leetcode/Merge-Two-Sorted-Lists.js)|
