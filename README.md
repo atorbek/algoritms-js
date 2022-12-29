@@ -1,6 +1,6 @@
 ![Logo](./leetcode.png)
 ### This file was created automatically by [build-readme.js](./build-readme.js)
-Count of solved tasks: 87
+Count of solved tasks: 88
 
 <details>
 <summary>Table of all solved non-premium tasks</summary>
@@ -37,6 +37,7 @@ Count of solved tasks: 87
 |202|easy|[Happy Number](https://leetcode.com/problems/happy-number/)|[Happy-Number.js](./leetcode/Happy-Number.js)|
 |203|easy|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)|[Remove-Linked-List-Elements.js](./leetcode/Remove-Linked-List-Elements.js)|
 |205|easy|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|[Isomorphic-Strings.js](./leetcode/Isomorphic-Strings.js)|
+|206|easy|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[Odd-Even-Linked-List.js](./leetcode/Odd-Even-Linked-List.js)|
 |206|easy|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[Reverse-Linked-List.js](./leetcode/Reverse-Linked-List.js)|
 |209|medium|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)|[Minimum-Size-Subarray-Sum.js](./leetcode/Minimum-Size-Subarray-Sum.js)|
 |217|easy|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[Contains-Duplicate.js](./leetcode/Contains-Duplicate.js)|
@@ -112,6 +113,7 @@ Count of solved tasks: 87
 |202|easy|[Happy Number](https://leetcode.com/problems/happy-number/)|[Happy-Number.js](./leetcode/Happy-Number.js)|
 |203|easy|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)|[Remove-Linked-List-Elements.js](./leetcode/Remove-Linked-List-Elements.js)|
 |205|easy|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|[Isomorphic-Strings.js](./leetcode/Isomorphic-Strings.js)|
+|206|easy|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[Odd-Even-Linked-List.js](./leetcode/Odd-Even-Linked-List.js)|
 |206|easy|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[Reverse-Linked-List.js](./leetcode/Reverse-Linked-List.js)|
 |217|easy|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[Contains-Duplicate.js](./leetcode/Contains-Duplicate.js)|
 |226|easy|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|[Invert-Binary-Tree.js](./leetcode/Invert-Binary-Tree.js)|
