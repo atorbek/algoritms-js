@@ -36,6 +36,9 @@ var isBalanced = function (root) {
       return -1;
     }
 
+    console.log(root.left, root.right);
+    console.log('l', l, 'r', r);
+
     if (Math.abs(l - r) > 1) {
       return -1;
     } else {
