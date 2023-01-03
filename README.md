@@ -52,7 +52,6 @@ Count of solved tasks: 94
 |278|easy|[First Bad Point](https://leetcode.com/problems/first-bad-version/)|[First-Bad-Point.js](./leetcode/First-Bad-Point.js)|
 |290|easy|[Word Pattern](https://leetcode.com/problems/word-pattern/)|[Word-Pattern.js](./leetcode/Word-Pattern.js)|
 |299|medium|[Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/)|[Bulls-and-Cows.js](./leetcode/Bulls-and-Cows.js)|
-|344|easy|[Reverse String](https://leetcode.com/problems/reverse-string/)|[Reverse-String.js](./leetcode/Reverse-String.js)|
 |349|easy|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)|[Intersection-of-Two-Arrays.js](./leetcode/Intersection-of-Two-Arrays.js)|
 |350|easy|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|[Intersection-of-Two-Arrays-II.js](./leetcode/Intersection-of-Two-Arrays-II.js)|
 |387|easy|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)|[First-Unique-Character-in-a-String.js](./leetcode/First-Unique-Character-in-a-String.js)|
@@ -66,6 +65,7 @@ Count of solved tasks: 94
 |485|easy|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|[Max-Consecutive-Ones.js](./leetcode/Max-Consecutive-Ones.js)|
 |509|easy|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[Fibonacci-Number.js](./leetcode/Fibonacci-Number.js)|
 |520|easy|[Detect Capital](https://leetcode.com/problems/detect-capital/)|[Detect-Capital.js](./leetcode/Detect-Capital.js)|
+|541|easy|[Reverse String II](https://leetcode.com/problems/reverse-string-ii/)|[Reverse-String.js](./leetcode/Reverse-String.js)|
 |560|medium|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|[Subarray-Sum-Equals-K.js](./leetcode/Subarray-Sum-Equals-K.js)|
 |589|easy|[N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|[N-ary-Tree-Preorder-Traversal.js](./leetcode/N-ary-Tree-Preorder-Traversal.js)|
 |590|easy|[N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|[N-ary-Tree-Postorder-Traversal.js](./leetcode/N-ary-Tree-Postorder-Traversal.js)|
@@ -130,7 +130,6 @@ Count of solved tasks: 94
 |268|easy|[Missing Number](https://leetcode.com/problems/missing-number/)|[Missing-Number.js](./leetcode/Missing-Number.js)|
 |278|easy|[First Bad Point](https://leetcode.com/problems/first-bad-version/)|[First-Bad-Point.js](./leetcode/First-Bad-Point.js)|
 |290|easy|[Word Pattern](https://leetcode.com/problems/word-pattern/)|[Word-Pattern.js](./leetcode/Word-Pattern.js)|
-|344|easy|[Reverse String](https://leetcode.com/problems/reverse-string/)|[Reverse-String.js](./leetcode/Reverse-String.js)|
 |349|easy|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)|[Intersection-of-Two-Arrays.js](./leetcode/Intersection-of-Two-Arrays.js)|
 |350|easy|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|[Intersection-of-Two-Arrays-II.js](./leetcode/Intersection-of-Two-Arrays-II.js)|
 |387|easy|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)|[First-Unique-Character-in-a-String.js](./leetcode/First-Unique-Character-in-a-String.js)|
@@ -140,6 +139,7 @@ Count of solved tasks: 94
 |485|easy|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|[Max-Consecutive-Ones.js](./leetcode/Max-Consecutive-Ones.js)|
 |509|easy|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[Fibonacci-Number.js](./leetcode/Fibonacci-Number.js)|
 |520|easy|[Detect Capital](https://leetcode.com/problems/detect-capital/)|[Detect-Capital.js](./leetcode/Detect-Capital.js)|
+|541|easy|[Reverse String II](https://leetcode.com/problems/reverse-string-ii/)|[Reverse-String.js](./leetcode/Reverse-String.js)|
 |589|easy|[N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|[N-ary-Tree-Preorder-Traversal.js](./leetcode/N-ary-Tree-Preorder-Traversal.js)|
 |590|easy|[N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|[N-ary-Tree-Postorder-Traversal.js](./leetcode/N-ary-Tree-Postorder-Traversal.js)|
 |628|easy|[Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/)|[Maximum-Product-of-Three-Numbers.js](./leetcode/Maximum-Product-of-Three-Numbers.js)|
