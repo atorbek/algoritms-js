@@ -1,9 +1,9 @@
 const { difficulty } = require('../constants');
 
 module.exports.leetcode = {
-  id: 557,
-  name: 'Reverse Words in a String III',
-  url: 'https://leetcode.com/problems/reverse-words-in-a-string-iii/',
+  id: 283,
+  name: 'Move Zeroes',
+  url: 'https://leetcode.com/problems/move-zeroes/',
   difficulty: difficulty.easy,
   premium: false
 };
