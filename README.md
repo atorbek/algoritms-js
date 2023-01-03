@@ -1,6 +1,6 @@
 ![Logo](./leetcode.png)
 ### This file was created automatically by [build-readme.js](./build-readme.js)
-Count of solved tasks: 93
+Count of solved tasks: 94
 
 <details>
 <summary>Table of all solved non-premium tasks</summary>
@@ -82,6 +82,7 @@ Count of solved tasks: 93
 |852|easy|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|[Peak-Index-in-a-Mountain-Array.js](./leetcode/Peak-Index-in-a-Mountain-Array.js)|
 |876|easy|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[Middle-of-the-Linked-List.js](./leetcode/Middle-of-the-Linked-List.js)|
 |920|easy|[Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)|[Metting-rooms.js](./leetcode/Metting-rooms.js)|
+|944|easy|[Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/)|[Delete-Columns-to-Make-Sorted.js](./leetcode/Delete-Columns-to-Make-Sorted.js)|
 |977|easy|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|[Squares-of-a-Sorted-Array.js](./leetcode/Squares-of-a-Sorted-Array.js)|
 |1004|medium|[Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)|[Max-Consecutive-Ones-III.js](./leetcode/Max-Consecutive-Ones-III.js)|
 |1040|medium|[Moving Stones Until Consecutive II](https://leetcode.com/problems/moving-stones-until-consecutive-ii/)|[Moving-Stones-Until-Consecutive-II.js](./leetcode/Moving-Stones-Until-Consecutive-II.js)|
@@ -151,6 +152,7 @@ Count of solved tasks: 93
 |852|easy|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|[Peak-Index-in-a-Mountain-Array.js](./leetcode/Peak-Index-in-a-Mountain-Array.js)|
 |876|easy|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[Middle-of-the-Linked-List.js](./leetcode/Middle-of-the-Linked-List.js)|
 |920|easy|[Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)|[Metting-rooms.js](./leetcode/Metting-rooms.js)|
+|944|easy|[Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/)|[Delete-Columns-to-Make-Sorted.js](./leetcode/Delete-Columns-to-Make-Sorted.js)|
 |977|easy|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|[Squares-of-a-Sorted-Array.js](./leetcode/Squares-of-a-Sorted-Array.js)|
 |1046|easy|[Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)|[Last-Stone-Weight.js](./leetcode/Last-Stone-Weight.js)|
 |1480|easy|[Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)|[Running-Sum-of-1d-Array.js](./leetcode/Running-Sum-of-1d-Array.js)|
