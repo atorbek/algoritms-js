@@ -14,23 +14,27 @@ module.exports.leetcode = {
  */
 var reverseWords = function (s) {
   let a = s.split('');
+  let lastStart = -1;
 
-  for (let i = 0; i < a.length; i++) {
-    // n
+  for (let i = 0; i <= a.length; i++) {
+    if (i === a.length || a[i] === ' ') {
+      let start = lastStart + 1;
+      let end = i - 1;
 
-    const str = a[i].split(''); // n
-    for (let j = 0; j < str.length / 2; j++) {
-      // n/2
-      const tmp = str[j];
-      str[j] = str[str.length - 1 - j];
-      str[str.length - 1 - j] = tmp;
+      while (start < end) {
+        const tmp = a[start];
+        a[start] = a[end];
+        a[end] = tmp;
+        start++;
+        end--;
+      }
+
+      lastStart = i;
     }
-
-    a[i] = str.join('');
   }
 
-  return a.join(' '); // n
-}; // TODO It's not optimal solution with O(n^2) by time
+  return a.join('');
+};
 
 console.time('time');
 // eslint-disable-next-line quotes
