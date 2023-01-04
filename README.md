@@ -1,6 +1,6 @@
 ![Logo](./leetcode.png)
 ### This file was created automatically by [build-readme.js](./build-readme.js)
-Count of solved tasks: 99
+Count of solved tasks: 100
 
 <details>
 <summary>Table of all solved non-premium tasks</summary>
@@ -27,6 +27,7 @@ Count of solved tasks: 99
 |83|easy|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[Remove-Duplicates-from-Sorted-List.js](./leetcode/Remove-Duplicates-from-Sorted-List.js)|
 |98|medium|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)|[Validate-Binary-Search-Tree.js](./leetcode/Validate-Binary-Search-Tree.js)|
 |100|easy|[Same Tree](https://leetcode.com/problems/same-tree/)|[Same-Tree.js](./leetcode/Same-Tree.js)|
+|101|easy|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)|[Symmetric-Tree.js](./leetcode/Symmetric-Tree.js)|
 |102|medium|[Binary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|[Binary-Tree-Level-Order-Traversal.js](./leetcode/Binary-Tree-Level-Order-Traversal.js)|
 |108|easy|[Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)|[Convert-Sorted-Array-to-Binary-Search-Tree.js](./leetcode/Convert-Sorted-Array-to-Binary-Search-Tree.js)|
 |110|easy|[Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)|[Balanced-Binary-Tree.js](./leetcode/Balanced-Binary-Tree.js)|
@@ -119,6 +120,7 @@ Count of solved tasks: 99
 |70|easy|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[Climbing-Stairs.js](./leetcode/Climbing-Stairs.js)|
 |83|easy|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[Remove-Duplicates-from-Sorted-List.js](./leetcode/Remove-Duplicates-from-Sorted-List.js)|
 |100|easy|[Same Tree](https://leetcode.com/problems/same-tree/)|[Same-Tree.js](./leetcode/Same-Tree.js)|
+|101|easy|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)|[Symmetric-Tree.js](./leetcode/Symmetric-Tree.js)|
 |108|easy|[Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)|[Convert-Sorted-Array-to-Binary-Search-Tree.js](./leetcode/Convert-Sorted-Array-to-Binary-Search-Tree.js)|
 |110|easy|[Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)|[Balanced-Binary-Tree.js](./leetcode/Balanced-Binary-Tree.js)|
 |125|easy|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[Valid-Palindrome.js](./leetcode/Valid-Palindrome.js)|
