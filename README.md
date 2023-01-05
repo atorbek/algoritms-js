@@ -1,6 +1,6 @@
 ![Logo](./leetcode.png)
 ### This file was created automatically by [build-readme.js](./build-readme.js)
-Count of solved tasks: 101
+Count of solved tasks: 102
 
 <details>
 <summary>Table of all solved non-premium tasks</summary>
@@ -64,6 +64,7 @@ Count of solved tasks: 101
 |395|medium|[Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters)|[Longest-Substring-with-At-Least-K-Repeating-Characters.js](./leetcode/Longest-Substring-with-At-Least-K-Repeating-Characters.js)|
 |409|easy|[Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)|[Longest-Palindrome.js](./leetcode/Longest-Palindrome.js)|
 |424|medium|[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)|[Longest-Repeating-Character-Replacement.js](./leetcode/Longest-Repeating-Character-Replacement.js)|
+|435|medium|[Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)|[Non-overlapping-Intervals.js](./leetcode/Non-overlapping-Intervals.js)|
 |438|medium|[Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)|[Find-all-anagrams-in-a-string.js](./leetcode/Find-all-anagrams-in-a-string.js)|
 |448|easy|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|[Find-All-Numbers-Disappeared-in-an-Array.js](./leetcode/Find-All-Numbers-Disappeared-in-an-Array.js)|
 |452|medium|[Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)|[Minimum-Number-of-Arrows-to-Burst-Balloons.js](./leetcode/Minimum-Number-of-Arrows-to-Burst-Balloons.js)|
@@ -204,6 +205,7 @@ Count of solved tasks: 101
 |394|medium|[Decode String](https://leetcode.com/problems/decode-string/)|[Decode-String.js](./leetcode/Decode-String.js)|
 |395|medium|[Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters)|[Longest-Substring-with-At-Least-K-Repeating-Characters.js](./leetcode/Longest-Substring-with-At-Least-K-Repeating-Characters.js)|
 |424|medium|[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)|[Longest-Repeating-Character-Replacement.js](./leetcode/Longest-Repeating-Character-Replacement.js)|
+|435|medium|[Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)|[Non-overlapping-Intervals.js](./leetcode/Non-overlapping-Intervals.js)|
 |438|medium|[Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)|[Find-all-anagrams-in-a-string.js](./leetcode/Find-all-anagrams-in-a-string.js)|
 |452|medium|[Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)|[Minimum-Number-of-Arrows-to-Burst-Balloons.js](./leetcode/Minimum-Number-of-Arrows-to-Burst-Balloons.js)|
 |560|medium|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|[Subarray-Sum-Equals-K.js](./leetcode/Subarray-Sum-Equals-K.js)|
