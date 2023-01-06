@@ -61,3 +61,4 @@ console.log(missingNumber(arr2));
 console.log(missingNumber(arr3));
 console.log(missingNumber(arr4));
 console.timeEnd('time');
+

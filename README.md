@@ -1,6 +1,6 @@
 ![Logo](./leetcode.png)
 ### This file was created automatically by [build-readme.js](./build-readme.js)
-Count of solved tasks: 102
+Count of solved tasks: 103
 
 <details>
 <summary>Table of all solved non-premium tasks</summary>
@@ -99,6 +99,7 @@ Count of solved tasks: 102
 |1480|easy|[Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)|[Running-Sum-of-1d-Array.js](./leetcode/Running-Sum-of-1d-Array.js)|
 |1658|medium|[Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/)|[Minimum-Operations-to-Reduce-X-to-Zero.js](./leetcode/Minimum-Operations-to-Reduce-X-to-Zero.js)|
 |1706|medium|[Where Will the Ball Fall](https://leetcode.com/problems/where-will-the-ball-fall/)|[Where-Will-the-Ball-Fall.js](./leetcode/Where-Will-the-Ball-Fall.js)|
+|1833|medium|[Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/)|[Maximum-Ice-Cream-Bars.js](./leetcode/Maximum-Ice-Cream-Bars.js)|
 |1920|easy|[Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/)|[Build-Array-from-Permutation.js](./leetcode/Build-Array-from-Permutation.js)|
 |1929|easy|[Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)|[Concatenation-of-Array.js](./leetcode/Concatenation-of-Array.js)|
 |1991|easy|[Find the Middle Index in Array](https://leetcode.com/problems/find-the-middle-index-in-array/)|[Find-the-Middle-Index-in-Array.js](./leetcode/Find-the-Middle-Index-in-Array.js)|
@@ -218,6 +219,7 @@ Count of solved tasks: 102
 |1456|medium|[Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/)|[Maximum-Number-of-Vowels-in-a-Substring-of-Given-Length.js](./leetcode/Maximum-Number-of-Vowels-in-a-Substring-of-Given-Length.js)|
 |1658|medium|[Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/)|[Minimum-Operations-to-Reduce-X-to-Zero.js](./leetcode/Minimum-Operations-to-Reduce-X-to-Zero.js)|
 |1706|medium|[Where Will the Ball Fall](https://leetcode.com/problems/where-will-the-ball-fall/)|[Where-Will-the-Ball-Fall.js](./leetcode/Where-Will-the-Ball-Fall.js)|
+|1833|medium|[Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/)|[Maximum-Ice-Cream-Bars.js](./leetcode/Maximum-Ice-Cream-Bars.js)|
 |2244|medium|[Minimum Rounds to Complete All Tasks](https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks/)|[Minimum-Rounds-to-Complete-All-Tasks.js](./leetcode/Minimum-Rounds-to-Complete-All-Tasks.js)|
 |2270|medium|[Number of Ways to Split Array](https://leetcode.com/problems/number-of-ways-to-split-array/)|[Number-of-Ways-to-Split-Array.js](./leetcode/Number-of-Ways-to-Split-Array.js)|
 
