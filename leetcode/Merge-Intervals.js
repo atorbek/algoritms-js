@@ -15,25 +15,19 @@ module.exports.leetcode = {
 var merge = function (intervals) {
   intervals.sort((a, b) => a[0] - b[0]);
 
-  let res = [];
+  let merged = [];
 
-  let end = intervals[0];
-
-  for (let i = 1; i < intervals.length; i++) {
-    if (intervals[i][0] <= end[1]) {
-      end = [
-        Math.min(end[0], intervals[i][0]),
-        Math.max(end[1], intervals[i][1])
-      ];
+  for (let interval of intervals) {
+    if (!merged.length || merged[merged.length - 1][1] < interval[0]) {
+      merged.push(interval);
     } else {
-      res.push(end);
-      end = intervals[i];
+      merged[merged.length - 1][1] = Math.max(
+        merged[merged.length - 1][1],
+        interval[1]
+      );
     }
   }
-
-  res.push(end);
-
-  return res;
+  return merged;
 };
 
 intervals = [
