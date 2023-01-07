@@ -1,6 +1,6 @@
 ![Logo](./leetcode.png)
 ### This file was created automatically by [build-readme.js](./build-readme.js)
-Count of solved tasks: 104
+Count of solved tasks: 105
 
 <details>
 <summary>Table of all solved non-premium tasks</summary>
@@ -20,6 +20,7 @@ Count of solved tasks: 104
 |53|easy|[ Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Maximum-Subarray.js](./leetcode/Maximum-Subarray.js)|
 |54|medium|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)|[Spiral-Matrix.js](./leetcode/Spiral-Matrix.js)|
 |56|medium|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|[Merge-Intervals.js](./leetcode/Merge-Intervals.js)|
+|57|medium|[Insert Interval](https://leetcode.com/problems/insert-interval/)|[Insert-Interval.js](./leetcode/Insert-Interval.js)|
 |59|medium|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii)|[Spiral-Matrix-II.js](./leetcode/Spiral-Matrix-II.js)|
 |62|medium|[Unique Paths](https://leetcode.com/problems/unique-paths/)|[Unique-Paths.js](./leetcode/Unique-Paths.js)|
 |63|medium|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)|[Unique-Paths-II.js](./leetcode/Unique-Paths-II.js)|
@@ -192,6 +193,7 @@ Count of solved tasks: 104
 |19|medium|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Remove-Nth-Node-From-End-of-List.js](./leetcode/Remove-Nth-Node-From-End-of-List.js)|
 |54|medium|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)|[Spiral-Matrix.js](./leetcode/Spiral-Matrix.js)|
 |56|medium|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|[Merge-Intervals.js](./leetcode/Merge-Intervals.js)|
+|57|medium|[Insert Interval](https://leetcode.com/problems/insert-interval/)|[Insert-Interval.js](./leetcode/Insert-Interval.js)|
 |59|medium|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii)|[Spiral-Matrix-II.js](./leetcode/Spiral-Matrix-II.js)|
 |62|medium|[Unique Paths](https://leetcode.com/problems/unique-paths/)|[Unique-Paths.js](./leetcode/Unique-Paths.js)|
 |63|medium|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)|[Unique-Paths-II.js](./leetcode/Unique-Paths-II.js)|
