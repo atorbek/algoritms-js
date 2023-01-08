@@ -1,6 +1,6 @@
 ![Logo](./leetcode.png)
 ### This file was created automatically by [build-readme.js](./build-readme.js)
-Count of solved tasks: 105
+Count of solved tasks: 106
 
 <details>
 <summary>Table of all solved non-premium tasks</summary>
@@ -38,6 +38,7 @@ Count of solved tasks: 105
 |142|medium|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)|[Linked-List-Cycle-II.js](./leetcode/Linked-List-Cycle-II.js)|
 |143|medium|[Reorder List](https://leetcode.com/problems/reorder-list/)|[Reorder-List.js](./leetcode/Reorder-List.js)|
 |148|medium|[Sort List](https://leetcode.com/problems/sort-list/)|[Sort-List.js](./leetcode/Sort-List.js)|
+|149|hard|[Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/)|[Max-Points-on-a-Line.js](./leetcode/Max-Points-on-a-Line.js)|
 |152|medium|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)|[Maximum-Product-Subarray.js](./leetcode/Maximum-Product-Subarray.js)|
 |200|medium|[Number of Islands](https://leetcode.com/problems/number-of-islands/)|[Number-of-Islands.js](./leetcode/Number-of-Islands.js)|
 |202|easy|[Happy Number](https://leetcode.com/problems/happy-number/)|[Happy-Number.js](./leetcode/Happy-Number.js)|
@@ -235,6 +236,7 @@ Count of solved tasks: 105
 
 | LeetCode ID | Difficulty  | Name           | Solution       |
 |:-----------:|:-----------:|:--------------:|:--------------:|
+|149|hard|[Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/)|[Max-Points-on-a-Line.js](./leetcode/Max-Points-on-a-Line.js)|
 
 </p>
 </details>
