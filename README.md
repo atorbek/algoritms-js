@@ -1,6 +1,6 @@
 ![Logo](./leetcode.png)
 ### This file was created automatically by [build-readme.js](./build-readme.js)
-Count of solved tasks: 106
+Count of solved tasks: 107
 
 <details>
 <summary>Table of all solved non-premium tasks</summary>
@@ -37,6 +37,7 @@ Count of solved tasks: 106
 |141|easy|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[Linked-List-Cycle.js](./leetcode/Linked-List-Cycle.js)|
 |142|medium|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)|[Linked-List-Cycle-II.js](./leetcode/Linked-List-Cycle-II.js)|
 |143|medium|[Reorder List](https://leetcode.com/problems/reorder-list/)|[Reorder-List.js](./leetcode/Reorder-List.js)|
+|144|easy|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)|[Binary-Tree-Preorder-Traversal.js](./leetcode/Binary-Tree-Preorder-Traversal.js)|
 |148|medium|[Sort List](https://leetcode.com/problems/sort-list/)|[Sort-List.js](./leetcode/Sort-List.js)|
 |149|hard|[Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/)|[Max-Points-on-a-Line.js](./leetcode/Max-Points-on-a-Line.js)|
 |152|medium|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)|[Maximum-Product-Subarray.js](./leetcode/Maximum-Product-Subarray.js)|
@@ -132,6 +133,7 @@ Count of solved tasks: 106
 |125|easy|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[Valid-Palindrome.js](./leetcode/Valid-Palindrome.js)|
 |136|easy|[Single Number](https://leetcode.com/problems/single-number/)|[Single-Number.js](./leetcode/Single-Number.js)|
 |141|easy|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[Linked-List-Cycle.js](./leetcode/Linked-List-Cycle.js)|
+|144|easy|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)|[Binary-Tree-Preorder-Traversal.js](./leetcode/Binary-Tree-Preorder-Traversal.js)|
 |202|easy|[Happy Number](https://leetcode.com/problems/happy-number/)|[Happy-Number.js](./leetcode/Happy-Number.js)|
 |203|easy|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)|[Remove-Linked-List-Elements.js](./leetcode/Remove-Linked-List-Elements.js)|
 |205|easy|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|[Isomorphic-Strings.js](./leetcode/Isomorphic-Strings.js)|
