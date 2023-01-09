@@ -39,6 +39,23 @@ var preorderTraversal = function (root) {
   return res;
 };
 
+var preorderTraversalIterative = function (root) {
+  const stack = [root];
+  const res = [];
+
+  while (stack.length) {
+    const node = stack.pop();
+
+    if (node) {
+      res.push(node.val);
+      stack.push(node.right);
+      stack.push(node.left);
+    }
+  }
+
+  return res;
+};
+
 function TreeNode(val, left, right) {
   this.val = val === undefined ? 0 : val;
   this.left = left === undefined ? null : left;
@@ -57,4 +74,5 @@ root.right.left = new TreeNode(3);
 const label = 'time';
 console.time(label);
 console.log(preorderTraversal(root));
+console.log(preorderTraversalIterative(root));
 console.timeEnd(label);
