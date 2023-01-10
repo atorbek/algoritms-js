@@ -1,6 +1,6 @@
 ![Logo](./leetcode.png)
 ### This file was created automatically by [build-readme.js](./build-readme.js)
-Count of solved tasks: 108
+Count of solved tasks: 109
 
 <details>
 <summary>Table of all solved non-premium tasks</summary>
@@ -109,6 +109,7 @@ Count of solved tasks: 108
 |1929|easy|[Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)|[Concatenation-of-Array.js](./leetcode/Concatenation-of-Array.js)|
 |1991|easy|[Find the Middle Index in Array](https://leetcode.com/problems/find-the-middle-index-in-array/)|[Find-the-Middle-Index-in-Array.js](./leetcode/Find-the-Middle-Index-in-Array.js)|
 |2011|easy|[Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/)|[Final-Value-of-Variable-After-Performing-Operations.js](./leetcode/Final-Value-of-Variable-After-Performing-Operations.js)|
+|2131|medium|[Longest Palindrome by Concatenating Two Letter Words](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/)|[Longest-Palindrome-by-Concatenating-Two-Letter-Words.js](./leetcode/Longest-Palindrome-by-Concatenating-Two-Letter-Words.js)|
 |2244|medium|[Minimum Rounds to Complete All Tasks](https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks/)|[Minimum-Rounds-to-Complete-All-Tasks.js](./leetcode/Minimum-Rounds-to-Complete-All-Tasks.js)|
 |2270|medium|[Number of Ways to Split Array](https://leetcode.com/problems/number-of-ways-to-split-array/)|[Number-of-Ways-to-Split-Array.js](./leetcode/Number-of-Ways-to-Split-Array.js)|
 
@@ -229,6 +230,7 @@ Count of solved tasks: 108
 |1658|medium|[Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/)|[Minimum-Operations-to-Reduce-X-to-Zero.js](./leetcode/Minimum-Operations-to-Reduce-X-to-Zero.js)|
 |1706|medium|[Where Will the Ball Fall](https://leetcode.com/problems/where-will-the-ball-fall/)|[Where-Will-the-Ball-Fall.js](./leetcode/Where-Will-the-Ball-Fall.js)|
 |1833|medium|[Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/)|[Maximum-Ice-Cream-Bars.js](./leetcode/Maximum-Ice-Cream-Bars.js)|
+|2131|medium|[Longest Palindrome by Concatenating Two Letter Words](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/)|[Longest-Palindrome-by-Concatenating-Two-Letter-Words.js](./leetcode/Longest-Palindrome-by-Concatenating-Two-Letter-Words.js)|
 |2244|medium|[Minimum Rounds to Complete All Tasks](https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks/)|[Minimum-Rounds-to-Complete-All-Tasks.js](./leetcode/Minimum-Rounds-to-Complete-All-Tasks.js)|
 |2270|medium|[Number of Ways to Split Array](https://leetcode.com/problems/number-of-ways-to-split-array/)|[Number-of-Ways-to-Split-Array.js](./leetcode/Number-of-Ways-to-Split-Array.js)|
 
