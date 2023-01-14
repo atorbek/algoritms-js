@@ -1,6 +1,6 @@
 ![Logo](./leetcode.png)
 ### This file was created automatically by [build-readme.js](./build-readme.js)
-Count of solved tasks: 110
+Count of solved tasks: 111
 
 <details>
 <summary>Table of all solved non-premium tasks</summary>
@@ -78,6 +78,7 @@ Count of solved tasks: 110
 |509|easy|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[Fibonacci-Number.js](./leetcode/Fibonacci-Number.js)|
 |520|easy|[Detect Capital](https://leetcode.com/problems/detect-capital/)|[Detect-Capital.js](./leetcode/Detect-Capital.js)|
 |541|easy|[Reverse String II](https://leetcode.com/problems/reverse-string-ii/)|[Reverse-String-II.js](./leetcode/Reverse-String-II.js)|
+|543|easy|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|[Diameter-of-Binary-Tree.js](./leetcode/Diameter-of-Binary-Tree.js)|
 |557|easy|[Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|[Reverse-Words-in-a-String-III.js](./leetcode/Reverse-Words-in-a-String-III.js)|
 |560|medium|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|[Subarray-Sum-Equals-K.js](./leetcode/Subarray-Sum-Equals-K.js)|
 |589|easy|[N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|[N-ary-Tree-Preorder-Traversal.js](./leetcode/N-ary-Tree-Preorder-Traversal.js)|
@@ -163,6 +164,7 @@ Count of solved tasks: 110
 |509|easy|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[Fibonacci-Number.js](./leetcode/Fibonacci-Number.js)|
 |520|easy|[Detect Capital](https://leetcode.com/problems/detect-capital/)|[Detect-Capital.js](./leetcode/Detect-Capital.js)|
 |541|easy|[Reverse String II](https://leetcode.com/problems/reverse-string-ii/)|[Reverse-String-II.js](./leetcode/Reverse-String-II.js)|
+|543|easy|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|[Diameter-of-Binary-Tree.js](./leetcode/Diameter-of-Binary-Tree.js)|
 |557|easy|[Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|[Reverse-Words-in-a-String-III.js](./leetcode/Reverse-Words-in-a-String-III.js)|
 |589|easy|[N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|[N-ary-Tree-Preorder-Traversal.js](./leetcode/N-ary-Tree-Preorder-Traversal.js)|
 |590|easy|[N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|[N-ary-Tree-Postorder-Traversal.js](./leetcode/N-ary-Tree-Postorder-Traversal.js)|
