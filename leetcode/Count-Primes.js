@@ -24,8 +24,6 @@ var countPrimes = function (n) {
   // забиваем ее нулем.
   res[1] = 0;
 
-  let count = 2;
-
   let i = 2;
   while (i <= n) {
     // Если значение ячейки до этого
