@@ -73,6 +73,7 @@ Count of solved tasks: 112
 |424|medium|[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)|[Longest-Repeating-Character-Replacement.js](./leetcode/Longest-Repeating-Character-Replacement.js)|
 |435|medium|[Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)|[Non-overlapping-Intervals.js](./leetcode/Non-overlapping-Intervals.js)|
 |438|medium|[Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)|[Find-all-anagrams-in-a-string.js](./leetcode/Find-all-anagrams-in-a-string.js)|
+|443|medium|[String Compression](https://leetcode.com/problems/string-compression/)|[String-Compression.js](./leetcode/String-Compression.js)|
 |448|easy|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|[Find-All-Numbers-Disappeared-in-an-Array.js](./leetcode/Find-All-Numbers-Disappeared-in-an-Array.js)|
 |452|medium|[Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)|[Minimum-Number-of-Arrows-to-Burst-Balloons.js](./leetcode/Minimum-Number-of-Arrows-to-Burst-Balloons.js)|
 |485|easy|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|[Max-Consecutive-Ones.js](./leetcode/Max-Consecutive-Ones.js)|
@@ -224,6 +225,7 @@ Count of solved tasks: 112
 |424|medium|[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)|[Longest-Repeating-Character-Replacement.js](./leetcode/Longest-Repeating-Character-Replacement.js)|
 |435|medium|[Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)|[Non-overlapping-Intervals.js](./leetcode/Non-overlapping-Intervals.js)|
 |438|medium|[Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)|[Find-all-anagrams-in-a-string.js](./leetcode/Find-all-anagrams-in-a-string.js)|
+|443|medium|[String Compression](https://leetcode.com/problems/string-compression/)|[String-Compression.js](./leetcode/String-Compression.js)|
 |452|medium|[Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)|[Minimum-Number-of-Arrows-to-Burst-Balloons.js](./leetcode/Minimum-Number-of-Arrows-to-Burst-Balloons.js)|
 |560|medium|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|[Subarray-Sum-Equals-K.js](./leetcode/Subarray-Sum-Equals-K.js)|
 |692|medium|[Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)|[Top-K-Frequent-Words.js](./leetcode/Top-K-Frequent-Words.js)|
