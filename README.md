@@ -1,6 +1,6 @@
 ![Logo](./leetcode.png)
 ### This file was created automatically by [build-readme.js](./build-readme.js)
-Count of solved tasks: 112
+Count of solved tasks: 114
 
 <details>
 <summary>Table of all solved non-premium tasks</summary>
@@ -46,6 +46,7 @@ Count of solved tasks: 112
 |200|medium|[Number of Islands](https://leetcode.com/problems/number-of-islands/)|[Number-of-Islands.js](./leetcode/Number-of-Islands.js)|
 |202|easy|[Happy Number](https://leetcode.com/problems/happy-number/)|[Happy-Number.js](./leetcode/Happy-Number.js)|
 |203|easy|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)|[Remove-Linked-List-Elements.js](./leetcode/Remove-Linked-List-Elements.js)|
+|204|medium|[Count Primes](https://leetcode.com/problems/count-primes/)|[Count-Primes.js](./leetcode/Count-Primes.js)|
 |205|easy|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|[Isomorphic-Strings.js](./leetcode/Isomorphic-Strings.js)|
 |206|easy|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[Odd-Even-Linked-List.js](./leetcode/Odd-Even-Linked-List.js)|
 |206|easy|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[Reverse-Linked-List.js](./leetcode/Reverse-Linked-List.js)|
@@ -216,6 +217,7 @@ Count of solved tasks: 112
 |148|medium|[Sort List](https://leetcode.com/problems/sort-list/)|[Sort-List.js](./leetcode/Sort-List.js)|
 |152|medium|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)|[Maximum-Product-Subarray.js](./leetcode/Maximum-Product-Subarray.js)|
 |200|medium|[Number of Islands](https://leetcode.com/problems/number-of-islands/)|[Number-of-Islands.js](./leetcode/Number-of-Islands.js)|
+|204|medium|[Count Primes](https://leetcode.com/problems/count-primes/)|[Count-Primes.js](./leetcode/Count-Primes.js)|
 |209|medium|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)|[Minimum-Size-Subarray-Sum.js](./leetcode/Minimum-Size-Subarray-Sum.js)|
 |232|medium|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|[Implement-Queue-using-Stacks.js](./leetcode/Implement-Queue-using-Stacks.js)|
 |235|medium|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|[Lowest-Common-Ancestor-of-a-Binary-Search-Tree.js](./leetcode/Lowest-Common-Ancestor-of-a-Binary-Search-Tree.js)|
