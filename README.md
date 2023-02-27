@@ -1,6 +1,6 @@
 ![Logo](./leetcode.png)
 ### This file was created automatically by [build-readme.js](./build-readme.js)
-Count of solved tasks: 115
+Count of solved tasks: 116
 
 <details>
 <summary>Table of all solved non-premium tasks</summary>
@@ -54,6 +54,7 @@ Count of solved tasks: 115
 |209|medium|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)|[Minimum-Size-Subarray-Sum.js](./leetcode/Minimum-Size-Subarray-Sum.js)|
 |217|easy|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[Contains-Duplicate.js](./leetcode/Contains-Duplicate.js)|
 |226|easy|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|[Invert-Binary-Tree.js](./leetcode/Invert-Binary-Tree.js)|
+|228|easy|[Summary Ranges](https://leetcode.com/problems/summary-ranges/)|[Summary-Ranges.js](./leetcode/Summary-Ranges.js)|
 |232|medium|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|[Implement-Queue-using-Stacks.js](./leetcode/Implement-Queue-using-Stacks.js)|
 |234|easy|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|[Palindrome-Linked-List.js](./leetcode/Palindrome-Linked-List.js)|
 |235|medium|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|[Lowest-Common-Ancestor-of-a-Binary-Search-Tree.js](./leetcode/Lowest-Common-Ancestor-of-a-Binary-Search-Tree.js)|
@@ -151,6 +152,7 @@ Count of solved tasks: 115
 |206|easy|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[Reverse-Linked-List.js](./leetcode/Reverse-Linked-List.js)|
 |217|easy|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[Contains-Duplicate.js](./leetcode/Contains-Duplicate.js)|
 |226|easy|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|[Invert-Binary-Tree.js](./leetcode/Invert-Binary-Tree.js)|
+|228|easy|[Summary Ranges](https://leetcode.com/problems/summary-ranges/)|[Summary-Ranges.js](./leetcode/Summary-Ranges.js)|
 |234|easy|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|[Palindrome-Linked-List.js](./leetcode/Palindrome-Linked-List.js)|
 |242|easy|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[Valid-Anagram.js](./leetcode/Valid-Anagram.js)|
 |268|easy|[Missing Number](https://leetcode.com/problems/missing-number/)|[Gas-Station.js](./leetcode/Gas-Station.js)|
