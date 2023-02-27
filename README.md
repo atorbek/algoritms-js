@@ -1,6 +1,6 @@
 ![Logo](./leetcode.png)
 ### This file was created automatically by [build-readme.js](./build-readme.js)
-Count of solved tasks: 114
+Count of solved tasks: 115
 
 <details>
 <summary>Table of all solved non-premium tasks</summary>
@@ -17,6 +17,7 @@ Count of solved tasks: 114
 |19|medium|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Remove-Nth-Node-From-End-of-List.js](./leetcode/Remove-Nth-Node-From-End-of-List.js)|
 |20|easy|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[Valid-Parentheses.js](./leetcode/Valid-Parentheses.js)|
 |21|easy|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[Merge-Two-Sorted-Lists.js](./leetcode/Merge-Two-Sorted-Lists.js)|
+|28|medium|[Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)|[Find-the-Index-of-the-First-Occurrence-in-a-String.js](./leetcode/Find-the-Index-of-the-First-Occurrence-in-a-String.js)|
 |53|easy|[ Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Maximum-Subarray.js](./leetcode/Maximum-Subarray.js)|
 |54|medium|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)|[Spiral-Matrix.js](./leetcode/Spiral-Matrix.js)|
 |56|medium|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|[Merge-Intervals.js](./leetcode/Merge-Intervals.js)|
@@ -204,6 +205,7 @@ Count of solved tasks: 114
 |15|medium|[3Sum](https://leetcode.com/problems/3sum/)|[3Sum.js](./leetcode/3Sum.js)|
 |16|medium|[ 3Sum Closest](https://leetcode.com/problems/3sum-closest/)|[3Sum-Closest.js](./leetcode/3Sum-Closest.js)|
 |19|medium|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Remove-Nth-Node-From-End-of-List.js](./leetcode/Remove-Nth-Node-From-End-of-List.js)|
+|28|medium|[Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)|[Find-the-Index-of-the-First-Occurrence-in-a-String.js](./leetcode/Find-the-Index-of-the-First-Occurrence-in-a-String.js)|
 |54|medium|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)|[Spiral-Matrix.js](./leetcode/Spiral-Matrix.js)|
 |56|medium|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|[Merge-Intervals.js](./leetcode/Merge-Intervals.js)|
 |57|medium|[Insert Interval](https://leetcode.com/problems/insert-interval/)|[Insert-Interval.js](./leetcode/Insert-Interval.js)|
