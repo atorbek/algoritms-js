@@ -147,6 +147,62 @@ var checkInclusionArraySlideWindow = function (s1, s2) {
   return matches(s1map, s2map);
 };
 
+/**
+ * @param {string} s1
+ * @param {string} s2
+ * @return {boolean}
+ */
+var checkInclusionOptimizedSlidingWindow = function (s1, s2) {
+  if (s1.length > s2.length) {
+    return false;
+  }
+
+  let s1Arr = new Array(26).fill(0);
+  let s2Arr = new Array(26).fill(0);
+
+  for (let i = 0; i < s1.length; i++) {
+    // n
+    s1Arr[s1.charCodeAt(i) - 'a'.charCodeAt(0)] =
+      s1Arr[s1.charCodeAt(i) - 'a'.charCodeAt(0)] + 1;
+    s2Arr[s2.charCodeAt(i) - 'a'.charCodeAt(0)] =
+      s2Arr[s2.charCodeAt(i) - 'a'.charCodeAt(0)] + 1;
+  }
+
+  let count = 0;
+  for (let i = 0; i < 26; i++) {
+    if (s1Arr[i] === s2Arr[i]) {
+      count++;
+    }
+  }
+
+  for (let i = 0; i < s2.length - s1.length; i++) {
+    let r = s2.charCodeAt(i + s1.length) - 'a'.charCodeAt(0);
+    let l = s2.charCodeAt(i) - 'a'.charCodeAt(0);
+
+    if (count === 26) {
+      return true;
+    }
+
+    s2Arr[r] += 1;
+
+    if (s2Arr[r] === s1Arr[r]) {
+      count++;
+    } else if (s2Arr[r] === s1Arr[r] + 1) {
+      count--;
+    }
+
+    s2Arr[l] -= 1;
+
+    if (s2Arr[l] === s1Arr[l]) {
+      count++;
+    } else if (s2Arr[l] === s1Arr[l] - 1) {
+      count--;
+    }
+  }
+
+  return count === 26;
+};
+
 console.time('time');
 console.log(checkInclusionHashMap('ab', 'eidbaooo'));
 console.log(checkInclusionHashMap('ab', 'eidboaoo'));
@@ -154,4 +210,6 @@ console.log(checkInclusionArray('ab', 'eidbaooo'));
 console.log(checkInclusionArray('ab', 'eidboaoo'));
 console.log(checkInclusionArraySlideWindow('ab', 'eidbaooo'));
 console.log(checkInclusionArraySlideWindow('ab', 'eidboaoo'));
+console.log(checkInclusionOptimizedSlidingWindow('ab', 'eidbaooo'));
+console.log(checkInclusionOptimizedSlidingWindow('ab', 'eidboaoo'));
 console.timeEnd('time');
