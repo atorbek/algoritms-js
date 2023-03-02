@@ -1,6 +1,6 @@
 ![Logo](./leetcode.png)
 ### This file was created automatically by [build-readme.js](./build-readme.js)
-Count of solved tasks: 118
+Count of solved tasks: 119
 
 <details>
 <summary>Table of all solved non-premium tasks</summary>
@@ -88,6 +88,7 @@ Count of solved tasks: 118
 |543|easy|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|[Diameter-of-Binary-Tree.js](./leetcode/Diameter-of-Binary-Tree.js)|
 |557|easy|[Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|[Reverse-Words-in-a-String-III.js](./leetcode/Reverse-Words-in-a-String-III.js)|
 |560|medium|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|[Subarray-Sum-Equals-K.js](./leetcode/Subarray-Sum-Equals-K.js)|
+|567|medium|[Permutation in String](https://leetcode.com/problems/permutation-in-string/)|[Permutation-in-String.js](./leetcode/Permutation-in-String.js)|
 |589|easy|[N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|[N-ary-Tree-Preorder-Traversal.js](./leetcode/N-ary-Tree-Preorder-Traversal.js)|
 |590|easy|[N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|[N-ary-Tree-Postorder-Traversal.js](./leetcode/N-ary-Tree-Postorder-Traversal.js)|
 |628|easy|[Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/)|[Maximum-Product-of-Three-Numbers.js](./leetcode/Maximum-Product-of-Three-Numbers.js)|
@@ -238,6 +239,7 @@ Count of solved tasks: 118
 |443|medium|[String Compression](https://leetcode.com/problems/string-compression/)|[String-Compression.js](./leetcode/String-Compression.js)|
 |452|medium|[Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)|[Minimum-Number-of-Arrows-to-Burst-Balloons.js](./leetcode/Minimum-Number-of-Arrows-to-Burst-Balloons.js)|
 |560|medium|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|[Subarray-Sum-Equals-K.js](./leetcode/Subarray-Sum-Equals-K.js)|
+|567|medium|[Permutation in String](https://leetcode.com/problems/permutation-in-string/)|[Permutation-in-String.js](./leetcode/Permutation-in-String.js)|
 |692|medium|[Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)|[Top-K-Frequent-Words.js](./leetcode/Top-K-Frequent-Words.js)|
 |713|medium|[Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/)|[Subarray-Product-Less-Than-K.js](./leetcode/Subarray-Product-Less-Than-K.js)|
 |763|medium|[Partition Labels](https://leetcode.com/problems/partition-labels/)|[Partition-Labels.js](./leetcode/Partition-Labels.js)|
