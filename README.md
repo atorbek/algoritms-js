@@ -1,6 +1,6 @@
 ![Logo](./leetcode.png)
 ### This file was created automatically by [build-readme.js](./build-readme.js)
-Count of solved tasks: 119
+Count of solved tasks: 120
 
 <details>
 <summary>Table of all solved non-premium tasks</summary>
@@ -105,6 +105,7 @@ Count of solved tasks: 119
 |876|easy|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[Middle-of-the-Linked-List.js](./leetcode/Middle-of-the-Linked-List.js)|
 |920|easy|[Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)|[Metting-rooms.js](./leetcode/Metting-rooms.js)|
 |944|easy|[Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/)|[Delete-Columns-to-Make-Sorted.js](./leetcode/Delete-Columns-to-Make-Sorted.js)|
+|974|medium|[Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/)|[Subarray-Sums-Divisible-by-K.js](./leetcode/Subarray-Sums-Divisible-by-K.js)|
 |977|easy|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|[Squares-of-a-Sorted-Array.js](./leetcode/Squares-of-a-Sorted-Array.js)|
 |1004|medium|[Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)|[Max-Consecutive-Ones-III.js](./leetcode/Max-Consecutive-Ones-III.js)|
 |1040|medium|[Moving Stones Until Consecutive II](https://leetcode.com/problems/moving-stones-until-consecutive-ii/)|[Moving-Stones-Until-Consecutive-II.js](./leetcode/Moving-Stones-Until-Consecutive-II.js)|
@@ -243,6 +244,7 @@ Count of solved tasks: 119
 |692|medium|[Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)|[Top-K-Frequent-Words.js](./leetcode/Top-K-Frequent-Words.js)|
 |713|medium|[Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/)|[Subarray-Product-Less-Than-K.js](./leetcode/Subarray-Product-Less-Than-K.js)|
 |763|medium|[Partition Labels](https://leetcode.com/problems/partition-labels/)|[Partition-Labels.js](./leetcode/Partition-Labels.js)|
+|974|medium|[Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/)|[Subarray-Sums-Divisible-by-K.js](./leetcode/Subarray-Sums-Divisible-by-K.js)|
 |1004|medium|[Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)|[Max-Consecutive-Ones-III.js](./leetcode/Max-Consecutive-Ones-III.js)|
 |1040|medium|[Moving Stones Until Consecutive II](https://leetcode.com/problems/moving-stones-until-consecutive-ii/)|[Moving-Stones-Until-Consecutive-II.js](./leetcode/Moving-Stones-Until-Consecutive-II.js)|
 |1052|medium|[Grumpy Bookstore Owner](https://leetcode.com/problems/grumpy-bookstore-owner/)|[Grumpy-Bookstore-Owner.js](./leetcode/Grumpy-Bookstore-Owner.js)|
