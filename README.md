@@ -1,6 +1,6 @@
 ![Logo](./leetcode.png)
 ### This file was created automatically by [build-readme.js](./build-readme.js)
-Count of solved tasks: 122
+Count of solved tasks: 123
 
 <details>
 <summary>Table of all solved non-premium tasks</summary>
@@ -30,6 +30,7 @@ Count of solved tasks: 122
 |62|medium|[Unique Paths](https://leetcode.com/problems/unique-paths/)|[Unique-Paths.js](./leetcode/Unique-Paths.js)|
 |63|medium|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)|[Unique-Paths-II.js](./leetcode/Unique-Paths-II.js)|
 |70|easy|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[Climbing-Stairs.js](./leetcode/Climbing-Stairs.js)|
+|71|medium|[Simplify Path](https://leetcode.com/problems/simplify-path/)|[Simplify-Path.js](./leetcode/Simplify-Path.js)|
 |83|easy|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[Remove-Duplicates-from-Sorted-List.js](./leetcode/Remove-Duplicates-from-Sorted-List.js)|
 |88|easy|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[Merge-Sorted-Array.js](./leetcode/Merge-Sorted-Array.js)|
 |94|easy|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|[Binary-Tree-Inorder-Traversal.js](./leetcode/Binary-Tree-Inorder-Traversal.js)|
@@ -224,6 +225,7 @@ Count of solved tasks: 122
 |59|medium|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii)|[Spiral-Matrix-II.js](./leetcode/Spiral-Matrix-II.js)|
 |62|medium|[Unique Paths](https://leetcode.com/problems/unique-paths/)|[Unique-Paths.js](./leetcode/Unique-Paths.js)|
 |63|medium|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)|[Unique-Paths-II.js](./leetcode/Unique-Paths-II.js)|
+|71|medium|[Simplify Path](https://leetcode.com/problems/simplify-path/)|[Simplify-Path.js](./leetcode/Simplify-Path.js)|
 |98|medium|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)|[Validate-Binary-Search-Tree.js](./leetcode/Validate-Binary-Search-Tree.js)|
 |102|medium|[Binary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|[Binary-Tree-Level-Order-Traversal.js](./leetcode/Binary-Tree-Level-Order-Traversal.js)|
 |142|medium|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)|[Linked-List-Cycle-II.js](./leetcode/Linked-List-Cycle-II.js)|
