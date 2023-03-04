@@ -1,6 +1,6 @@
 ![Logo](./leetcode.png)
 ### This file was created automatically by [build-readme.js](./build-readme.js)
-Count of solved tasks: 121
+Count of solved tasks: 122
 
 <details>
 <summary>Table of all solved non-premium tasks</summary>
@@ -19,6 +19,7 @@ Count of solved tasks: 121
 |21|easy|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[Merge-Two-Sorted-Lists.js](./leetcode/Merge-Two-Sorted-Lists.js)|
 |22|medium|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)|[Generate-Parentheses.js](./leetcode/Generate-Parentheses.js)|
 |28|medium|[Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)|[Find-the-Index-of-the-First-Occurrence-in-a-String.js](./leetcode/Find-the-Index-of-the-First-Occurrence-in-a-String.js)|
+|33|medium|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[Search-in-Rotated-Sorted-Array.js](./leetcode/Search-in-Rotated-Sorted-Array.js)|
 |48|medium|[Rotate Image](https://leetcode.com/problems/rotate-image/)|[Rotate-Image.js](./leetcode/Rotate-Image.js)|
 |49|medium|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|[Group-Anagrams.js](./leetcode/Group-Anagrams.js)|
 |53|easy|[ Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Maximum-Subarray.js](./leetcode/Maximum-Subarray.js)|
@@ -214,6 +215,7 @@ Count of solved tasks: 121
 |19|medium|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Remove-Nth-Node-From-End-of-List.js](./leetcode/Remove-Nth-Node-From-End-of-List.js)|
 |22|medium|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)|[Generate-Parentheses.js](./leetcode/Generate-Parentheses.js)|
 |28|medium|[Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)|[Find-the-Index-of-the-First-Occurrence-in-a-String.js](./leetcode/Find-the-Index-of-the-First-Occurrence-in-a-String.js)|
+|33|medium|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[Search-in-Rotated-Sorted-Array.js](./leetcode/Search-in-Rotated-Sorted-Array.js)|
 |48|medium|[Rotate Image](https://leetcode.com/problems/rotate-image/)|[Rotate-Image.js](./leetcode/Rotate-Image.js)|
 |49|medium|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|[Group-Anagrams.js](./leetcode/Group-Anagrams.js)|
 |54|medium|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)|[Spiral-Matrix.js](./leetcode/Spiral-Matrix.js)|
