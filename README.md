@@ -1,6 +1,6 @@
 ![Logo](./leetcode.png)
 ### This file was created automatically by [build-readme.js](./build-readme.js)
-Count of solved tasks: 125
+Count of solved tasks: 126
 
 <details>
 <summary>Table of all solved non-premium tasks</summary>
@@ -118,6 +118,7 @@ Count of solved tasks: 125
 |1052|medium|[Grumpy Bookstore Owner](https://leetcode.com/problems/grumpy-bookstore-owner/)|[Grumpy-Bookstore-Owner.js](./leetcode/Grumpy-Bookstore-Owner.js)|
 |1456|medium|[Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/)|[Maximum-Number-of-Vowels-in-a-Substring-of-Given-Length.js](./leetcode/Maximum-Number-of-Vowels-in-a-Substring-of-Given-Length.js)|
 |1480|easy|[Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)|[Running-Sum-of-1d-Array.js](./leetcode/Running-Sum-of-1d-Array.js)|
+|1493|medium|[Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/)|[Longest-Subarray-of-1's-After-Deleting-One-Element.js](./leetcode/Longest-Subarray-of-1's-After-Deleting-One-Element.js)|
 |1658|medium|[Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/)|[Minimum-Operations-to-Reduce-X-to-Zero.js](./leetcode/Minimum-Operations-to-Reduce-X-to-Zero.js)|
 |1706|medium|[Where Will the Ball Fall](https://leetcode.com/problems/where-will-the-ball-fall/)|[Where-Will-the-Ball-Fall.js](./leetcode/Where-Will-the-Ball-Fall.js)|
 |1833|medium|[Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/)|[Maximum-Ice-Cream-Bars.js](./leetcode/Maximum-Ice-Cream-Bars.js)|
@@ -259,6 +260,7 @@ Count of solved tasks: 125
 |1040|medium|[Moving Stones Until Consecutive II](https://leetcode.com/problems/moving-stones-until-consecutive-ii/)|[Moving-Stones-Until-Consecutive-II.js](./leetcode/Moving-Stones-Until-Consecutive-II.js)|
 |1052|medium|[Grumpy Bookstore Owner](https://leetcode.com/problems/grumpy-bookstore-owner/)|[Grumpy-Bookstore-Owner.js](./leetcode/Grumpy-Bookstore-Owner.js)|
 |1456|medium|[Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/)|[Maximum-Number-of-Vowels-in-a-Substring-of-Given-Length.js](./leetcode/Maximum-Number-of-Vowels-in-a-Substring-of-Given-Length.js)|
+|1493|medium|[Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/)|[Longest-Subarray-of-1's-After-Deleting-One-Element.js](./leetcode/Longest-Subarray-of-1's-After-Deleting-One-Element.js)|
 |1658|medium|[Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/)|[Minimum-Operations-to-Reduce-X-to-Zero.js](./leetcode/Minimum-Operations-to-Reduce-X-to-Zero.js)|
 |1706|medium|[Where Will the Ball Fall](https://leetcode.com/problems/where-will-the-ball-fall/)|[Where-Will-the-Ball-Fall.js](./leetcode/Where-Will-the-Ball-Fall.js)|
 |1833|medium|[Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/)|[Maximum-Ice-Cream-Bars.js](./leetcode/Maximum-Ice-Cream-Bars.js)|
