@@ -1,6 +1,6 @@
 ![Logo](./leetcode.png)
 ### This file was created automatically by [build-readme.js](./build-readme.js)
-Count of solved tasks: 120
+Count of solved tasks: 121
 
 <details>
 <summary>Table of all solved non-premium tasks</summary>
