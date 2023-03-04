@@ -1,6 +1,6 @@
 ![Logo](./leetcode.png)
 ### This file was created automatically by [build-readme.js](./build-readme.js)
-Count of solved tasks: 123
+Count of solved tasks: 124
 
 <details>
 <summary>Table of all solved non-premium tasks</summary>
@@ -48,6 +48,7 @@ Count of solved tasks: 123
 |144|easy|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)|[Binary-Tree-Preorder-Traversal.js](./leetcode/Binary-Tree-Preorder-Traversal.js)|
 |148|medium|[Sort List](https://leetcode.com/problems/sort-list/)|[Sort-List.js](./leetcode/Sort-List.js)|
 |149|hard|[Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/)|[Max-Points-on-a-Line.js](./leetcode/Max-Points-on-a-Line.js)|
+|150|medium|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)|[Evaluate-Reverse-Polish-Notation.js](./leetcode/Evaluate-Reverse-Polish-Notation.js)|
 |152|medium|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)|[Maximum-Product-Subarray.js](./leetcode/Maximum-Product-Subarray.js)|
 |200|medium|[Number of Islands](https://leetcode.com/problems/number-of-islands/)|[Number-of-Islands.js](./leetcode/Number-of-Islands.js)|
 |202|easy|[Happy Number](https://leetcode.com/problems/happy-number/)|[Happy-Number.js](./leetcode/Happy-Number.js)|
@@ -231,6 +232,7 @@ Count of solved tasks: 123
 |142|medium|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)|[Linked-List-Cycle-II.js](./leetcode/Linked-List-Cycle-II.js)|
 |143|medium|[Reorder List](https://leetcode.com/problems/reorder-list/)|[Reorder-List.js](./leetcode/Reorder-List.js)|
 |148|medium|[Sort List](https://leetcode.com/problems/sort-list/)|[Sort-List.js](./leetcode/Sort-List.js)|
+|150|medium|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)|[Evaluate-Reverse-Polish-Notation.js](./leetcode/Evaluate-Reverse-Polish-Notation.js)|
 |152|medium|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)|[Maximum-Product-Subarray.js](./leetcode/Maximum-Product-Subarray.js)|
 |200|medium|[Number of Islands](https://leetcode.com/problems/number-of-islands/)|[Number-of-Islands.js](./leetcode/Number-of-Islands.js)|
 |204|medium|[Count Primes](https://leetcode.com/problems/count-primes/)|[Count-Primes.js](./leetcode/Count-Primes.js)|
