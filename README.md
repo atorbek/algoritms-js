@@ -1,6 +1,6 @@
 ![Logo](./leetcode.png)
 ### This file was created automatically by [build-readme.js](./build-readme.js)
-Count of solved tasks: 126
+Count of solved tasks: 127
 
 <details>
 <summary>Table of all solved non-premium tasks</summary>
@@ -69,6 +69,7 @@ Count of solved tasks: 126
 |268|easy|[Missing Number](https://leetcode.com/problems/missing-number/)|[Gas-Station.js](./leetcode/Gas-Station.js)|
 |268|easy|[Missing Number](https://leetcode.com/problems/missing-number/)|[Missing-Number.js](./leetcode/Missing-Number.js)|
 |278|easy|[First Bad Point](https://leetcode.com/problems/first-bad-version/)|[First-Bad-Point.js](./leetcode/First-Bad-Point.js)|
+|279|medium|[Perfect Squares](https://leetcode.com/problems/perfect-squares/)|[Perfect-Squares.js](./leetcode/Perfect-Squares.js)|
 |283|easy|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[Move-Zeroes.js](./leetcode/Move-Zeroes.js)|
 |290|easy|[Word Pattern](https://leetcode.com/problems/word-pattern/)|[Word-Pattern.js](./leetcode/Word-Pattern.js)|
 |299|medium|[Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/)|[Bulls-and-Cows.js](./leetcode/Bulls-and-Cows.js)|
@@ -242,6 +243,7 @@ Count of solved tasks: 126
 |209|medium|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)|[Minimum-Size-Subarray-Sum.js](./leetcode/Minimum-Size-Subarray-Sum.js)|
 |232|medium|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|[Implement-Queue-using-Stacks.js](./leetcode/Implement-Queue-using-Stacks.js)|
 |235|medium|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|[Lowest-Common-Ancestor-of-a-Binary-Search-Tree.js](./leetcode/Lowest-Common-Ancestor-of-a-Binary-Search-Tree.js)|
+|279|medium|[Perfect Squares](https://leetcode.com/problems/perfect-squares/)|[Perfect-Squares.js](./leetcode/Perfect-Squares.js)|
 |299|medium|[Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/)|[Bulls-and-Cows.js](./leetcode/Bulls-and-Cows.js)|
 |394|medium|[Decode String](https://leetcode.com/problems/decode-string/)|[Decode-String.js](./leetcode/Decode-String.js)|
 |395|medium|[Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters)|[Longest-Substring-with-At-Least-K-Repeating-Characters.js](./leetcode/Longest-Substring-with-At-Least-K-Repeating-Characters.js)|
