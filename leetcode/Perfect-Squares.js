@@ -58,6 +58,7 @@ function numSquares2(n) {
 }
 
 /**
+ * https://stackoverflow.com/questions/39031099/perfect-square-in-leetcode
 
     1 2 3 4 5 6 7 8 9 10 11 12
     ^
