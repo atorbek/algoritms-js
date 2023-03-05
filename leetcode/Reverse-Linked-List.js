@@ -19,24 +19,20 @@ module.exports.leetcode = {
  * @param {ListNode} head
  * @return {ListNode}
  */
-var reverseList = function (head) {
-  let list = head;
+function reverseList(head) {
+  let prev = null;
+  let curr = head;
 
-  let currentNode = list;
-  let prevNode = null;
-  let nextNode = null;
+  while (curr !== null) {
+    let tmp = curr.next;
+    curr.next = prev;
 
-  while (currentNode) {
-    nextNode = currentNode.next;
-    currentNode.next = prevNode;
-    prevNode = currentNode;
-    currentNode = nextNode;
-    nextNode = null;
+    prev = curr;
+    curr = tmp;
   }
 
-  list = prevNode;
-  return list;
-};
+  return prev;
+}
 
 function ListNode(val, next) {
   this.val = val === undefined ? 0 : val;
