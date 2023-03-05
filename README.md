@@ -1,6 +1,6 @@
 ![Logo](./leetcode.png)
 ### This file was created automatically by [build-readme.js](./build-readme.js)
-Count of solved tasks: 127
+Count of solved tasks: 128
 
 <details>
 <summary>Table of all solved non-premium tasks</summary>
@@ -288,6 +288,7 @@ Count of solved tasks: 127
 
 | LeetCode ID | Difficulty  | Name           | Solution       |
 |:-----------:|:-----------:|:--------------:|:--------------:|
+|281|medium|[Zigzag Iterator](https://leetcode.com/problems/zigzag-iterator/)|[Zigzag-Iterator.js](./leetcode/Zigzag-Iterator.js)|
 |386|medium|[Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/)|[Longest-Substring-with-At-Most-K-Distinct-Characters.js](./leetcode/Longest-Substring-with-At-Most-K-Distinct-Characters.js)|
 |918|medium|[3Sum Smaller](https://leetcode.com/problems/3sum-smaller/)|[3Sum-Smaller.js](./leetcode/3Sum-Smaller.js)|
 |928|medium|[Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/)|[Longest-Substring-with-At-Most-Two-Distinct-Characters.js](./leetcode/Longest-Substring-with-At-Most-Two-Distinct-Characters.js)|
