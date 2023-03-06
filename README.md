@@ -1,6 +1,6 @@
 ![Logo](./leetcode.png)
 ### This file was created automatically by [build-readme.js](./build-readme.js)
-Count of solved tasks: 129
+Count of solved tasks: 130
 
 <details>
 <summary>Table of all solved non-premium tasks</summary>
@@ -8,6 +8,7 @@ Count of solved tasks: 129
 
 | LeetCode ID | Difficulty  | Name           | Solution       |
 |:-----------:|:-----------:|:--------------:|:--------------:|
+|1|easy|[Two Sum](https://leetcode.com/problems/two-sum/)|[Two-Sum.js](./leetcode/Two-Sum.js)|
 |3|medium|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[Longest-Substring-Without-Repeating-Characters.js](./leetcode/Longest-Substring-Without-Repeating-Characters.js)|
 |5|medium|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[Longest-Palindromic-Substring.js](./leetcode/Longest-Palindromic-Substring.js)|
 |9|easy|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)|[Palindrome-Number.js](./leetcode/Palindrome-Number.js)|
@@ -140,6 +141,7 @@ Count of solved tasks: 129
 
 | LeetCode ID | Difficulty  | Name           | Solution       |
 |:-----------:|:-----------:|:--------------:|:--------------:|
+|1|easy|[Two Sum](https://leetcode.com/problems/two-sum/)|[Two-Sum.js](./leetcode/Two-Sum.js)|
 |9|easy|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)|[Palindrome-Number.js](./leetcode/Palindrome-Number.js)|
 |14|easy|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix)|[Longest-Common-Prefix.js](./leetcode/Longest-Common-Prefix.js)|
 |20|easy|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[Valid-Parentheses.js](./leetcode/Valid-Parentheses.js)|
