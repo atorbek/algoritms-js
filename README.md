@@ -1,6 +1,6 @@
 ![Logo](./leetcode.png)
 ### This file was created automatically by [build-readme.js](./build-readme.js)
-Count of solved tasks: 128
+Count of solved tasks: 129
 
 <details>
 <summary>Table of all solved non-premium tasks</summary>
@@ -76,6 +76,7 @@ Count of solved tasks: 128
 |344|easy|[Reverse String](https://leetcode.com/problems/reverse-string/)|[Reverse-String.js](./leetcode/Reverse-String.js)|
 |349|easy|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)|[Intersection-of-Two-Arrays.js](./leetcode/Intersection-of-Two-Arrays.js)|
 |350|easy|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|[Intersection-of-Two-Arrays-II.js](./leetcode/Intersection-of-Two-Arrays-II.js)|
+|380|medium|[Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)|[Insert-Delete-GetRandom-O1.js](./leetcode/Insert-Delete-GetRandom-O1.js)|
 |387|easy|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)|[First-Unique-Character-in-a-String.js](./leetcode/First-Unique-Character-in-a-String.js)|
 |392|easy|[Is Subsequence](https://leetcode.com/problems/is-subsequence/)|[Is-Subsequence.js](./leetcode/Is-Subsequence.js)|
 |394|medium|[Decode String](https://leetcode.com/problems/decode-string/)|[Decode-String.js](./leetcode/Decode-String.js)|
@@ -245,6 +246,7 @@ Count of solved tasks: 128
 |235|medium|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|[Lowest-Common-Ancestor-of-a-Binary-Search-Tree.js](./leetcode/Lowest-Common-Ancestor-of-a-Binary-Search-Tree.js)|
 |279|medium|[Perfect Squares](https://leetcode.com/problems/perfect-squares/)|[Perfect-Squares.js](./leetcode/Perfect-Squares.js)|
 |299|medium|[Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/)|[Bulls-and-Cows.js](./leetcode/Bulls-and-Cows.js)|
+|380|medium|[Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)|[Insert-Delete-GetRandom-O1.js](./leetcode/Insert-Delete-GetRandom-O1.js)|
 |394|medium|[Decode String](https://leetcode.com/problems/decode-string/)|[Decode-String.js](./leetcode/Decode-String.js)|
 |395|medium|[Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters)|[Longest-Substring-with-At-Least-K-Repeating-Characters.js](./leetcode/Longest-Substring-with-At-Least-K-Repeating-Characters.js)|
 |424|medium|[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)|[Longest-Repeating-Character-Replacement.js](./leetcode/Longest-Repeating-Character-Replacement.js)|
