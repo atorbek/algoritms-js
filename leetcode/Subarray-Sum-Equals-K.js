@@ -38,6 +38,6 @@ function subarraySum(nums, k) {
 }
 
 let b = new Date().getMilliseconds();
-console.log(subarraySum([0, 0, 0], 0));
+console.log(subarraySum([1, 1, 1], 2));
 let e = new Date().getMilliseconds();
 console.log(e - b + 'ms');
