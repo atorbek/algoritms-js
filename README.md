@@ -1,6 +1,6 @@
 ![Logo](./leetcode.png)
 ### This file was created automatically by [build-readme.js](./build-readme.js)
-Count of solved tasks: 129
+Count of solved tasks: 130
 
 <details>
 <summary>Table of all solved non-premium tasks</summary>
@@ -73,6 +73,7 @@ Count of solved tasks: 129
 |283|easy|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[Move-Zeroes.js](./leetcode/Move-Zeroes.js)|
 |290|easy|[Word Pattern](https://leetcode.com/problems/word-pattern/)|[Word-Pattern.js](./leetcode/Word-Pattern.js)|
 |299|medium|[Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/)|[Bulls-and-Cows.js](./leetcode/Bulls-and-Cows.js)|
+|332|hard|[Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/)|[Reconstruct-Itinerary.js](./leetcode/Reconstruct-Itinerary.js)|
 |344|easy|[Reverse String](https://leetcode.com/problems/reverse-string/)|[Reverse-String.js](./leetcode/Reverse-String.js)|
 |349|easy|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)|[Intersection-of-Two-Arrays.js](./leetcode/Intersection-of-Two-Arrays.js)|
 |350|easy|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|[Intersection-of-Two-Arrays-II.js](./leetcode/Intersection-of-Two-Arrays-II.js)|
@@ -281,6 +282,7 @@ Count of solved tasks: 129
 | LeetCode ID | Difficulty  | Name           | Solution       |
 |:-----------:|:-----------:|:--------------:|:--------------:|
 |149|hard|[Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/)|[Max-Points-on-a-Line.js](./leetcode/Max-Points-on-a-Line.js)|
+|332|hard|[Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/)|[Reconstruct-Itinerary.js](./leetcode/Reconstruct-Itinerary.js)|
 
 </p>
 </details>
