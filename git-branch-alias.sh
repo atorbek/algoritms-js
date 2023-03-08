@@ -13,7 +13,7 @@
 # 2. Save file .git/config
 # 3. Enter Command in terminal: git leetbranch
 #
-# This command replaces spaces to en dash and upper to lower caces.
+# This command replaces spaces to en dash and upper to lower cases.
 
 ###########################################################################
 
