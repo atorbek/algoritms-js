@@ -1,6 +1,6 @@
 ![Logo](./leetcode.png)
 ### This file was created automatically by [build-readme.js](./build-readme.js)
-Count of solved tasks: 130
+Count of solved tasks: 131
 
 <details>
 <summary>Table of all solved non-premium tasks</summary>
@@ -9,6 +9,7 @@ Count of solved tasks: 130
 | LeetCode ID | Difficulty  | Name           | Solution       |
 |:-----------:|:-----------:|:--------------:|:--------------:|
 |3|medium|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[Longest-Substring-Without-Repeating-Characters.js](./leetcode/Longest-Substring-Without-Repeating-Characters.js)|
+|4|hard|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|[Median-of-Two-Sorted-Arrays.js](./leetcode/Median-of-Two-Sorted-Arrays.js)|
 |5|medium|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[Longest-Palindromic-Substring.js](./leetcode/Longest-Palindromic-Substring.js)|
 |9|easy|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)|[Palindrome-Number.js](./leetcode/Palindrome-Number.js)|
 |14|easy|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix)|[Longest-Common-Prefix.js](./leetcode/Longest-Common-Prefix.js)|
@@ -281,6 +282,7 @@ Count of solved tasks: 130
 
 | LeetCode ID | Difficulty  | Name           | Solution       |
 |:-----------:|:-----------:|:--------------:|:--------------:|
+|4|hard|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|[Median-of-Two-Sorted-Arrays.js](./leetcode/Median-of-Two-Sorted-Arrays.js)|
 |149|hard|[Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/)|[Max-Points-on-a-Line.js](./leetcode/Max-Points-on-a-Line.js)|
 |332|hard|[Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/)|[Reconstruct-Itinerary.js](./leetcode/Reconstruct-Itinerary.js)|
 
