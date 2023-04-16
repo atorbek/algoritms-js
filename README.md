@@ -1,6 +1,6 @@
 ![Logo](./leetcode.png)
 ### This file was created automatically by [build-readme.js](./build-readme.js)
-Count of solved tasks: 131
+Count of solved tasks: 132
 
 <details>
 <summary>Table of all solved non-premium tasks</summary>
@@ -123,6 +123,7 @@ Count of solved tasks: 131
 |1456|medium|[Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/)|[Maximum-Number-of-Vowels-in-a-Substring-of-Given-Length.js](./leetcode/Maximum-Number-of-Vowels-in-a-Substring-of-Given-Length.js)|
 |1480|easy|[Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)|[Running-Sum-of-1d-Array.js](./leetcode/Running-Sum-of-1d-Array.js)|
 |1493|medium|[Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/)|[Longest-Subarray-of-1's-After-Deleting-One-Element.js](./leetcode/Longest-Subarray-of-1's-After-Deleting-One-Element.js)|
+|1539|easy|[Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/)|[Kth-Missing-Positive-Number.js](./leetcode/Kth-Missing-Positive-Number.js)|
 |1658|medium|[Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/)|[Minimum-Operations-to-Reduce-X-to-Zero.js](./leetcode/Minimum-Operations-to-Reduce-X-to-Zero.js)|
 |1706|medium|[Where Will the Ball Fall](https://leetcode.com/problems/where-will-the-ball-fall/)|[Where-Will-the-Ball-Fall.js](./leetcode/Where-Will-the-Ball-Fall.js)|
 |1833|medium|[Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/)|[Maximum-Ice-Cream-Bars.js](./leetcode/Maximum-Ice-Cream-Bars.js)|
@@ -203,6 +204,7 @@ Count of solved tasks: 131
 |977|easy|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|[Squares-of-a-Sorted-Array.js](./leetcode/Squares-of-a-Sorted-Array.js)|
 |1046|easy|[Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)|[Last-Stone-Weight.js](./leetcode/Last-Stone-Weight.js)|
 |1480|easy|[Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)|[Running-Sum-of-1d-Array.js](./leetcode/Running-Sum-of-1d-Array.js)|
+|1539|easy|[Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/)|[Kth-Missing-Positive-Number.js](./leetcode/Kth-Missing-Positive-Number.js)|
 |1920|easy|[Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/)|[Build-Array-from-Permutation.js](./leetcode/Build-Array-from-Permutation.js)|
 |1929|easy|[Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)|[Concatenation-of-Array.js](./leetcode/Concatenation-of-Array.js)|
 |1991|easy|[Find the Middle Index in Array](https://leetcode.com/problems/find-the-middle-index-in-array/)|[Find-the-Middle-Index-in-Array.js](./leetcode/Find-the-Middle-Index-in-Array.js)|
