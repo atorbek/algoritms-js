@@ -1,6 +1,6 @@
 ![Logo](./leetcode.png)
 ### This file was created automatically by [build-readme.js](./build-readme.js)
-Count of solved tasks: 132
+Count of solved tasks: 136
 
 <details>
 <summary>Table of all solved non-premium tasks</summary>
@@ -89,6 +89,7 @@ Count of solved tasks: 132
 |438|medium|[Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)|[Find-all-anagrams-in-a-string.js](./leetcode/Find-all-anagrams-in-a-string.js)|
 |443|medium|[String Compression](https://leetcode.com/problems/string-compression/)|[String-Compression.js](./leetcode/String-Compression.js)|
 |448|easy|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|[Find-All-Numbers-Disappeared-in-an-Array.js](./leetcode/Find-All-Numbers-Disappeared-in-an-Array.js)|
+|449|medium|[Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/)|[Serialize-and-Deserialize-BST.js](./leetcode/Serialize-and-Deserialize-BST.js)|
 |452|medium|[Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)|[Minimum-Number-of-Arrows-to-Burst-Balloons.js](./leetcode/Minimum-Number-of-Arrows-to-Burst-Balloons.js)|
 |485|easy|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|[Max-Consecutive-Ones.js](./leetcode/Max-Consecutive-Ones.js)|
 |509|easy|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[Fibonacci-Number.js](./leetcode/Fibonacci-Number.js)|
@@ -120,12 +121,15 @@ Count of solved tasks: 132
 |1040|medium|[Moving Stones Until Consecutive II](https://leetcode.com/problems/moving-stones-until-consecutive-ii/)|[Moving-Stones-Until-Consecutive-II.js](./leetcode/Moving-Stones-Until-Consecutive-II.js)|
 |1046|easy|[Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)|[Last-Stone-Weight.js](./leetcode/Last-Stone-Weight.js)|
 |1052|medium|[Grumpy Bookstore Owner](https://leetcode.com/problems/grumpy-bookstore-owner/)|[Grumpy-Bookstore-Owner.js](./leetcode/Grumpy-Bookstore-Owner.js)|
+|1372|medium|[Longest ZigZag Path in a Binary Tree](https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/)|[Longest-ZigZag-Path-in-a-Binary-Tree.js](./leetcode/Longest-ZigZag-Path-in-a-Binary-Tree.js)|
+|1431|easy|[Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)|[Kids-With-the-Greatest-Number-of-Candies.js](./leetcode/Kids-With-the-Greatest-Number-of-Candies.js)|
 |1456|medium|[Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/)|[Maximum-Number-of-Vowels-in-a-Substring-of-Given-Length.js](./leetcode/Maximum-Number-of-Vowels-in-a-Substring-of-Given-Length.js)|
 |1480|easy|[Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)|[Running-Sum-of-1d-Array.js](./leetcode/Running-Sum-of-1d-Array.js)|
 |1493|medium|[Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/)|[Longest-Subarray-of-1's-After-Deleting-One-Element.js](./leetcode/Longest-Subarray-of-1's-After-Deleting-One-Element.js)|
 |1539|easy|[Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/)|[Kth-Missing-Positive-Number.js](./leetcode/Kth-Missing-Positive-Number.js)|
 |1658|medium|[Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/)|[Minimum-Operations-to-Reduce-X-to-Zero.js](./leetcode/Minimum-Operations-to-Reduce-X-to-Zero.js)|
 |1706|medium|[Where Will the Ball Fall](https://leetcode.com/problems/where-will-the-ball-fall/)|[Where-Will-the-Ball-Fall.js](./leetcode/Where-Will-the-Ball-Fall.js)|
+|1768|easy|[Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/)|[Merge-Strings-Alternately.js](./leetcode/Merge-Strings-Alternately.js)|
 |1833|medium|[Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/)|[Maximum-Ice-Cream-Bars.js](./leetcode/Maximum-Ice-Cream-Bars.js)|
 |1920|easy|[Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/)|[Build-Array-from-Permutation.js](./leetcode/Build-Array-from-Permutation.js)|
 |1929|easy|[Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)|[Concatenation-of-Array.js](./leetcode/Concatenation-of-Array.js)|
@@ -203,8 +207,10 @@ Count of solved tasks: 132
 |944|easy|[Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/)|[Delete-Columns-to-Make-Sorted.js](./leetcode/Delete-Columns-to-Make-Sorted.js)|
 |977|easy|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|[Squares-of-a-Sorted-Array.js](./leetcode/Squares-of-a-Sorted-Array.js)|
 |1046|easy|[Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)|[Last-Stone-Weight.js](./leetcode/Last-Stone-Weight.js)|
+|1431|easy|[Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)|[Kids-With-the-Greatest-Number-of-Candies.js](./leetcode/Kids-With-the-Greatest-Number-of-Candies.js)|
 |1480|easy|[Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)|[Running-Sum-of-1d-Array.js](./leetcode/Running-Sum-of-1d-Array.js)|
 |1539|easy|[Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/)|[Kth-Missing-Positive-Number.js](./leetcode/Kth-Missing-Positive-Number.js)|
+|1768|easy|[Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/)|[Merge-Strings-Alternately.js](./leetcode/Merge-Strings-Alternately.js)|
 |1920|easy|[Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/)|[Build-Array-from-Permutation.js](./leetcode/Build-Array-from-Permutation.js)|
 |1929|easy|[Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)|[Concatenation-of-Array.js](./leetcode/Concatenation-of-Array.js)|
 |1991|easy|[Find the Middle Index in Array](https://leetcode.com/problems/find-the-middle-index-in-array/)|[Find-the-Middle-Index-in-Array.js](./leetcode/Find-the-Middle-Index-in-Array.js)|
@@ -257,6 +263,7 @@ Count of solved tasks: 132
 |435|medium|[Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)|[Non-overlapping-Intervals.js](./leetcode/Non-overlapping-Intervals.js)|
 |438|medium|[Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)|[Find-all-anagrams-in-a-string.js](./leetcode/Find-all-anagrams-in-a-string.js)|
 |443|medium|[String Compression](https://leetcode.com/problems/string-compression/)|[String-Compression.js](./leetcode/String-Compression.js)|
+|449|medium|[Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/)|[Serialize-and-Deserialize-BST.js](./leetcode/Serialize-and-Deserialize-BST.js)|
 |452|medium|[Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)|[Minimum-Number-of-Arrows-to-Burst-Balloons.js](./leetcode/Minimum-Number-of-Arrows-to-Burst-Balloons.js)|
 |560|medium|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|[Subarray-Sum-Equals-K.js](./leetcode/Subarray-Sum-Equals-K.js)|
 |567|medium|[Permutation in String](https://leetcode.com/problems/permutation-in-string/)|[Permutation-in-String.js](./leetcode/Permutation-in-String.js)|
@@ -267,6 +274,7 @@ Count of solved tasks: 132
 |1004|medium|[Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)|[Max-Consecutive-Ones-III.js](./leetcode/Max-Consecutive-Ones-III.js)|
 |1040|medium|[Moving Stones Until Consecutive II](https://leetcode.com/problems/moving-stones-until-consecutive-ii/)|[Moving-Stones-Until-Consecutive-II.js](./leetcode/Moving-Stones-Until-Consecutive-II.js)|
 |1052|medium|[Grumpy Bookstore Owner](https://leetcode.com/problems/grumpy-bookstore-owner/)|[Grumpy-Bookstore-Owner.js](./leetcode/Grumpy-Bookstore-Owner.js)|
+|1372|medium|[Longest ZigZag Path in a Binary Tree](https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/)|[Longest-ZigZag-Path-in-a-Binary-Tree.js](./leetcode/Longest-ZigZag-Path-in-a-Binary-Tree.js)|
 |1456|medium|[Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/)|[Maximum-Number-of-Vowels-in-a-Substring-of-Given-Length.js](./leetcode/Maximum-Number-of-Vowels-in-a-Substring-of-Given-Length.js)|
 |1493|medium|[Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/)|[Longest-Subarray-of-1's-After-Deleting-One-Element.js](./leetcode/Longest-Subarray-of-1's-After-Deleting-One-Element.js)|
 |1658|medium|[Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/)|[Minimum-Operations-to-Reduce-X-to-Zero.js](./leetcode/Minimum-Operations-to-Reduce-X-to-Zero.js)|
