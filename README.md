@@ -1,6 +1,6 @@
 ![Logo](./leetcode.png)
 ### This file was created automatically by [build-readme.js](./build-readme.js)
-Count of solved tasks: 137
+Count of solved tasks: 138
 
 <details>
 <summary>Table of all solved non-premium tasks</summary>
@@ -111,6 +111,7 @@ Count of solved tasks: 137
 |746|easy|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)|[Min-Cost-Climbing-Stairs.js](./leetcode/Min-Cost-Climbing-Stairs.js)|
 |763|medium|[Partition Labels](https://leetcode.com/problems/partition-labels/)|[Partition-Labels.js](./leetcode/Partition-Labels.js)|
 |844|easy|[Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)|[Backspace-String-Compare.js](./leetcode/Backspace-String-Compare.js)|
+|849|medium|[Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/)|[Maximize-Distance-to-Closest-Person.js](./leetcode/Maximize-Distance-to-Closest-Person.js)|
 |852|easy|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|[Peak-Index-in-a-Mountain-Array.js](./leetcode/Peak-Index-in-a-Mountain-Array.js)|
 |876|easy|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[Middle-of-the-Linked-List.js](./leetcode/Middle-of-the-Linked-List.js)|
 |920|easy|[Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)|[Metting-rooms.js](./leetcode/Metting-rooms.js)|
@@ -270,6 +271,7 @@ Count of solved tasks: 137
 |692|medium|[Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)|[Top-K-Frequent-Words.js](./leetcode/Top-K-Frequent-Words.js)|
 |713|medium|[Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/)|[Subarray-Product-Less-Than-K.js](./leetcode/Subarray-Product-Less-Than-K.js)|
 |763|medium|[Partition Labels](https://leetcode.com/problems/partition-labels/)|[Partition-Labels.js](./leetcode/Partition-Labels.js)|
+|849|medium|[Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/)|[Maximize-Distance-to-Closest-Person.js](./leetcode/Maximize-Distance-to-Closest-Person.js)|
 |974|medium|[Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/)|[Subarray-Sums-Divisible-by-K.js](./leetcode/Subarray-Sums-Divisible-by-K.js)|
 |1004|medium|[Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)|[Max-Consecutive-Ones-III.js](./leetcode/Max-Consecutive-Ones-III.js)|
 |1040|medium|[Moving Stones Until Consecutive II](https://leetcode.com/problems/moving-stones-until-consecutive-ii/)|[Moving-Stones-Until-Consecutive-II.js](./leetcode/Moving-Stones-Until-Consecutive-II.js)|
