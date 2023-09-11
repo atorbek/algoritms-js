@@ -21,3 +21,16 @@ str=$1
 branch=$(echo "${str// /-}" | tr '[:upper:]' '[:lower:]')
 git branch  -D $branch
 git checkout -b $branch
+
+
+cat <<EOT >> "./leetcode/${branch^}.js"
+const { difficulty } = require('../constants');
+
+module.exports.leetcode = {
+  id: -1,
+  name: '${str}',
+  url: 'https://leetcode.com/problems/${branch}/',
+  difficulty: difficulty.undefined,
+  premium: false
+};
+EOT
