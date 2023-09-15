@@ -10,45 +10,51 @@ module.exports.leetcode = {
 };
 
 /**
- *
- * Description
- * Given a string S, find the length of the longest substring T that contains at most k distinct characters.
- *
- * Example
- * Example 1:
- *
- * Input: S = "eceba" and k = 3
- * Output: 4
- * Explanation: T = "eceb"
- * Example 2:
- *
- * Input: S = "WORLD" and k = 4
- * Output: 4
- * Explanation: T = "WORL" or "ORLD"
- * Challenge
+ * @param {string} s
+ * @param {number} k
+ * @return {number}
  */
-function lengthOfLongestSubstringKDistinct(str, k) {
-  let f = 0;
-  let l = 0;
-  let resSize = 0;
+var lengthOfLongestSubstringKDistinct = function (s, k) {
+  const n = s.length;
+  let maxSize = 0;
 
-  while (str.length >= l) {
-    const subStr = str.substring(f, l);
+  const counter = new Map();
 
-    const size = new Set([...subStr]).size;
+  let left = 0;
+  for (let right = 0; right < n; right++) {
+    counter.set(s[right], counter.get(s[right]) + 1 || 1);
 
-    if (size > k) {
-      resSize = subStr.length;
-      f++;
-      l++;
-    } else {
-      resSize = subStr.length;
-      l++;
+    while (counter.size > k) {
+      counter.set(s[left], counter.get(s[left]) - 1);
+      if (counter.get(s[left]) == 0) {
+        counter.delete(s[left]);
+      }
+      left++;
     }
+
+    maxSize = Math.max(maxSize, right - left + 1);
   }
 
-  return resSize;
-}
+  return maxSize;
+};
+
+/**
+
+         eceba
+ start   ^
+ end        ^
+
+    ece
+    ba
+
+
+    e: 2,
+    c: 1
+
+    count = 2 
+
+
+ */
 
 let b = new Date().getMilliseconds();
 console.log(lengthOfLongestSubstringKDistinct('aabbb', 2)); // O(n)

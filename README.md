@@ -1,6 +1,6 @@
 ![Logo](./leetcode.png)
 ### This file was created automatically by [build-readme.js](./build-readme.js)
-Count of solved tasks: 138
+Count of solved tasks: 144
 
 <details>
 <summary>Table of all solved non-premium tasks</summary>
@@ -8,6 +8,7 @@ Count of solved tasks: 138
 
 | LeetCode ID | Difficulty  | Name           | Solution       |
 |:-----------:|:-----------:|:--------------:|:--------------:|
+|-1|undefined|[Design Hit Counter](https://leetcode.com/problems/design-hit-counter/)|[Design-Hit-Counter.js](./leetcode/Design-Hit-Counter.js)|
 |3|medium|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[Longest-Substring-Without-Repeating-Characters.js](./leetcode/Longest-Substring-Without-Repeating-Characters.js)|
 |4|hard|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|[Median-of-Two-Sorted-Arrays.js](./leetcode/Median-of-Two-Sorted-Arrays.js)|
 |5|medium|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[Longest-Palindromic-Substring.js](./leetcode/Longest-Palindromic-Substring.js)|
@@ -102,6 +103,8 @@ Count of solved tasks: 138
 |589|easy|[N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|[N-ary-Tree-Preorder-Traversal.js](./leetcode/N-ary-Tree-Preorder-Traversal.js)|
 |590|easy|[N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|[N-ary-Tree-Postorder-Traversal.js](./leetcode/N-ary-Tree-Postorder-Traversal.js)|
 |628|easy|[Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/)|[Maximum-Product-of-Three-Numbers.js](./leetcode/Maximum-Product-of-Three-Numbers.js)|
+|658|medium|[Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/)|[Find-K-Closest-Elements.js](./leetcode/Find-K-Closest-Elements.js)|
+|680|easy|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)|[Valid-Palindrome-ii.js](./leetcode/Valid-Palindrome-ii.js)|
 |692|medium|[Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)|[Top-K-Frequent-Words.js](./leetcode/Top-K-Frequent-Words.js)|
 |697|easy|[Degree of an Array](https://leetcode.com/problems/degree-of-an-array/)|[Degree-of-an-Array.js](./leetcode/Degree-of-an-Array.js)|
 |704|easy|[Binary Search](https://leetcode.com/problems/binary-search/)|[Binary-Search.js](./leetcode/Binary-Search.js)|
@@ -139,6 +142,7 @@ Count of solved tasks: 138
 |2131|medium|[Longest Palindrome by Concatenating Two Letter Words](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/)|[Longest-Palindrome-by-Concatenating-Two-Letter-Words.js](./leetcode/Longest-Palindrome-by-Concatenating-Two-Letter-Words.js)|
 |2244|medium|[Minimum Rounds to Complete All Tasks](https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks/)|[Minimum-Rounds-to-Complete-All-Tasks.js](./leetcode/Minimum-Rounds-to-Complete-All-Tasks.js)|
 |2270|medium|[Number of Ways to Split Array](https://leetcode.com/problems/number-of-ways-to-split-array/)|[Number-of-Ways-to-Split-Array.js](./leetcode/Number-of-Ways-to-Split-Array.js)|
+|2657|medium|[Find the Prefix Common Array of Two Arrays](https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/)|[Find-The-Prefix-Common-Array-Of-Two-Arrays.js](./leetcode/Find-The-Prefix-Common-Array-Of-Two-Arrays.js)|
 
 </p>
 </details>
@@ -196,6 +200,7 @@ Count of solved tasks: 138
 |589|easy|[N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|[N-ary-Tree-Preorder-Traversal.js](./leetcode/N-ary-Tree-Preorder-Traversal.js)|
 |590|easy|[N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|[N-ary-Tree-Postorder-Traversal.js](./leetcode/N-ary-Tree-Postorder-Traversal.js)|
 |628|easy|[Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/)|[Maximum-Product-of-Three-Numbers.js](./leetcode/Maximum-Product-of-Three-Numbers.js)|
+|680|easy|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)|[Valid-Palindrome-ii.js](./leetcode/Valid-Palindrome-ii.js)|
 |697|easy|[Degree of an Array](https://leetcode.com/problems/degree-of-an-array/)|[Degree-of-an-Array.js](./leetcode/Degree-of-an-Array.js)|
 |704|easy|[Binary Search](https://leetcode.com/problems/binary-search/)|[Binary-Search.js](./leetcode/Binary-Search.js)|
 |724|easy|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|[Find-Pivot-Index.js](./leetcode/Find-Pivot-Index.js)|
@@ -268,6 +273,7 @@ Count of solved tasks: 138
 |452|medium|[Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)|[Minimum-Number-of-Arrows-to-Burst-Balloons.js](./leetcode/Minimum-Number-of-Arrows-to-Burst-Balloons.js)|
 |560|medium|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|[Subarray-Sum-Equals-K.js](./leetcode/Subarray-Sum-Equals-K.js)|
 |567|medium|[Permutation in String](https://leetcode.com/problems/permutation-in-string/)|[Permutation-in-String.js](./leetcode/Permutation-in-String.js)|
+|658|medium|[Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/)|[Find-K-Closest-Elements.js](./leetcode/Find-K-Closest-Elements.js)|
 |692|medium|[Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)|[Top-K-Frequent-Words.js](./leetcode/Top-K-Frequent-Words.js)|
 |713|medium|[Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/)|[Subarray-Product-Less-Than-K.js](./leetcode/Subarray-Product-Less-Than-K.js)|
 |763|medium|[Partition Labels](https://leetcode.com/problems/partition-labels/)|[Partition-Labels.js](./leetcode/Partition-Labels.js)|
@@ -285,6 +291,7 @@ Count of solved tasks: 138
 |2131|medium|[Longest Palindrome by Concatenating Two Letter Words](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/)|[Longest-Palindrome-by-Concatenating-Two-Letter-Words.js](./leetcode/Longest-Palindrome-by-Concatenating-Two-Letter-Words.js)|
 |2244|medium|[Minimum Rounds to Complete All Tasks](https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks/)|[Minimum-Rounds-to-Complete-All-Tasks.js](./leetcode/Minimum-Rounds-to-Complete-All-Tasks.js)|
 |2270|medium|[Number of Ways to Split Array](https://leetcode.com/problems/number-of-ways-to-split-array/)|[Number-of-Ways-to-Split-Array.js](./leetcode/Number-of-Ways-to-Split-Array.js)|
+|2657|medium|[Find the Prefix Common Array of Two Arrays](https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/)|[Find-The-Prefix-Common-Array-Of-Two-Arrays.js](./leetcode/Find-The-Prefix-Common-Array-Of-Two-Arrays.js)|
 
 </p>
 </details>
@@ -306,9 +313,11 @@ Count of solved tasks: 138
 
 | LeetCode ID | Difficulty  | Name           | Solution       |
 |:-----------:|:-----------:|:--------------:|:--------------:|
+|161|medium|[One Edit Distance](https://leetcode.com/problems/one-edit-distance/)|[One-Edit-Distance.js](./leetcode/One-Edit-Distance.js)|
 |281|medium|[Zigzag Iterator](https://leetcode.com/problems/zigzag-iterator/)|[Zigzag-Iterator.js](./leetcode/Zigzag-Iterator.js)|
 |356|medium|[Line Reflection](https://leetcode.com/problems/line-reflection/)|[Line-Reflection.js](./leetcode/Line-Reflection.js)|
 |386|medium|[Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/)|[Longest-Substring-with-At-Most-K-Distinct-Characters.js](./leetcode/Longest-Substring-with-At-Most-K-Distinct-Characters.js)|
+|487|medium|[Max Consecutive Ones II](https://leetcode.com/problems/max-consecutive-ones-ii/)|[Max-Consecutive-Ones-II.js](./leetcode/Max-Consecutive-Ones-II.js)|
 |918|medium|[3Sum Smaller](https://leetcode.com/problems/3sum-smaller/)|[3Sum-Smaller.js](./leetcode/3Sum-Smaller.js)|
 |928|medium|[Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/)|[Longest-Substring-with-At-Most-Two-Distinct-Characters.js](./leetcode/Longest-Substring-with-At-Most-Two-Distinct-Characters.js)|
 |1016|medium|[Minimum Swaps To Make Sequences Increasing](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together/)|[Minimum-Swaps-required-to-group-all-1s-together.js](./leetcode/Minimum-Swaps-required-to-group-all-1s-together.js)|
