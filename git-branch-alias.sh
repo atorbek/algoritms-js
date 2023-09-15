@@ -17,11 +17,9 @@
 
 ###########################################################################
 
-str=$1
-branch=$(echo "${str// /-}" | tr '[:upper:]' '[:lower:]')
-git branch  -D $branch
-git checkout -b $branch
-
+function createTaskFile() {
+  local str=$1
+  local branch=$(echo "${str// /-}" | tr '[:upper:]' '[:lower:]')
 
 cat <<EOT >> "./leetcode/${branch^}.js"
 const { difficulty } = require('../constants');
@@ -34,3 +32,23 @@ module.exports.leetcode = {
   premium: false
 };
 EOT
+
+}
+
+args=("$@")
+ELEMENTS=${#args[@]}
+
+if [ $ELEMENTS -gt 1 ]; then
+  for (( i=0;i<$ELEMENTS;i++)); do 
+    createTaskFile "${args[${i}]}"
+  done
+  
+  branchTaskGroup='taskGroup'
+  git branch  -D $branchTaskGroup
+  git checkout -b $branchTaskGroup
+else
+  str=$1
+  branch=$(echo "${str// /-}" | tr '[:upper:]' '[:lower:]')
+  git branch  -D $branch
+  git checkout -b $branch
+fi
